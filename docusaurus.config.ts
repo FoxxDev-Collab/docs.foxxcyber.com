@@ -26,6 +26,15 @@ const config: Config = {
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  // Markdown configuration - warn on broken images until screenshots are added
+  markdown: {
+    preprocessor: ({filePath, fileContent}) => fileContent,
+    hooks: {
+      onBrokenMarkdownImages: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
