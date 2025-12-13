@@ -1,0 +1,678 @@
+Configuration
+info
+Check the docusaurus.config.js API reference for an exhaustive list of options.
+
+Docusaurus has a unique take on configurations. We encourage you to congregate information about your site into one place. We guard the fields of this file and facilitate making this data object accessible across your site.
+
+Keeping a well-maintained docusaurus.config.js helps you, your collaborators, and your open source contributors to be able to focus on documentation while still being able to customize the site.
+
+Syntax to declare docusaurus.config.js
+The docusaurus.config.js file is run in Node.js and should export either:
+
+a config object
+a function that creates the config object
+info
+The docusaurus.config.js file supports:
+
+ES Modules
+CommonJS
+TypeScript
+Constraints:
+
+Required: use export default /* your config*/ (or module.exports) to export your Docusaurus config
+Optional: use import Lib from 'lib' (or require('lib')) to import Node.js packages
+Docusaurus gives us the ability to declare its configuration in various equivalent ways, and all the following config examples lead to the exact same result:
+
+docusaurus.config.js
+export default {
+  title: 'Docusaurus',
+  url: 'https://docusaurus.io',
+  // your site config ...
+};
+
+docusaurus.config.js
+module.exports = {
+  title: 'Docusaurus',
+  url: 'https://docusaurus.io',
+  // your site config ...
+};
+
+docusaurus.config.ts
+import type {Config} from '@docusaurus/types';
+
+export default {
+  title: 'Docusaurus',
+  url: 'https://docusaurus.io',
+  // your site config ...
+} satisfies Config;
+
+docusaurus.config.js
+const config = {
+  title: 'Docusaurus',
+  url: 'https://docusaurus.io',
+  // your site config ...
+};
+
+export default config;
+
+docusaurus.config.js
+export default function configCreator() {
+  return {
+    title: 'Docusaurus',
+    url: 'https://docusaurus.io',
+    // your site config ...
+  };
+}
+
+docusaurus.config.js
+export default async function createConfigAsync() {
+  return {
+    title: 'Docusaurus',
+    url: 'https://docusaurus.io',
+    // your site config ...
+  };
+}
+
+Using ESM-only packages
+Using an async config creator can be useful to import ESM-only modules (notably most Remark plugins). It is possible to import such modules thanks to dynamic imports:
+
+docusaurus.config.js
+export default async function createConfigAsync() {
+  // Use a dynamic import instead of require('esm-lib')
+  const lib = await import('lib');
+
+  return {
+    title: 'Docusaurus',
+    url: 'https://docusaurus.io',
+    // rest of your site config...
+  };
+}
+
+What goes into a docusaurus.config.js?
+You should not have to write your docusaurus.config.js from scratch even if you are developing your site. All templates come with a docusaurus.config.js that includes defaults for the common options.
+
+However, it can be helpful if you have a high-level understanding of how the configurations are designed and implemented.
+
+The high-level overview of Docusaurus configuration can be categorized into:
+
+Site metadata
+Deployment configurations
+Theme, plugin, and preset configurations
+Custom configurations
+Site metadata
+Site metadata contains the essential global metadata such as title, url, baseUrl, and favicon.
+
+They are used in several places such as your site's title and headings, browser tab icon, social sharing (Facebook, X) information or even to generate the correct path to serve your static files.
+
+Deployment configurations
+Deployment configurations such as projectName, organizationName, and optionally deploymentBranch are used when you deploy your site with the deploy command.
+
+It is recommended to check the deployment docs for more information.
+
+Theme, plugin, and preset configurations
+List the themes, plugins, and presets for your site in the themes, plugins, and presets fields, respectively. These are typically npm packages:
+
+docusaurus.config.js
+export default {
+  // ...
+  plugins: [
+    '@docusaurus/plugin-content-blog',
+    '@docusaurus/plugin-content-pages',
+  ],
+  themes: ['@docusaurus/theme-classic'],
+};
+
+tip
+Docusaurus supports module shorthands, allowing you to simplify the above configuration as:
+
+docusaurus.config.js
+export default {
+  // ...
+  plugins: ['content-blog', 'content-pages'],
+  themes: ['classic'],
+};
+
+They can also be loaded from local directories:
+
+docusaurus.config.js
+import path from 'path';
+
+export default {
+  // ...
+  themes: [path.resolve(__dirname, '/path/to/docusaurus-local-theme')],
+};
+
+To specify options for a plugin or theme, replace the name of the plugin or theme in the config file with an array containing the name and an options object:
+
+docusaurus.config.js
+export default {
+  // ...
+  plugins: [
+    [
+      'content-blog',
+      {
+        path: 'blog',
+        routeBasePath: 'blog',
+        include: ['*.md', '*.mdx'],
+        // ...
+      },
+    ],
+    'content-pages',
+  ],
+};
+
+To specify options for a plugin or theme that is bundled in a preset, pass the options through the presets field. In this example, docs refers to @docusaurus/plugin-content-docs and theme refers to @docusaurus/theme-classic.
+
+docusaurus.config.js
+export default {
+  // ...
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: {
+          sidebarPath: './sidebars.js',
+        },
+        theme: {
+          customCss: ['./src/css/custom.css'],
+        },
+      },
+    ],
+  ],
+};
+
+tip
+The presets: [['classic', {...}]] shorthand works as well.
+
+For further help configuring themes, plugins, and presets, see Using Plugins.
+
+Custom configurations
+Docusaurus guards docusaurus.config.js from unknown fields. To add custom fields, define them in customFields.
+
+Example:
+
+docusaurus.config.js
+export default {
+  // ...
+  customFields: {
+    image: '',
+    keywords: [],
+  },
+  // ...
+};
+
+Accessing configuration from components
+Your configuration object will be made available to all the components of your site. And you may access them via React context as siteConfig.
+
+Basic example:
+
+import React from 'react';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
+const Hello = () => {
+  const {siteConfig} = useDocusaurusContext();
+  const {title, tagline} = siteConfig;
+
+  return <div>{`${title} · ${tagline}`}</div>;
+};
+
+tip
+If you just want to use those fields on the client side, you could create your own JS files and import them as ES6 modules, there is no need to put them in docusaurus.config.js.
+
+Customizing Babel Configuration
+Docusaurus transpiles your site's source code using Babel by default. If you want to customize the Babel configuration, you can do so by creating a babel.config.js file in your project root.
+
+To use the built-in preset as a base configuration, install the following package and use it
+
+npm
+Yarn
+pnpm
+Bun
+npm install --save @docusaurus/babel
+
+Then use the preset in your babel.config.js file:
+
+babel.config.js
+export default {
+  presets: ['@docusaurus/babel/preset'],
+};
+
+Most of the time, the default preset configuration will work just fine. If you want to customize your Babel configuration (e.g. to add support for Flow), you can directly edit this file. For your changes to take effect, you need to restart the Docusaurus dev server.
+
+Creating Pages
+In this section, we will learn about creating pages in Docusaurus.
+
+The @docusaurus/plugin-content-pages plugin empowers you to create one-off standalone pages like a showcase page, playground page, or support page. You can use React components, or Markdown.
+
+note
+Pages do not have sidebars, only docs do.
+
+info
+Check the Pages Plugin API Reference documentation for an exhaustive list of options.
+
+Add a React page
+React is used as the UI library to create pages. Every page component should export a React component, and you can leverage the expressiveness of React to build rich and interactive content.
+
+Create a file /src/pages/helloReact.js:
+
+/src/pages/helloReact.js
+import React from 'react';
+import Layout from '@theme/Layout';
+
+export default function Hello() {
+  return (
+    <Layout title="Hello" description="Hello React Page">
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '50vh',
+          fontSize: '20px',
+        }}>
+        <p>
+          Edit <code>pages/helloReact.js</code> and save to reload.
+        </p>
+      </div>
+    </Layout>
+  );
+}
+
+Once you save the file, the development server will automatically reload the changes. Now open http://localhost:3000/helloReact and you will see the new page you just created.
+
+Each page doesn't come with any styling. You will need to import the Layout component from @theme/Layout and wrap your contents within that component if you want the navbar and/or footer to appear.
+
+tip
+You can also create TypeScript pages with the .tsx extension (helloReact.tsx).
+
+Add a Markdown page
+Create a file /src/pages/helloMarkdown.md:
+
+/src/pages/helloMarkdown.md
+---
+title: my hello page title
+description: my hello page description
+hide_table_of_contents: true
+---
+
+# Hello
+
+How are you?
+
+In the same way, a page will be created at http://localhost:3000/helloMarkdown.
+
+Markdown pages are less flexible than React pages because it always uses the theme layout.
+
+Here's an example Markdown page.
+
+tip
+You can use the full power of React in Markdown pages too, refer to the MDX documentation.
+
+Routing
+If you are familiar with other static site generators like Jekyll and Next, this routing approach will feel familiar to you. Any JavaScript file you create under /src/pages/ directory will be automatically converted to a website page, following the /src/pages/ directory hierarchy. For example:
+
+/src/pages/index.js → [baseUrl]
+/src/pages/foo.js → [baseUrl]/foo
+/src/pages/foo/test.js → [baseUrl]/foo/test
+/src/pages/foo/index.js → [baseUrl]/foo/
+In this component-based development era, it is encouraged to co-locate your styling, markup, and behavior together into components. Each page is a component, and if you need to customize your page design with your own styles, we recommend co-locating your styles with the page component in its own directory. For example, to create a "Support" page, you could do one of the following:
+
+Add a /src/pages/support.js file
+Create a /src/pages/support/ directory and a /src/pages/support/index.js file.
+The latter is preferred as it has the benefits of letting you put files related to the page within that directory. For example, a CSS module file (styles.module.css) with styles meant to only be used on the "Support" page.
+
+note
+This is merely a recommended directory structure, and you will still need to manually import the CSS module file within your component module (support/index.js).
+
+By default, any Markdown or JavaScript file starting with _ will be ignored and no routes will be created for that file (see the exclude option).
+
+my-website
+├── src
+│   └── pages
+│       ├── styles.module.css
+│       ├── index.js
+│       ├── _ignored.js
+│       ├── _ignored-folder
+│       │   ├── Component1.js
+│       │   └── Component2.js
+│       └── support
+│           ├── index.js
+│           └── styles.module.css
+.
+
+warning
+All JavaScript/TypeScript files within the src/pages/ directory will have corresponding website paths generated for them. If you want to create reusable components into that directory, use the exclude option (by default, files prefixed with _, test files(.test.js), and files in __tests__ directory are not turned into pages).
+
+Duplicate Routes
+You may accidentally create multiple pages that are meant to be accessed on the same route. When this happens, Docusaurus will warn you about duplicate routes when you run yarn start or yarn build (behavior configurable through the onDuplicateRoutes config), but the site will still be built successfully. The page that was created last will be accessible, but it will override other conflicting pages. To resolve this issue, you should modify or remove any conflicting routes.
+
+Create a doc
+Create a Markdown file, greeting.md, and place it under the docs directory.
+
+website # root directory of your site
+├── docs
+│   └── greeting.md
+├── src
+│   └── pages
+├── docusaurus.config.js
+├── ...
+
+---
+description: Create a doc page with rich content.
+---
+
+# Hello from Docusaurus
+
+Are you ready to create the documentation site for your open source project?
+
+## Headers
+
+will show up on the table of contents on the upper right
+
+So that your users will know what this page is all about without scrolling down or even without reading too much.
+
+## Only h2 and h3 will be in the TOC by default.
+
+You can configure the TOC heading levels either per-document or in the theme configuration.
+
+The headers are well-spaced so that the hierarchy is clear.
+
+- lists will help you
+- present the key points
+- that you want your users to remember
+  - and you may nest them
+    - multiple times
+
+note
+All files prefixed with an underscore (_) under the docs directory are treated as "partial" pages and will be ignored by default.
+
+Read more about importing partial pages.
+
+Doc front matter
+The front matter is used to provide additional metadata for your doc page. Front matter is optional—Docusaurus will be able to infer all necessary metadata without the front matter. For example, the doc tags feature introduced below requires using front matter. For all possible fields, see the API documentation.
+
+Doc tags
+Tags are declared in the front matter and introduce another dimension of categorization in addition to the docs sidebar.
+
+It is possible to define tags inline, or to reference predefined tags declared in a tags file (optional, usually docs/tags.yml).
+
+In the following example:
+
+docusaurus references a predefined tag key declared in docs/tags.yml
+Releases is an inline tag, because it does not exist in docs/tags.yml
+docs/my-doc.md
+---
+tags:
+  - Releases
+  - docusaurus
+---
+
+# Title
+
+Content
+
+docs/tags.yml
+docusaurus:
+  label: 'Docusaurus'
+  permalink: '/docusaurus'
+  description: 'Docs related to the Docusaurus framework'
+
+tip
+Tags can also be declared with tags: [Demo, Getting started].
+
+Read more about all the possible Yaml array syntaxes.
+
+Organizing folder structure
+How the Markdown files are arranged under the docs folder can have multiple impacts on Docusaurus content generation. However, most of them can be decoupled from the file structure.
+
+Document ID
+Every document has a unique id. By default, a document id is the name of the document (without the extension) relative to the root docs directory.
+
+For example, the ID of greeting.md is greeting, and the ID of guide/hello.md is guide/hello.
+
+website # Root directory of your site
+└── docs
+   ├── greeting.md
+   └── guide
+      └── hello.md
+
+However, the last part of the id can be defined by the user in the front matter. For example, if guide/hello.md's content is defined as below, its final id is guide/part1.
+
+---
+id: part1
+---
+
+Lorem ipsum
+
+The ID is used to refer to a document when hand-writing sidebars, or when using docs-related layout components or hooks.
+
+Doc URLs
+By default, the document's URL location is derived from the document id, which in turn is based on the document's file path.
+
+If a file is named one of the following, the file name won't be included in the URL:
+
+Named as index (case-insensitive): docs/Guides/index.md
+Named as README (case-insensitive): docs/Guides/README.mdx
+Same name as parent folder: docs/Guides/Guides.md
+In all cases, the default slug would only be /Guides, without the /index, /README, or duplicate /Guides segment.
+
+note
+This convention is exactly the same as the category index convention. However, the isCategoryIndex configuration does not affect the document URL.
+
+Use the slug front matter to provide an explicit document URL and override the default one.
+
+For example, suppose your site structure looks like this:
+
+website # Root directory of your site
+└── docs
+    └── guide
+        └── hello.md
+
+By default, hello.md will be available at /docs/guide/hello. You can change its URL location to /docs/bonjour:
+
+---
+slug: /bonjour
+---
+
+Lorem ipsum
+
+slug will be appended to the doc plugin's routeBasePath, which is /docs by default. See Docs-only mode for how to remove the /docs part from the URL.
+
+note
+It is possible to use:
+
+absolute slugs: slug: /mySlug, slug: /...
+relative slugs: slug: mySlug, slug: ./../mySlug...
+tip
+Changing a document's filename or id, will change its default URL. To prevent breaking permalinks when renaming files, we recommend setting an explicit slug to keep your URLs stable.
+
+Making a document available at the root
+If you want a document to be available at the root, and have a path like https://docusaurus.io/docs/, you can use the slug front matter:
+
+---
+id: my-home-doc
+slug: /
+---
+
+Lorem ipsum
+
+Sidebars
+When using autogenerated sidebars, the file structure will determine the sidebar structure.
+
+Our recommendation for file system organization is: make your file system mirror the sidebar structure (so you don't need to handwrite your sidebars.js file), and use the slug front matter to customize URLs of each document.
+
+Docker Deployment
+Creating the Dockerfile
+credit
+We are grateful to Cindy Le and @BillChirico of Volvox LLC for sharing their experience dockerizing Docusaurus sites.
+
+You should start by creating a dockerfile at the root of your Docusaurus project. This file contains the instructions used to build your Docker image. A Docker image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries, and settings.
+
+There are a few approaches to dockerizing Docusaurus sites:
+
+Build the site in a container with the output sent to a docker volume and then use another container running a web server (like Caddy or nginx) to serve the resulting static site.
+Build the site in a container and run the serve process in the same container.
+Run the start process in a container with the local source code folder mounted as a volume.
+We are going to provide a dockerfile which will cover all three of the above approaches. You can choose which approach you want to use by passing the --target option to the docker build command. Our dockerfile makes use of multi-stage builds to build the site.
+
+NPM
+PNPM
+Yarn
+# syntax=docker/dockerfile:1
+
+# Stage 1: Base image.
+## Start with a base image containing NodeJS so we can build Docusaurus.
+FROM node:lts AS base
+## Disable colour output from yarn to make logs easier to read.
+ENV FORCE_COLOR=0
+## Enable corepack.
+RUN corepack enable
+## Set the working directory to `/opt/docusaurus`.
+WORKDIR /opt/docusaurus
+
+# Stage 2a: Development mode.
+FROM base AS dev
+## Set the working directory to `/opt/docusaurus`.
+WORKDIR /opt/docusaurus
+## Expose the port that Docusaurus will run on.
+EXPOSE 3000
+## Run the development server.
+CMD [ -d "node_modules" ] && npm run start -- --host 0.0.0.0 --poll 1000 || npm install && npm run start -- --host 0.0.0.0 --poll 1000
+
+# Stage 2b: Production build mode.
+FROM base AS prod
+## Set the working directory to `/opt/docusaurus`.
+WORKDIR /opt/docusaurus
+## Copy over the source code.
+COPY . /opt/docusaurus/
+## Install dependencies with `--immutable` to ensure reproducibility.
+RUN npm ci
+## Build the static site.
+RUN npm run build
+
+# Stage 3a: Serve with `docusaurus serve`.
+FROM prod AS serve
+## Expose the port that Docusaurus will run on.
+EXPOSE 3000
+## Run the production server.
+CMD ["npm", "run", "serve", "--", "--host", "0.0.0.0", "--no-open"]
+
+# Stage 3b: Serve with Caddy.
+FROM caddy:2-alpine AS caddy
+## Copy the Caddyfile.
+COPY --from=prod /opt/docusaurus/Caddyfile /etc/caddy/Caddyfile
+## Copy the Docusaurus build output.
+COPY --from=prod /opt/docusaurus/build /var/docusaurus
+
+The dockerfile is broken up into 2 or 3 stages depending on the target. The stages are:
+
+Stage 1: Base - This stage is used by all targets. It pulls a base image, enables corepack and sets the working directory.
+Stage 2a: Dev - This stage is used by the dev target. It installs the dependencies and starts the start process.
+Stage 2b: Build - This stage is used by the serve and caddy targets. It installs the dependencies and builds the site.
+Stage 3a: Serve - This stage is used by the serve target. It copies the site from the build stage and starts the serve process.
+Stage 3b: Caddy - This stage is used by the caddy target. It copies the site from the build stage and starts a caddy webserver with, optional, automatic TLS.
+Automatic TLS
+Caddy will automatically serve over HTTPS. It will generate a self-signed certificate if it can't use a certificate from Let's Encrypt. If you want to use a certificate from Let's Encrypt you will need to set the DOCUSAURUS_EMAIL and DOCUSAURUS_DOMAIN environment variables. You will also need to make sure that the domain name you are using is pointed to the server that you are running the container on.
+
+You'll also need to create a caddyfile in the root of your Docusaurus project. The contents should be something like this:
+
+{$DOCUSAURUS_DOMAIN:localhost} {
+  root * /var/docusaurus
+  encode gzip
+  try_files {path} /index.html
+  file_server
+  email: {$DOCUSAURUS_EMAIL}
+}
+
+This file will be copied into the container and used by Caddy to serve the site. {$DOCUSAURUS_DOMAIN} is a placeholder for the domain name that you will be using to serve the site. You can replace this with the actual domain name or you can use an environment variable to set the domain name. If you use an environment variable you will need to ensure the value is set in the container - either by passing it into the docker run command or setting it in a docker-compose file. The same applies to the {$DOCUSAURUS_EMAIL} placeholder.
+
+Exposing application outside container
+In order to make the application accessible from outside the container (e.g. from your web browser), you’ll want to set the --host option to 0.0.0.0. This can be done from your package.json:
+
+ "scripts": {
+	"docusaurus": "docusaurus",
+	"start": "docusaurus start --host 0.0.0.0",
+
+Or in your Dockerfile as an argument to your project’s start command:
+
+CMD ["npm", "start", "--", "--host", "0.0.0.0"]
+
+In order to enable live-reloading in a Docker environment, we can use --poll option (See options for more details):
+
+ "scripts": {
+	"docusaurus": "docusaurus",
+	"start": "docusaurus start --poll 1000",
+
+Or in your Dockerfile as an argument to your project’s start command:
+
+CMD ["npm", "start", "--", "--poll", "1000"]
+
+Building the Docker Image
+To build the docker image you will need to run the following command:
+
+docker build --target <target> -t <tag> .
+
+To deconstruct the above command:
+
+docker build - This is the command to build a docker image.
+--target <target> - This is the target to build. The target is the name of the stage in the dockerfile. Valid targets are dev, serve and caddy.
+-t <tag> - This is the name and tag of the image that will be built. The format is <name>:<tag>. The name can be anything you want. The tag is optional. If you do not specify a tag, latest will be used.
+. - This is the path to the build context. In this case we are using the current directory as the build context.
+Running the Docker Image
+Depending on stage / target you will need to run the docker image differently.
+
+Dev
+Serve
+Caddy
+To run the dev target you will need to run the following command:
+
+docker run --rm -d -p 3000:3000 -v $(pwd):/opt/docusaurus <tag>
+
+If using PowerShell you will need to use ${pwd} instead of $(pwd). On some systems you may need to replace $(pwd) with . or the full path to the directory you want to mount.
+
+To deconstruct the above command:
+
+docker run - This is the command to run a docker image.
+--rm - This is an optional flag that will remove the container when it exits.
+-d - This is an optional flag that will run the container in detached mode.
+-p 3000:3000 - This is an optional flag that will map port 3000 on the host to port 3000 in the container.
+-v $(pwd):/var/docusaurus - This is an optional flag that will mount the current directory as a volume in the container.
+<tag> - This is the name and tag of the image that will be run. Make sure to use the same tag that you used when building the image.
+Node Modules
+If you are using the dev target you will need to make sure that you have not installed the dependencies locally. The container will handle installing the dependencies for you. You will notice a node_modules folder and, potentially, other files and folders being created in your local directory as the container runs.
+
+Docker Compose
+Docker Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application's services. Then, with a single command, you create and start all the services from your configuration. We don't have multiple containers but we can still use Compose to make running the container easier.
+
+To use Compose you will need to create a docker-compose.yml file in the root of your Docusaurus project, this will vary depending on the target you want to use and you might want to use more than one target, so you might end up with multiple docker-compose.yml files. We will provide a docker-compose.yml file for each target.
+
+Dev
+Serve
+Caddy
+dev.docker-compose.yml
+name: "docusaurus"
+services:
+    dev:
+        build:
+            context: .
+            target: dev
+        ports:
+            - "3000:3000"
+        volumes:
+            - .:/opt/docusaurus
+        environment:
+            - NODE_ENV=development
+
+To run the container using Compose you will need to run the following command:
+
+docker compose --file <composefile> up -d --build
+
+To deconstruct the above command:
+
+docker compose - This is the command to run a docker-compose file.
+--file <composefile> - This is the path to the composefile. Using our example composefiles, the path would be ./dev.docker-compose.yml for the dev target, ./serve.docker-compose.yml for the serve target and ./caddy.docker-compose.yml for the caddy target. Assuming the compose files are in the root of your Docusaurus project.
+up - This is the command to bring up the containers.
+-d - This is an optional flag that will run the container in detached mode.
+--build - This is an optional flag that will force the container to be rebuilt.
+Conclusion
+You should now have a working Dockerfile and docker-compose file for your Docusaurus site. You can use these files to build and run your site in a container. You can also use these files to deploy your site to a server. You can use the docker-compose.yml file to deploy the site to a server that has Docker and Docker Compose installed. You can also use the dockerfile to build the image and then push the image to a registry like Docker Hub or GitHub Container Registry and then pull the image onto the server and run it.
