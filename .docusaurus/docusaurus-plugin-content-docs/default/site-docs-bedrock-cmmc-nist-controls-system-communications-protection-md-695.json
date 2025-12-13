@@ -16,5 +16,14 @@
     "sidebar_position": 14,
     "title": "System and Communications Protection (SC)",
     "description": "NIST SP 800-171 Rev 3 System and Communications Protection requirements - 20 controls for boundary protection."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "System and Services Acquisition (SA)",
+    "permalink": "/bedrock-cmmc/nist-controls/system-services-acquisition"
+  },
+  "next": {
+    "title": "System and Information Integrity (SI)",
+    "permalink": "/bedrock-cmmc/nist-controls/system-information-integrity"
   }
 }

@@ -16,5 +16,14 @@
     "sidebar_position": 6,
     "title": "Identification and Authentication (IA)",
     "description": "NIST SP 800-171 Rev 3 Identification and Authentication requirements - 11 controls for identity verification."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Configuration Management (CM)",
+    "permalink": "/bedrock-cmmc/nist-controls/configuration-management"
+  },
+  "next": {
+    "title": "Incident Response (IR)",
+    "permalink": "/bedrock-cmmc/nist-controls/incident-response"
   }
 }

@@ -16,5 +16,14 @@
     "sidebar_position": 1,
     "title": "Control Families Overview",
     "description": "Navigate NIST SP 800-171 Rev 3 security requirements by control family for CMMC Level 2 compliance."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/bedrock-cmmc/intro"
+  },
+  "next": {
+    "title": "Access Control (AC)",
+    "permalink": "/bedrock-cmmc/nist-controls/access-control"
   }
 }

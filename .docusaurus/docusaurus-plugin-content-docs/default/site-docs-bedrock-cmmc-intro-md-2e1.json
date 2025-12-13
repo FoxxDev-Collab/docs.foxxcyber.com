@@ -18,7 +18,7 @@
   },
   "sidebar": "bedrockCmmcSidebar",
   "next": {
-    "title": "User Guide",
-    "permalink": "/bedrock-cmmc/category/user-guide"
+    "title": "Control Families Overview",
+    "permalink": "/bedrock-cmmc/nist-controls/"
   }
 }

@@ -320,17 +320,17 @@
     "__comp": "17896441",
     "content": "1d5b19f8"
   },
-  "/bedrock-cmmc-834": {
+  "/bedrock-cmmc-97b": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/bedrock-cmmc-9fe": {
+  "/bedrock-cmmc-bdc": {
     "__comp": "a7bd4aaa",
     "__props": "ca492ebb"
   },
-  "/bedrock-cmmc-03a": {
+  "/bedrock-cmmc-d80": {
     "__comp": "a94703ab"
   },
   "/bedrock-cmmc/best-practices-cbb": {
@@ -349,67 +349,67 @@
     "__comp": "17896441",
     "content": "2e1c3f48"
   },
-  "/bedrock-cmmc/nist-controls/-407": {
+  "/bedrock-cmmc/nist-controls/-0c7": {
     "__comp": "17896441",
     "content": "c55d68a6"
   },
-  "/bedrock-cmmc/nist-controls/access-control-894": {
+  "/bedrock-cmmc/nist-controls/access-control-464": {
     "__comp": "17896441",
     "content": "3282015a"
   },
-  "/bedrock-cmmc/nist-controls/audit-accountability-12f": {
+  "/bedrock-cmmc/nist-controls/audit-accountability-cf6": {
     "__comp": "17896441",
     "content": "ce13d139"
   },
-  "/bedrock-cmmc/nist-controls/awareness-training-fe2": {
+  "/bedrock-cmmc/nist-controls/awareness-training-eb9": {
     "__comp": "17896441",
     "content": "c28f08d5"
   },
-  "/bedrock-cmmc/nist-controls/complete-list-441": {
+  "/bedrock-cmmc/nist-controls/complete-list-e56": {
     "__comp": "17896441",
     "content": "969996d4"
   },
-  "/bedrock-cmmc/nist-controls/configuration-management-c30": {
+  "/bedrock-cmmc/nist-controls/configuration-management-8f6": {
     "__comp": "17896441",
     "content": "945e65cc"
   },
-  "/bedrock-cmmc/nist-controls/identification-authentication-527": {
+  "/bedrock-cmmc/nist-controls/identification-authentication-0fc": {
     "__comp": "17896441",
     "content": "d273b0ee"
   },
-  "/bedrock-cmmc/nist-controls/incident-response-225": {
+  "/bedrock-cmmc/nist-controls/incident-response-1ef": {
     "__comp": "17896441",
     "content": "5fbaf21b"
   },
-  "/bedrock-cmmc/nist-controls/maintenance-fb1": {
+  "/bedrock-cmmc/nist-controls/maintenance-7e4": {
     "__comp": "17896441",
     "content": "aa8e63b6"
   },
-  "/bedrock-cmmc/nist-controls/media-protection-a8f": {
+  "/bedrock-cmmc/nist-controls/media-protection-d28": {
     "__comp": "17896441",
     "content": "cf317cec"
   },
-  "/bedrock-cmmc/nist-controls/personnel-security-97c": {
+  "/bedrock-cmmc/nist-controls/personnel-security-fde": {
     "__comp": "17896441",
     "content": "da5f87f1"
   },
-  "/bedrock-cmmc/nist-controls/physical-protection-913": {
+  "/bedrock-cmmc/nist-controls/physical-protection-874": {
     "__comp": "17896441",
     "content": "4b46add9"
   },
-  "/bedrock-cmmc/nist-controls/risk-assessment-b91": {
+  "/bedrock-cmmc/nist-controls/risk-assessment-0cb": {
     "__comp": "17896441",
     "content": "3e1d82ac"
   },
-  "/bedrock-cmmc/nist-controls/system-communications-protection-2f3": {
+  "/bedrock-cmmc/nist-controls/system-communications-protection-c31": {
     "__comp": "17896441",
     "content": "695edf92"
   },
-  "/bedrock-cmmc/nist-controls/system-information-integrity-713": {
+  "/bedrock-cmmc/nist-controls/system-information-integrity-60e": {
     "__comp": "17896441",
     "content": "97122f81"
   },
-  "/bedrock-cmmc/nist-controls/system-services-acquisition-187": {
+  "/bedrock-cmmc/nist-controls/system-services-acquisition-0f7": {
     "__comp": "17896441",
     "content": "ecfdf8cd"
   },

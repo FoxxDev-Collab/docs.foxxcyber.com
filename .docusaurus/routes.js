@@ -247,15 +247,15 @@ export default [
   },
   {
     path: '/bedrock-cmmc',
-    component: ComponentCreator('/bedrock-cmmc', '834'),
+    component: ComponentCreator('/bedrock-cmmc', '97b'),
     routes: [
       {
         path: '/bedrock-cmmc',
-        component: ComponentCreator('/bedrock-cmmc', '9fe'),
+        component: ComponentCreator('/bedrock-cmmc', 'bdc'),
         routes: [
           {
             path: '/bedrock-cmmc',
-            component: ComponentCreator('/bedrock-cmmc', '03a'),
+            component: ComponentCreator('/bedrock-cmmc', 'd80'),
             routes: [
               {
                 path: '/bedrock-cmmc/best-practices',
@@ -283,83 +283,99 @@ export default [
               },
               {
                 path: '/bedrock-cmmc/nist-controls/',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/', '407'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/', '0c7'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/access-control',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/access-control', '894'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/access-control', '464'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/audit-accountability',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/audit-accountability', '12f'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/audit-accountability', 'cf6'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/awareness-training',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/awareness-training', 'fe2'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/awareness-training', 'eb9'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/complete-list',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/complete-list', '441'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/complete-list', 'e56'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/configuration-management',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/configuration-management', 'c30'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/configuration-management', '8f6'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/identification-authentication',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/identification-authentication', '527'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/identification-authentication', '0fc'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/incident-response',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/incident-response', '225'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/incident-response', '1ef'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/maintenance',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/maintenance', 'fb1'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/maintenance', '7e4'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/media-protection',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/media-protection', 'a8f'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/media-protection', 'd28'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/personnel-security',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/personnel-security', '97c'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/personnel-security', 'fde'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/physical-protection',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/physical-protection', '913'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/physical-protection', '874'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/risk-assessment',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/risk-assessment', 'b91'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/risk-assessment', '0cb'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/system-communications-protection',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-communications-protection', '2f3'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-communications-protection', 'c31'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/system-information-integrity',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-information-integrity', '713'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-information-integrity', '60e'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/nist-controls/system-services-acquisition',
-                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-services-acquisition', '187'),
-                exact: true
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-services-acquisition', '0f7'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
               },
               {
                 path: '/bedrock-cmmc/user-guide/assessments',

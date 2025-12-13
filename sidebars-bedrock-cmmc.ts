@@ -13,6 +13,32 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'NIST SP 800-171 Controls',
+      link: {
+        type: 'doc',
+        id: 'nist-controls/index',
+      },
+      collapsed: false,
+      items: [
+        'nist-controls/access-control',
+        'nist-controls/awareness-training',
+        'nist-controls/audit-accountability',
+        'nist-controls/configuration-management',
+        'nist-controls/identification-authentication',
+        'nist-controls/incident-response',
+        'nist-controls/maintenance',
+        'nist-controls/media-protection',
+        'nist-controls/personnel-security',
+        'nist-controls/physical-protection',
+        'nist-controls/risk-assessment',
+        'nist-controls/system-services-acquisition',
+        'nist-controls/system-communications-protection',
+        'nist-controls/system-information-integrity',
+        'nist-controls/complete-list',
+      ],
+    },
+    {
+      type: 'category',
       label: 'User Guide',
       link: {
         type: 'generated-index',

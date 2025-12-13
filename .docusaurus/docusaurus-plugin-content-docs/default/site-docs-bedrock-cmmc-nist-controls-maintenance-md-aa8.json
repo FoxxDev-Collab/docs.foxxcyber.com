@@ -16,5 +16,14 @@
     "sidebar_position": 8,
     "title": "Maintenance (MA)",
     "description": "NIST SP 800-171 Rev 3 Maintenance requirements - 6 controls for system maintenance and repairs."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Incident Response (IR)",
+    "permalink": "/bedrock-cmmc/nist-controls/incident-response"
+  },
+  "next": {
+    "title": "Media Protection (MP)",
+    "permalink": "/bedrock-cmmc/nist-controls/media-protection"
   }
 }

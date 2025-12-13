@@ -27,67 +27,83 @@
             },
             {
               "id": "nist-controls/access-control",
-              "path": "/bedrock-cmmc/nist-controls/access-control"
+              "path": "/bedrock-cmmc/nist-controls/access-control",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/audit-accountability",
-              "path": "/bedrock-cmmc/nist-controls/audit-accountability"
+              "path": "/bedrock-cmmc/nist-controls/audit-accountability",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/awareness-training",
-              "path": "/bedrock-cmmc/nist-controls/awareness-training"
+              "path": "/bedrock-cmmc/nist-controls/awareness-training",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/complete-list",
-              "path": "/bedrock-cmmc/nist-controls/complete-list"
+              "path": "/bedrock-cmmc/nist-controls/complete-list",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/configuration-management",
-              "path": "/bedrock-cmmc/nist-controls/configuration-management"
+              "path": "/bedrock-cmmc/nist-controls/configuration-management",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/identification-authentication",
-              "path": "/bedrock-cmmc/nist-controls/identification-authentication"
+              "path": "/bedrock-cmmc/nist-controls/identification-authentication",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/incident-response",
-              "path": "/bedrock-cmmc/nist-controls/incident-response"
+              "path": "/bedrock-cmmc/nist-controls/incident-response",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/index",
-              "path": "/bedrock-cmmc/nist-controls/"
+              "path": "/bedrock-cmmc/nist-controls/",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/maintenance",
-              "path": "/bedrock-cmmc/nist-controls/maintenance"
+              "path": "/bedrock-cmmc/nist-controls/maintenance",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/media-protection",
-              "path": "/bedrock-cmmc/nist-controls/media-protection"
+              "path": "/bedrock-cmmc/nist-controls/media-protection",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/personnel-security",
-              "path": "/bedrock-cmmc/nist-controls/personnel-security"
+              "path": "/bedrock-cmmc/nist-controls/personnel-security",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/physical-protection",
-              "path": "/bedrock-cmmc/nist-controls/physical-protection"
+              "path": "/bedrock-cmmc/nist-controls/physical-protection",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/risk-assessment",
-              "path": "/bedrock-cmmc/nist-controls/risk-assessment"
+              "path": "/bedrock-cmmc/nist-controls/risk-assessment",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/system-communications-protection",
-              "path": "/bedrock-cmmc/nist-controls/system-communications-protection"
+              "path": "/bedrock-cmmc/nist-controls/system-communications-protection",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/system-information-integrity",
-              "path": "/bedrock-cmmc/nist-controls/system-information-integrity"
+              "path": "/bedrock-cmmc/nist-controls/system-information-integrity",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "nist-controls/system-services-acquisition",
-              "path": "/bedrock-cmmc/nist-controls/system-services-acquisition"
+              "path": "/bedrock-cmmc/nist-controls/system-services-acquisition",
+              "sidebar": "bedrockCmmcSidebar"
             },
             {
               "id": "user-guide/assessments",

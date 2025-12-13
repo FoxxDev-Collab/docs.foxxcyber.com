@@ -16,5 +16,14 @@
     "sidebar_position": 9,
     "title": "Media Protection (MP)",
     "description": "NIST SP 800-171 Rev 3 Media Protection requirements - 7 controls for protecting digital and non-digital media."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Maintenance (MA)",
+    "permalink": "/bedrock-cmmc/nist-controls/maintenance"
+  },
+  "next": {
+    "title": "Personnel Security (PS)",
+    "permalink": "/bedrock-cmmc/nist-controls/personnel-security"
   }
 }

@@ -16,5 +16,14 @@
     "sidebar_position": 3,
     "title": "Awareness and Training (AT)",
     "description": "NIST SP 800-171 Rev 3 Awareness and Training requirements - 3 controls for security awareness."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Access Control (AC)",
+    "permalink": "/bedrock-cmmc/nist-controls/access-control"
+  },
+  "next": {
+    "title": "Audit and Accountability (AU)",
+    "permalink": "/bedrock-cmmc/nist-controls/audit-accountability"
   }
 }

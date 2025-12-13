@@ -16,5 +16,14 @@
     "sidebar_position": 15,
     "title": "System and Information Integrity (SI)",
     "description": "NIST SP 800-171 Rev 3 System and Information Integrity requirements - 17 controls for identifying and correcting system flaws."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "System and Communications Protection (SC)",
+    "permalink": "/bedrock-cmmc/nist-controls/system-communications-protection"
+  },
+  "next": {
+    "title": "Complete Control List",
+    "permalink": "/bedrock-cmmc/nist-controls/complete-list"
   }
 }

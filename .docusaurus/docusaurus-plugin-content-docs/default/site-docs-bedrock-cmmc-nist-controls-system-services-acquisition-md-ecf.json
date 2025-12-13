@@ -16,5 +16,14 @@
     "sidebar_position": 13,
     "title": "System and Services Acquisition (SA)",
     "description": "NIST SP 800-171 Rev 3 System and Services Acquisition requirements - 5 controls for system development and acquisition."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Risk Assessment (RA)",
+    "permalink": "/bedrock-cmmc/nist-controls/risk-assessment"
+  },
+  "next": {
+    "title": "System and Communications Protection (SC)",
+    "permalink": "/bedrock-cmmc/nist-controls/system-communications-protection"
   }
 }

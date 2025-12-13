@@ -16,5 +16,14 @@
     "sidebar_position": 5,
     "title": "Configuration Management (CM)",
     "description": "NIST SP 800-171 Rev 3 Configuration Management requirements - 11 controls for system baselines and change control."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Audit and Accountability (AU)",
+    "permalink": "/bedrock-cmmc/nist-controls/audit-accountability"
+  },
+  "next": {
+    "title": "Identification and Authentication (IA)",
+    "permalink": "/bedrock-cmmc/nist-controls/identification-authentication"
   }
 }

@@ -16,5 +16,14 @@
     "sidebar_position": 12,
     "title": "Risk Assessment (RA)",
     "description": "NIST SP 800-171 Rev 3 Risk Assessment requirements - 3 controls for assessing organizational risk."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Physical Protection (PE)",
+    "permalink": "/bedrock-cmmc/nist-controls/physical-protection"
+  },
+  "next": {
+    "title": "System and Services Acquisition (SA)",
+    "permalink": "/bedrock-cmmc/nist-controls/system-services-acquisition"
   }
 }

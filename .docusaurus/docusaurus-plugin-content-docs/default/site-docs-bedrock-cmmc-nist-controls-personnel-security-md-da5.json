@@ -16,5 +16,14 @@
     "sidebar_position": 10,
     "title": "Personnel Security (PS)",
     "description": "NIST SP 800-171 Rev 3 Personnel Security requirements - 2 controls for personnel screening and management."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Media Protection (MP)",
+    "permalink": "/bedrock-cmmc/nist-controls/media-protection"
+  },
+  "next": {
+    "title": "Physical Protection (PE)",
+    "permalink": "/bedrock-cmmc/nist-controls/physical-protection"
   }
 }

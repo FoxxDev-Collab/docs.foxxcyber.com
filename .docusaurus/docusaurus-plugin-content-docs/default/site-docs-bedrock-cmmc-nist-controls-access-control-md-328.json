@@ -16,5 +16,14 @@
     "sidebar_position": 2,
     "title": "Access Control (AC)",
     "description": "NIST SP 800-171 Rev 3 Access Control requirements - 22 controls for limiting system access to authorized users."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Control Families Overview",
+    "permalink": "/bedrock-cmmc/nist-controls/"
+  },
+  "next": {
+    "title": "Awareness and Training (AT)",
+    "permalink": "/bedrock-cmmc/nist-controls/awareness-training"
   }
 }

@@ -16,5 +16,14 @@
     "sidebar_position": 7,
     "title": "Incident Response (IR)",
     "description": "NIST SP 800-171 Rev 3 Incident Response requirements - 6 controls for incident handling capabilities."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Identification and Authentication (IA)",
+    "permalink": "/bedrock-cmmc/nist-controls/identification-authentication"
+  },
+  "next": {
+    "title": "Maintenance (MA)",
+    "permalink": "/bedrock-cmmc/nist-controls/maintenance"
   }
 }

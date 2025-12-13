@@ -16,5 +16,14 @@
     "sidebar_position": 4,
     "title": "Audit and Accountability (AU)",
     "description": "NIST SP 800-171 Rev 3 Audit and Accountability requirements - 9 controls for audit logging and monitoring."
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Awareness and Training (AT)",
+    "permalink": "/bedrock-cmmc/nist-controls/awareness-training"
+  },
+  "next": {
+    "title": "Configuration Management (CM)",
+    "permalink": "/bedrock-cmmc/nist-controls/configuration-management"
   }
 }
