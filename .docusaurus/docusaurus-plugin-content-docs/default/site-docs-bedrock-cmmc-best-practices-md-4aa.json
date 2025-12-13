@@ -1,0 +1,27 @@
+{
+  "id": "best-practices",
+  "title": "Best Practices for CMMC Success",
+  "description": "Follow these guidelines to maximize your chances of achieving CMMC certification.",
+  "source": "@site/docs/bedrock-cmmc/best-practices.md",
+  "sourceDirName": ".",
+  "slug": "/best-practices",
+  "permalink": "/bedrock-cmmc/best-practices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/best-practices.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Tracking Assessments",
+    "permalink": "/bedrock-cmmc/user-guide/assessments"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/bedrock-cmmc/faq"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Welcome to Bedrock CMMC",
-  "description": "Bedrock CMMC is a comprehensive cybersecurity maturity model certification (CMMC) compliance platform designed to help organizations achieve and maintain CMMC compliance efficiently and effectively.",
+  "title": "CMMC Customer Guide",
+  "description": "Welcome to the Bedrock CMMC Platform. This guide walks you through using the platform to prepare for and achieve your CMMC (Cybersecurity Maturity Model Certification) certification.",
   "source": "@site/docs/bedrock-cmmc/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -18,7 +18,7 @@
   },
   "sidebar": "bedrockCmmcSidebar",
   "next": {
-    "title": "🚀 Getting Started",
-    "permalink": "/bedrock-cmmc/category/-getting-started"
+    "title": "User Guide",
+    "permalink": "/bedrock-cmmc/category/user-guide"
   }
 }

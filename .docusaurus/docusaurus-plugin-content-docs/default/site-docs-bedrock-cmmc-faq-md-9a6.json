@@ -1,0 +1,23 @@
+{
+  "id": "faq",
+  "title": "Frequently Asked Questions",
+  "description": "Common questions about the Bedrock CMMC Platform and the certification process.",
+  "source": "@site/docs/bedrock-cmmc/faq.md",
+  "sourceDirName": ".",
+  "slug": "/faq",
+  "permalink": "/bedrock-cmmc/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/faq.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Best Practices",
+    "permalink": "/bedrock-cmmc/best-practices"
+  }
+}

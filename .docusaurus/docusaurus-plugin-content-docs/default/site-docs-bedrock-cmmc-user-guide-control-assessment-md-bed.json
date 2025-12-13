@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/control-assessment",
+  "title": "Control Assessment",
+  "description": "Assess your security controls against NIST SP 800-171 requirements.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/control-assessment.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/control-assessment",
+  "permalink": "/bedrock-cmmc/user-guide/control-assessment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/control-assessment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "ATO Packages",
+    "permalink": "/bedrock-cmmc/user-guide/ato-packages"
+  },
+  "next": {
+    "title": "Evidence Management",
+    "permalink": "/bedrock-cmmc/user-guide/evidence"
+  }
+}

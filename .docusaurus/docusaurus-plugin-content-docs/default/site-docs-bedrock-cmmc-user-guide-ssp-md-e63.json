@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/ssp",
+  "title": "System Security Plan (SSP)",
+  "description": "The SSP documents your security posture and control implementations.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/ssp.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/ssp",
+  "permalink": "/bedrock-cmmc/user-guide/ssp",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/ssp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Plan of Action & Milestones (POA&M)",
+    "permalink": "/bedrock-cmmc/user-guide/poam"
+  },
+  "next": {
+    "title": "Asset Inventory",
+    "permalink": "/bedrock-cmmc/user-guide/asset-inventory"
+  }
+}

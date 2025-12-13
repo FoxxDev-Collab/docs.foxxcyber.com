@@ -3,39 +3,52 @@ sidebar_position: 1
 slug: /intro
 ---
 
-# Welcome to Bedrock CMMC
+# CMMC Customer Guide
 
-Bedrock CMMC is a comprehensive cybersecurity maturity model certification (CMMC) compliance platform designed to help organizations achieve and maintain CMMC compliance efficiently and effectively.
+Welcome to the Bedrock CMMC Platform. This guide walks you through using the platform to prepare for and achieve your CMMC (Cybersecurity Maturity Model Certification) certification.
 
-## What is Bedrock CMMC?
+## Overview
 
-Bedrock CMMC provides an integrated solution for:
+The Bedrock CMMC Platform helps organizations seeking CMMC certification to:
 
-- **Automated Compliance Monitoring** - Continuous assessment of your security posture against CMMC requirements
-- **Evidence Collection** - Automated gathering and organization of compliance evidence
-- **Gap Analysis** - Identification of compliance gaps with actionable remediation guidance
-- **Reporting & Documentation** - Generate comprehensive compliance reports for auditors
-- **Asset Management** - Track and manage all assets within your compliance scope
-- **Policy Management** - Centralized management of security policies and procedures
+- Create and manage ATO (Authorization to Operate) packages
+- Assess security controls against NIST SP 800-171 requirements
+- Upload and organize compliance evidence
+- Track remediation efforts with POA&Ms (Plan of Action & Milestones)
+- Generate System Security Plans (SSP)
+- Connect with certified C3PAO assessors
 
-## Key Features
+## Getting Started
 
-### Real-Time Compliance Dashboard
-Monitor your organization's compliance status in real-time with intuitive dashboards that provide at-a-glance visibility into your security posture.
+### Logging In
 
-### CMMC Level Support
-Full support for all CMMC levels (1-3) with practice-specific guidance and assessment criteria.
+After receiving your account credentials, navigate to the platform and sign in with your email and password.
 
-### Integration Capabilities
-Seamlessly integrates with your existing security tools and infrastructure including:
-- SIEM platforms
-- Vulnerability scanners
-- Identity providers
-- Cloud platforms (AWS, Azure, GCP)
-- Configuration management tools
+![Screenshot: Login page](/img/screenshots/cmmc/login.png)
 
-### Audit Readiness
-Maintain continuous audit readiness with automated evidence collection and organized documentation that assessors require.
+### CMMC Center Dashboard
+
+Upon login, you'll land on the **CMMC Center** - your central hub for all compliance activities.
+
+![Screenshot: CMMC Center Dashboard](/img/screenshots/cmmc/dashboard.png)
+
+The dashboard displays:
+
+| Metric | Description |
+|--------|-------------|
+| **Total ATO Packages** | Number of systems you're managing for compliance |
+| **Average Compliance** | Overall compliance percentage across all packages |
+| **Evidence Files** | Total uploaded compliance evidence documents |
+| **NIST Requirements** | Total requirements based on your target CMMC level |
+
+### Quick Actions
+
+From the dashboard, you can quickly access:
+
+- **New ATO Package** - Create a new compliance package
+- **NIST Control Catalog** - Browse all security requirements
+- **Control Assessment** - Begin assessing your controls
+- **Asset Inventory** - Manage your system assets
 
 ## Who Should Use Bedrock CMMC?
 
@@ -47,32 +60,31 @@ Bedrock CMMC is designed for:
 - Managed Service Providers (MSPs) supporting CMMC compliance
 - Organizations maintaining ongoing CMMC compliance
 
-## Getting Started
+## CMMC Levels
+
+- **Level 1 (Foundational)**: 17 basic cyber hygiene practices
+- **Level 2 (Advanced)**: 110 requirements (NIST SP 800-171)
+- **Level 3 (Expert)**: 110+ advanced/progressive practices
+
+Bedrock CMMC helps you achieve and maintain compliance at your target level.
+
+## Next Steps
 
 Ready to begin your CMMC compliance journey? Follow our comprehensive guides:
 
-1. [Quick Start Guide](./getting-started/quick-start.md) - Get up and running in minutes
-2. [Installation Guide](./installation/installation.md) - Detailed installation instructions
-3. [Initial Configuration](./getting-started/initial-configuration.md) - Configure Bedrock CMMC for your organization
-4. [User Guide](./user-guide/dashboard-overview.md) - Learn how to use Bedrock CMMC effectively
+- [ATO Packages](./user-guide/ato-packages) - Learn how to create and manage compliance packages
+- [Control Assessment](./user-guide/control-assessment) - Assess your security controls
+- [Evidence Management](./user-guide/evidence) - Upload and organize compliance evidence
+- [POA&M Management](./user-guide/poam) - Track remediation efforts
+- [System Security Plan](./user-guide/ssp) - Generate your SSP
+- [C3PAO Marketplace](./user-guide/c3pao-marketplace) - Find certified assessors
+- [Best Practices](./best-practices) - Tips for CMMC success
+- [FAQ](./faq) - Frequently asked questions
 
 ## Support
 
 Need help? We're here to assist:
 
-- **Documentation**: Browse our comprehensive guides and API documentation
-- **Support Portal**: Submit tickets at [support.foxxcyber.com](https://foxxcyber.com/support)
-- **Email**: support@foxxcyber.com
-- **Phone**: 1-800-FOXX-CYBER
-
-## CMMC Overview
-
-The Cybersecurity Maturity Model Certification (CMMC) is a unified standard for implementing cybersecurity across the Defense Industrial Base (DIB). It combines various cybersecurity standards and best practices and maps them against a set of maturity processes and security domains.
-
-### CMMC Levels
-
-- **Level 1 (Foundational)**: Basic cyber hygiene practices
-- **Level 2 (Advanced)**: Intermediate cyber hygiene practices
-- **Level 3 (Expert)**: Advanced/progressive practices
-
-Bedrock CMMC helps you achieve and maintain compliance at your target level.
+- **Email**: support@bedrockcmmc.com
+- **Documentation**: Access help guides from your dashboard
+- **Support Portal**: [foxxcyber.com/support](https://foxxcyber.com/support)

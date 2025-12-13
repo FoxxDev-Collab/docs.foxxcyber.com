@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/evidence",
+  "title": "Evidence Management",
+  "description": "Evidence documents support your compliance claims during C3PAO assessments.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/evidence.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/evidence",
+  "permalink": "/bedrock-cmmc/user-guide/evidence",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/evidence.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Control Assessment",
+    "permalink": "/bedrock-cmmc/user-guide/control-assessment"
+  },
+  "next": {
+    "title": "Plan of Action & Milestones (POA&M)",
+    "permalink": "/bedrock-cmmc/user-guide/poam"
+  }
+}

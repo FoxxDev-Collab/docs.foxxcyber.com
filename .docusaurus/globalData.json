@@ -11,23 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "getting-started/initial-configuration",
-              "path": "/bedrock-cmmc/getting-started/initial-configuration",
+              "id": "best-practices",
+              "path": "/bedrock-cmmc/best-practices",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "getting-started/quick-start",
-              "path": "/bedrock-cmmc/getting-started/quick-start",
-              "sidebar": "bedrockCmmcSidebar"
-            },
-            {
-              "id": "installation/installation",
-              "path": "/bedrock-cmmc/installation/",
-              "sidebar": "bedrockCmmcSidebar"
-            },
-            {
-              "id": "installation/integrations",
-              "path": "/bedrock-cmmc/installation/integrations",
+              "id": "faq",
+              "path": "/bedrock-cmmc/faq",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
@@ -41,48 +31,43 @@
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "user-guide/dashboard-overview",
-              "path": "/bedrock-cmmc/user-guide/dashboard-overview",
+              "id": "user-guide/asset-inventory",
+              "path": "/bedrock-cmmc/user-guide/asset-inventory",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "user-guide/notifications",
-              "path": "/bedrock-cmmc/user-guide/notifications",
+              "id": "user-guide/ato-packages",
+              "path": "/bedrock-cmmc/user-guide/ato-packages",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "user-guide/remediation",
-              "path": "/bedrock-cmmc/user-guide/remediation",
+              "id": "user-guide/c3pao-marketplace",
+              "path": "/bedrock-cmmc/user-guide/c3pao-marketplace",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "user-guide/reporting",
-              "path": "/bedrock-cmmc/user-guide/reporting",
+              "id": "user-guide/control-assessment",
+              "path": "/bedrock-cmmc/user-guide/control-assessment",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "user-guide/scheduled-assessments",
-              "path": "/bedrock-cmmc/user-guide/scheduled-assessments",
+              "id": "user-guide/evidence",
+              "path": "/bedrock-cmmc/user-guide/evidence",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "user-guide/user-management",
-              "path": "/bedrock-cmmc/user-guide/user-management",
+              "id": "user-guide/poam",
+              "path": "/bedrock-cmmc/user-guide/poam",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "/category/-getting-started",
-              "path": "/bedrock-cmmc/category/-getting-started",
+              "id": "user-guide/ssp",
+              "path": "/bedrock-cmmc/user-guide/ssp",
               "sidebar": "bedrockCmmcSidebar"
             },
             {
-              "id": "/category/️-installation",
-              "path": "/bedrock-cmmc/category/️-installation",
-              "sidebar": "bedrockCmmcSidebar"
-            },
-            {
-              "id": "/category/-user-guide",
-              "path": "/bedrock-cmmc/category/-user-guide",
+              "id": "/category/user-guide",
+              "path": "/bedrock-cmmc/category/user-guide",
               "sidebar": "bedrockCmmcSidebar"
             }
           ],
@@ -91,7 +76,7 @@
             "bedrockCmmcSidebar": {
               "link": {
                 "path": "/bedrock-cmmc/intro",
-                "label": "👋 Welcome"
+                "label": "Welcome"
               }
             }
           }

@@ -1,69 +1,68 @@
-# Assessments
+---
+sidebar_position: 8
+---
 
-Assessments are the core feature of Bedrock CMMC, allowing you to evaluate your organization's compliance posture against CMMC requirements.
+# Tracking Assessments
 
-## Running an Assessment
+Monitor and manage your C3PAO assessment engagements.
 
-### On-Demand Assessment
+## My Assessments
 
-To run an immediate assessment:
+Navigate to **Assessments** to view all your engagement requests.
 
-1. Navigate to **Assessments** in the main menu
-2. Click **New Assessment**
-3. Select the scope:
-   - Full environment
-   - Specific domains
-   - Selected controls
-4. Click **Start Assessment**
+![Screenshot: My Assessments page](/img/screenshots/cmmc/my-assessments.png)
 
-### Scheduled Assessments
+## Assessment Statuses
 
-For automated recurring assessments, see [Scheduled Assessments](./scheduled-assessments).
+| Status | Description |
+|--------|-------------|
+| **Requested** | Awaiting C3PAO response |
+| **Pending** | Under review by C3PAO |
+| **Accepted** | C3PAO has accepted the engagement |
+| **In Progress** | Assessment is actively underway |
+| **Completed** | Assessment finished |
+| **Cancelled** | Engagement was cancelled |
+
+## Assessment Details
+
+Click on an assessment to view:
+
+- C3PAO organization information
+- Lead assessor assignment
+- Assessment progress
+- Timeline and milestones
+- Final results (when complete)
+
+![Screenshot: Assessment detail view](/img/screenshots/cmmc/assessment-detail.png)
 
 ## Assessment Results
 
-After an assessment completes, you'll see:
+Upon completion, you'll receive one of the following:
 
-### Compliance Score
+| Result | Description |
+|--------|-------------|
+| **Passed** | Certification recommended |
+| **Conditional** | Minor findings to address |
+| **Failed** | Significant remediation required |
 
-A percentage score indicating overall compliance with your target CMMC level.
+## What Happens Next?
 
-### Control Status
+### If You Passed
 
-Each CMMC control is marked as:
+Congratulations! Your certification will be processed and recorded in the CMMC-AB database.
 
-- **Compliant** - Meets requirements
-- **Partially Compliant** - Some requirements met
-- **Non-Compliant** - Does not meet requirements
-- **Not Assessed** - Could not be evaluated
+### If Conditional
 
-### Findings
+Address the identified findings, update your evidence, and work with your assessor to close the gaps.
 
-Detailed findings for each control, including:
+### If You Failed
 
-- Current configuration
-- Expected configuration
-- Evidence collected
-- Remediation recommendations
-
-## Comparing Assessments
-
-Track your compliance progress by comparing assessments over time:
-
-1. Go to **Assessments** > **History**
-2. Select two or more assessments
-3. Click **Compare**
-
-## Exporting Assessment Data
-
-Export assessment results in multiple formats:
-
-- PDF report
-- Excel spreadsheet
-- JSON data
-- OSCAL format
+1. Review detailed findings from your assessor
+2. Create POA&Ms for each gap
+3. Implement remediation measures
+4. Request reassessment when ready
 
 ## Next Steps
 
-- [Remediation](./remediation) - Address compliance gaps
-- [Reporting](./reporting) - Generate compliance reports
+- [POA&M Management](./poam) - Address any findings from your assessment
+- [C3PAO Marketplace](./c3pao-marketplace) - Request a reassessment if needed

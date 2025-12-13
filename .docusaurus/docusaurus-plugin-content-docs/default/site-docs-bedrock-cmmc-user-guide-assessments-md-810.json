@@ -1,7 +1,7 @@
 {
   "id": "user-guide/assessments",
-  "title": "Assessments",
-  "description": "Assessments are the core feature of Bedrock CMMC, allowing you to evaluate your organization's compliance posture against CMMC requirements.",
+  "title": "Tracking Assessments",
+  "description": "Monitor and manage your C3PAO assessment engagements.",
   "source": "@site/docs/bedrock-cmmc/user-guide/assessments.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/assessments",
@@ -11,14 +11,17 @@
   "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/assessments.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
   "sidebar": "bedrockCmmcSidebar",
   "previous": {
-    "title": "Dashboard Overview",
-    "permalink": "/bedrock-cmmc/user-guide/dashboard-overview"
+    "title": "C3PAO Marketplace",
+    "permalink": "/bedrock-cmmc/user-guide/c3pao-marketplace"
   },
   "next": {
-    "title": "Notifications",
-    "permalink": "/bedrock-cmmc/user-guide/notifications"
+    "title": "Best Practices",
+    "permalink": "/bedrock-cmmc/best-practices"
   }
 }

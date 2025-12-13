@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/asset-inventory",
+  "title": "Asset Inventory",
+  "description": "Track all systems, devices, and components within your CMMC boundary.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/asset-inventory.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/asset-inventory",
+  "permalink": "/bedrock-cmmc/user-guide/asset-inventory",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/asset-inventory.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "System Security Plan (SSP)",
+    "permalink": "/bedrock-cmmc/user-guide/ssp"
+  },
+  "next": {
+    "title": "C3PAO Marketplace",
+    "permalink": "/bedrock-cmmc/user-guide/c3pao-marketplace"
+  }
+}

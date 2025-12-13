@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/poam",
+  "title": "Plan of Action & Milestones (POA&M)",
+  "description": "POA&Ms track remediation efforts for identified compliance gaps.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/poam.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/poam",
+  "permalink": "/bedrock-cmmc/user-guide/poam",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/poam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Evidence Management",
+    "permalink": "/bedrock-cmmc/user-guide/evidence"
+  },
+  "next": {
+    "title": "System Security Plan (SSP)",
+    "permalink": "/bedrock-cmmc/user-guide/ssp"
+  }
+}

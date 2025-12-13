@@ -239,46 +239,30 @@
     "__comp": "17896441",
     "content": "036cd7d4"
   },
-  "/bedrock-cmmc-94c": {
+  "/bedrock-cmmc-da4": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/bedrock-cmmc-f12": {
+  "/bedrock-cmmc-a1e": {
     "__comp": "a7bd4aaa",
     "__props": "ca492ebb"
   },
-  "/bedrock-cmmc-5a9": {
+  "/bedrock-cmmc-c85": {
     "__comp": "a94703ab"
   },
-  "/bedrock-cmmc/category/-getting-started-c87": {
+  "/bedrock-cmmc/best-practices-cbb": {
+    "__comp": "17896441",
+    "content": "4aa15b45"
+  },
+  "/bedrock-cmmc/category/user-guide-574": {
     "__comp": "14eb3368",
-    "__props": "72adf56b"
+    "__props": "69c30c70"
   },
-  "/bedrock-cmmc/category/️-installation-a8e": {
-    "__comp": "14eb3368",
-    "__props": "e0d1885f"
-  },
-  "/bedrock-cmmc/category/-user-guide-716": {
-    "__comp": "14eb3368",
-    "__props": "624dd6a0"
-  },
-  "/bedrock-cmmc/getting-started/initial-configuration-808": {
+  "/bedrock-cmmc/faq-e2d": {
     "__comp": "17896441",
-    "content": "9059bd5b"
-  },
-  "/bedrock-cmmc/getting-started/quick-start-76a": {
-    "__comp": "17896441",
-    "content": "7778e759"
-  },
-  "/bedrock-cmmc/installation/-bc6": {
-    "__comp": "17896441",
-    "content": "aaf46e4e"
-  },
-  "/bedrock-cmmc/installation/integrations-fdb": {
-    "__comp": "17896441",
-    "content": "66bbcc6c"
+    "content": "9a6b5e22"
   },
   "/bedrock-cmmc/intro-ff3": {
     "__comp": "17896441",
@@ -288,29 +272,33 @@
     "__comp": "17896441",
     "content": "8103ccca"
   },
-  "/bedrock-cmmc/user-guide/dashboard-overview-389": {
+  "/bedrock-cmmc/user-guide/asset-inventory-880": {
     "__comp": "17896441",
-    "content": "b5f328ad"
+    "content": "2e88d40f"
   },
-  "/bedrock-cmmc/user-guide/notifications-6c2": {
+  "/bedrock-cmmc/user-guide/ato-packages-b78": {
     "__comp": "17896441",
-    "content": "b24ecc82"
+    "content": "b34ced75"
   },
-  "/bedrock-cmmc/user-guide/remediation-9f9": {
+  "/bedrock-cmmc/user-guide/c3pao-marketplace-8b5": {
     "__comp": "17896441",
-    "content": "a3eed7dd"
+    "content": "7e34cbdd"
   },
-  "/bedrock-cmmc/user-guide/reporting-b57": {
+  "/bedrock-cmmc/user-guide/control-assessment-5d2": {
     "__comp": "17896441",
-    "content": "c5dc931b"
+    "content": "bed5c9ed"
   },
-  "/bedrock-cmmc/user-guide/scheduled-assessments-acb": {
+  "/bedrock-cmmc/user-guide/evidence-782": {
     "__comp": "17896441",
-    "content": "128e744d"
+    "content": "d5b30e4d"
   },
-  "/bedrock-cmmc/user-guide/user-management-275": {
+  "/bedrock-cmmc/user-guide/poam-fa1": {
     "__comp": "17896441",
-    "content": "a4ad90db"
+    "content": "d75d40c0"
+  },
+  "/bedrock-cmmc/user-guide/ssp-c77": {
+    "__comp": "17896441",
+    "content": "e639ef65"
   },
   "/bedrock-sp-80b": {
     "__comp": "5e95c892",

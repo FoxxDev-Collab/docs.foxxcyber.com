@@ -127,55 +127,31 @@ export default [
   },
   {
     path: '/bedrock-cmmc',
-    component: ComponentCreator('/bedrock-cmmc', '94c'),
+    component: ComponentCreator('/bedrock-cmmc', 'da4'),
     routes: [
       {
         path: '/bedrock-cmmc',
-        component: ComponentCreator('/bedrock-cmmc', 'f12'),
+        component: ComponentCreator('/bedrock-cmmc', 'a1e'),
         routes: [
           {
             path: '/bedrock-cmmc',
-            component: ComponentCreator('/bedrock-cmmc', '5a9'),
+            component: ComponentCreator('/bedrock-cmmc', 'c85'),
             routes: [
               {
-                path: '/bedrock-cmmc/category/-getting-started',
-                component: ComponentCreator('/bedrock-cmmc/category/-getting-started', 'c87'),
+                path: '/bedrock-cmmc/best-practices',
+                component: ComponentCreator('/bedrock-cmmc/best-practices', 'cbb'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/category/️-installation',
-                component: ComponentCreator('/bedrock-cmmc/category/️-installation', 'a8e'),
+                path: '/bedrock-cmmc/category/user-guide',
+                component: ComponentCreator('/bedrock-cmmc/category/user-guide', '574'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/category/-user-guide',
-                component: ComponentCreator('/bedrock-cmmc/category/-user-guide', '716'),
-                exact: true,
-                sidebar: "bedrockCmmcSidebar"
-              },
-              {
-                path: '/bedrock-cmmc/getting-started/initial-configuration',
-                component: ComponentCreator('/bedrock-cmmc/getting-started/initial-configuration', '808'),
-                exact: true,
-                sidebar: "bedrockCmmcSidebar"
-              },
-              {
-                path: '/bedrock-cmmc/getting-started/quick-start',
-                component: ComponentCreator('/bedrock-cmmc/getting-started/quick-start', '76a'),
-                exact: true,
-                sidebar: "bedrockCmmcSidebar"
-              },
-              {
-                path: '/bedrock-cmmc/installation/',
-                component: ComponentCreator('/bedrock-cmmc/installation/', 'bc6'),
-                exact: true,
-                sidebar: "bedrockCmmcSidebar"
-              },
-              {
-                path: '/bedrock-cmmc/installation/integrations',
-                component: ComponentCreator('/bedrock-cmmc/installation/integrations', 'fdb'),
+                path: '/bedrock-cmmc/faq',
+                component: ComponentCreator('/bedrock-cmmc/faq', 'e2d'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
@@ -192,38 +168,44 @@ export default [
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/user-guide/dashboard-overview',
-                component: ComponentCreator('/bedrock-cmmc/user-guide/dashboard-overview', '389'),
+                path: '/bedrock-cmmc/user-guide/asset-inventory',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/asset-inventory', '880'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/user-guide/notifications',
-                component: ComponentCreator('/bedrock-cmmc/user-guide/notifications', '6c2'),
+                path: '/bedrock-cmmc/user-guide/ato-packages',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/ato-packages', 'b78'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/user-guide/remediation',
-                component: ComponentCreator('/bedrock-cmmc/user-guide/remediation', '9f9'),
+                path: '/bedrock-cmmc/user-guide/c3pao-marketplace',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/c3pao-marketplace', '8b5'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/user-guide/reporting',
-                component: ComponentCreator('/bedrock-cmmc/user-guide/reporting', 'b57'),
+                path: '/bedrock-cmmc/user-guide/control-assessment',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/control-assessment', '5d2'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/user-guide/scheduled-assessments',
-                component: ComponentCreator('/bedrock-cmmc/user-guide/scheduled-assessments', 'acb'),
+                path: '/bedrock-cmmc/user-guide/evidence',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/evidence', '782'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               },
               {
-                path: '/bedrock-cmmc/user-guide/user-management',
-                component: ComponentCreator('/bedrock-cmmc/user-guide/user-management', '275'),
+                path: '/bedrock-cmmc/user-guide/poam',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/poam', 'fa1'),
+                exact: true,
+                sidebar: "bedrockCmmcSidebar"
+              },
+              {
+                path: '/bedrock-cmmc/user-guide/ssp',
+                component: ComponentCreator('/bedrock-cmmc/user-guide/ssp', 'c77'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
               }

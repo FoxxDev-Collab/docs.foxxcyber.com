@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/c3pao-marketplace",
+  "title": "C3PAO Marketplace",
+  "description": "Find and engage certified assessors for your CMMC assessment.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/c3pao-marketplace.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/c3pao-marketplace",
+  "permalink": "/bedrock-cmmc/user-guide/c3pao-marketplace",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/c3pao-marketplace.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Asset Inventory",
+    "permalink": "/bedrock-cmmc/user-guide/asset-inventory"
+  },
+  "next": {
+    "title": "Tracking Assessments",
+    "permalink": "/bedrock-cmmc/user-guide/assessments"
+  }
+}

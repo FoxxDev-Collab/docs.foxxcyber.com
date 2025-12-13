@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/ato-packages",
+  "title": "ATO Packages",
+  "description": "An ATO Package represents a system or boundary you're preparing for CMMC certification.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/ato-packages.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/ato-packages",
+  "permalink": "/bedrock-cmmc/user-guide/ato-packages",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/ato-packages.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "User Guide",
+    "permalink": "/bedrock-cmmc/category/user-guide"
+  },
+  "next": {
+    "title": "Control Assessment",
+    "permalink": "/bedrock-cmmc/user-guide/control-assessment"
+  }
+}
