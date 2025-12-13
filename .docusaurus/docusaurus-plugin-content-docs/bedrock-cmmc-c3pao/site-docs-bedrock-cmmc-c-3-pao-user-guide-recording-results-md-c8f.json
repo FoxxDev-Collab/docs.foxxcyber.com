@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/recording-results",
+  "title": "Recording Results",
+  "description": "Documenting and submitting your assessment findings.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/recording-results.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/recording-results",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/recording-results",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/recording-results.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Assessor Notes",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/assessor-notes"
+  },
+  "next": {
+    "title": "Team Management",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/team-management"
+  }
+}

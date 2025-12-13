@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/awareness-training",
+  "title": "Awareness and Training (AT)",
+  "description": "NIST SP 800-171 Rev 3 Awareness and Training requirements - 3 controls for security awareness.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/awareness-training.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/awareness-training",
+  "permalink": "/bedrock-cmmc/nist-controls/awareness-training",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/awareness-training.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Awareness and Training (AT)",
+    "description": "NIST SP 800-171 Rev 3 Awareness and Training requirements - 3 controls for security awareness."
+  }
+}

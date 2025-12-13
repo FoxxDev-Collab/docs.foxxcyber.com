@@ -7,7 +7,7 @@ description: All 110 NIST SP 800-171 Rev 3 security requirements in a single ref
 # NIST SP 800-171 Rev 3 Security Requirements
 
 :::tip Quick Reference
-This page contains all 110 security requirements in a single document. For easier navigation, use the [individual control family pages](./index).
+This page contains all 110 security requirements in a single document. For easier navigation, use the [individual control family pages](./).
 :::
 
 This document contains all 110 security requirements from NIST Special Publication 800-171 Revision 3, organized by control family. These requirements form the foundation for CMMC Level 2 compliance.

@@ -239,17 +239,98 @@
     "__comp": "17896441",
     "content": "036cd7d4"
   },
-  "/bedrock-cmmc-da4": {
+  "/bedrock-cmmc-c3pao-d0f": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "e44bdd1a"
+    }
+  },
+  "/bedrock-cmmc-c3pao-280": {
+    "__comp": "a7bd4aaa",
+    "__props": "27946d62"
+  },
+  "/bedrock-cmmc-c3pao-eb3": {
+    "__comp": "a94703ab"
+  },
+  "/bedrock-cmmc-c3pao/best-practices-0b1": {
+    "__comp": "17896441",
+    "content": "194f0e85"
+  },
+  "/bedrock-cmmc-c3pao/category/user-guide-c26": {
+    "__comp": "14eb3368",
+    "__props": "a6e458be"
+  },
+  "/bedrock-cmmc-c3pao/faq-a73": {
+    "__comp": "17896441",
+    "content": "ca4deb56"
+  },
+  "/bedrock-cmmc-c3pao/intro-9d5": {
+    "__comp": "17896441",
+    "content": "3aceb3e0"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/accepting-requests-e10": {
+    "__comp": "17896441",
+    "content": "e8c7bbdb"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/assessor-notes-2e2": {
+    "__comp": "17896441",
+    "content": "57cf7e4a"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/conducting-assessments-b3e": {
+    "__comp": "17896441",
+    "content": "223805fd"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/credentials-3e3": {
+    "__comp": "17896441",
+    "content": "16331ba1"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/engagements-b32": {
+    "__comp": "17896441",
+    "content": "d7d5cd22"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/marketplace-profile-2e9": {
+    "__comp": "17896441",
+    "content": "64f73a16"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/organization-profile-58d": {
+    "__comp": "17896441",
+    "content": "04451c86"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/recording-results-f28": {
+    "__comp": "17896441",
+    "content": "c8fa73bf"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/reviewing-controls-4a2": {
+    "__comp": "17896441",
+    "content": "8c8442d7"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/reviewing-documents-ea6": {
+    "__comp": "17896441",
+    "content": "b4e3ae8a"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence-51a": {
+    "__comp": "17896441",
+    "content": "dacdda13"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/reviewing-poams-5bd": {
+    "__comp": "17896441",
+    "content": "4d1ac3ff"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/team-management-776": {
+    "__comp": "17896441",
+    "content": "1d5b19f8"
+  },
+  "/bedrock-cmmc-834": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/bedrock-cmmc-a1e": {
+  "/bedrock-cmmc-9fe": {
     "__comp": "a7bd4aaa",
     "__props": "ca492ebb"
   },
-  "/bedrock-cmmc-c85": {
+  "/bedrock-cmmc-03a": {
     "__comp": "a94703ab"
   },
   "/bedrock-cmmc/best-practices-cbb": {
@@ -267,6 +348,70 @@
   "/bedrock-cmmc/intro-ff3": {
     "__comp": "17896441",
     "content": "2e1c3f48"
+  },
+  "/bedrock-cmmc/nist-controls/-407": {
+    "__comp": "17896441",
+    "content": "c55d68a6"
+  },
+  "/bedrock-cmmc/nist-controls/access-control-894": {
+    "__comp": "17896441",
+    "content": "3282015a"
+  },
+  "/bedrock-cmmc/nist-controls/audit-accountability-12f": {
+    "__comp": "17896441",
+    "content": "ce13d139"
+  },
+  "/bedrock-cmmc/nist-controls/awareness-training-fe2": {
+    "__comp": "17896441",
+    "content": "c28f08d5"
+  },
+  "/bedrock-cmmc/nist-controls/complete-list-441": {
+    "__comp": "17896441",
+    "content": "969996d4"
+  },
+  "/bedrock-cmmc/nist-controls/configuration-management-c30": {
+    "__comp": "17896441",
+    "content": "945e65cc"
+  },
+  "/bedrock-cmmc/nist-controls/identification-authentication-527": {
+    "__comp": "17896441",
+    "content": "d273b0ee"
+  },
+  "/bedrock-cmmc/nist-controls/incident-response-225": {
+    "__comp": "17896441",
+    "content": "5fbaf21b"
+  },
+  "/bedrock-cmmc/nist-controls/maintenance-fb1": {
+    "__comp": "17896441",
+    "content": "aa8e63b6"
+  },
+  "/bedrock-cmmc/nist-controls/media-protection-a8f": {
+    "__comp": "17896441",
+    "content": "cf317cec"
+  },
+  "/bedrock-cmmc/nist-controls/personnel-security-97c": {
+    "__comp": "17896441",
+    "content": "da5f87f1"
+  },
+  "/bedrock-cmmc/nist-controls/physical-protection-913": {
+    "__comp": "17896441",
+    "content": "4b46add9"
+  },
+  "/bedrock-cmmc/nist-controls/risk-assessment-b91": {
+    "__comp": "17896441",
+    "content": "3e1d82ac"
+  },
+  "/bedrock-cmmc/nist-controls/system-communications-protection-2f3": {
+    "__comp": "17896441",
+    "content": "695edf92"
+  },
+  "/bedrock-cmmc/nist-controls/system-information-integrity-713": {
+    "__comp": "17896441",
+    "content": "97122f81"
+  },
+  "/bedrock-cmmc/nist-controls/system-services-acquisition-187": {
+    "__comp": "17896441",
+    "content": "ecfdf8cd"
   },
   "/bedrock-cmmc/user-guide/assessments-2ea": {
     "__comp": "17896441",

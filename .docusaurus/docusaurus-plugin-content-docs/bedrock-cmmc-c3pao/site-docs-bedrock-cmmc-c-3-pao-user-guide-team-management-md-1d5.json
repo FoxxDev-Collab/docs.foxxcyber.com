@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/team-management",
+  "title": "Team Management",
+  "description": "Managing your C3PAO assessment team in Bedrock CMMC.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/team-management.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/team-management",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/team-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/team-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Recording Results",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/recording-results"
+  },
+  "next": {
+    "title": "Organization Profile",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/organization-profile"
+  }
+}

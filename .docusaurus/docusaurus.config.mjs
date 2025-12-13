@@ -108,6 +108,16 @@ export default {
         "sidebarPath": "./sidebars-bedrock-sp.ts",
         "editUrl": "https://github.com/foxxcyber/docs/tree/main/"
       }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "bedrock-cmmc-c3pao",
+        "path": "docs/bedrock-cmmc-c3pao",
+        "routeBasePath": "bedrock-cmmc-c3pao",
+        "sidebarPath": "./sidebars-bedrock-cmmc-c3pao.ts",
+        "editUrl": "https://github.com/foxxcyber/docs/tree/main/"
+      }
     ]
   ],
   "themeConfig": {
@@ -146,6 +156,12 @@ export default {
               "docId": "intro",
               "label": "Bedrock SP",
               "docsPluginId": "bedrock-sp"
+            },
+            {
+              "type": "doc",
+              "docId": "intro",
+              "label": "Bedrock CMMC C3PAO",
+              "docsPluginId": "bedrock-cmmc-c3pao"
             }
           ]
         },
@@ -179,6 +195,10 @@ export default {
             {
               "label": "Bedrock SP",
               "to": "/bedrock-sp/intro"
+            },
+            {
+              "label": "Bedrock CMMC C3PAO",
+              "to": "/bedrock-cmmc-c3pao/intro"
             }
           ]
         },

@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/conducting-assessments",
+  "title": "Conducting Assessments",
+  "description": "A comprehensive guide to conducting CMMC assessments through the Bedrock CMMC platform.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/conducting-assessments.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/conducting-assessments",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/conducting-assessments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/conducting-assessments.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Accepting Assessment Requests",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/accepting-requests"
+  },
+  "next": {
+    "title": "Reviewing Controls",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-controls"
+  }
+}

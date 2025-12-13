@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/complete-list",
+  "title": "Complete Control List",
+  "description": "All 110 NIST SP 800-171 Rev 3 security requirements in a single reference document.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/complete-list.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/complete-list",
+  "permalink": "/bedrock-cmmc/nist-controls/complete-list",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/complete-list.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99,
+    "title": "Complete Control List",
+    "description": "All 110 NIST SP 800-171 Rev 3 security requirements in a single reference document."
+  }
+}

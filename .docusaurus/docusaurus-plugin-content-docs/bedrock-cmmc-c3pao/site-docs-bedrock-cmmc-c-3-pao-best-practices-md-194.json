@@ -1,0 +1,27 @@
+{
+  "id": "best-practices",
+  "title": "Best Practices for C3PAO Assessors",
+  "description": "Guidelines for conducting effective and efficient CMMC assessments.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/best-practices.md",
+  "sourceDirName": ".",
+  "slug": "/best-practices",
+  "permalink": "/bedrock-cmmc-c3pao/best-practices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/best-practices.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Assessor Credentials",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/credentials"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/bedrock-cmmc-c3pao/faq"
+  }
+}

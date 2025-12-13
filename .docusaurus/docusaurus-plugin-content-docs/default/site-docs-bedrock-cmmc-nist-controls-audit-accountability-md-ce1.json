@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/audit-accountability",
+  "title": "Audit and Accountability (AU)",
+  "description": "NIST SP 800-171 Rev 3 Audit and Accountability requirements - 9 controls for audit logging and monitoring.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/audit-accountability.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/audit-accountability",
+  "permalink": "/bedrock-cmmc/nist-controls/audit-accountability",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/audit-accountability.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Audit and Accountability (AU)",
+    "description": "NIST SP 800-171 Rev 3 Audit and Accountability requirements - 9 controls for audit logging and monitoring."
+  }
+}

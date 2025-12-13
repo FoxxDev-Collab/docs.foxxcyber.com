@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/accepting-requests",
+  "title": "Accepting Assessment Requests",
+  "description": "Learn how to review and respond to incoming assessment requests.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/accepting-requests.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/accepting-requests",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/accepting-requests",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/accepting-requests.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Managing Engagements",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/engagements"
+  },
+  "next": {
+    "title": "Conducting Assessments",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/conducting-assessments"
+  }
+}

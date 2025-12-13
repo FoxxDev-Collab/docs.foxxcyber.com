@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/reviewing-documents",
+  "title": "Reviewing Documents",
+  "description": "Guide to reviewing System Security Plans, policies, and procedures.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-documents.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/reviewing-documents",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-documents",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-documents.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Reviewing Controls",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-controls"
+  },
+  "next": {
+    "title": "Reviewing Evidence",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence"
+  }
+}

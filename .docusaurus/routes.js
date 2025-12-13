@@ -126,16 +126,136 @@ export default [
     ]
   },
   {
+    path: '/bedrock-cmmc-c3pao',
+    component: ComponentCreator('/bedrock-cmmc-c3pao', 'd0f'),
+    routes: [
+      {
+        path: '/bedrock-cmmc-c3pao',
+        component: ComponentCreator('/bedrock-cmmc-c3pao', '280'),
+        routes: [
+          {
+            path: '/bedrock-cmmc-c3pao',
+            component: ComponentCreator('/bedrock-cmmc-c3pao', 'eb3'),
+            routes: [
+              {
+                path: '/bedrock-cmmc-c3pao/best-practices',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/best-practices', '0b1'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/category/user-guide',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/category/user-guide', 'c26'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/faq',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/faq', 'a73'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/intro',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/intro', '9d5'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/accepting-requests',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/accepting-requests', 'e10'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/assessor-notes',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/assessor-notes', '2e2'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/conducting-assessments',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/conducting-assessments', 'b3e'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/credentials',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/credentials', '3e3'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/engagements',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/engagements', 'b32'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/marketplace-profile',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/marketplace-profile', '2e9'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/organization-profile',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/organization-profile', '58d'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/recording-results',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/recording-results', 'f28'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/reviewing-controls',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/reviewing-controls', '4a2'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/reviewing-documents',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/reviewing-documents', 'ea6'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/reviewing-evidence',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/reviewing-evidence', '51a'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/reviewing-poams',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/reviewing-poams', '5bd'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/team-management',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/team-management', '776'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/bedrock-cmmc',
-    component: ComponentCreator('/bedrock-cmmc', 'da4'),
+    component: ComponentCreator('/bedrock-cmmc', '834'),
     routes: [
       {
         path: '/bedrock-cmmc',
-        component: ComponentCreator('/bedrock-cmmc', 'a1e'),
+        component: ComponentCreator('/bedrock-cmmc', '9fe'),
         routes: [
           {
             path: '/bedrock-cmmc',
-            component: ComponentCreator('/bedrock-cmmc', 'c85'),
+            component: ComponentCreator('/bedrock-cmmc', '03a'),
             routes: [
               {
                 path: '/bedrock-cmmc/best-practices',
@@ -160,6 +280,86 @@ export default [
                 component: ComponentCreator('/bedrock-cmmc/intro', 'ff3'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/', '407'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/access-control',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/access-control', '894'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/audit-accountability',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/audit-accountability', '12f'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/awareness-training',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/awareness-training', 'fe2'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/complete-list',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/complete-list', '441'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/configuration-management',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/configuration-management', 'c30'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/identification-authentication',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/identification-authentication', '527'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/incident-response',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/incident-response', '225'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/maintenance',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/maintenance', 'fb1'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/media-protection',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/media-protection', 'a8f'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/personnel-security',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/personnel-security', '97c'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/physical-protection',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/physical-protection', '913'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/risk-assessment',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/risk-assessment', 'b91'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/system-communications-protection',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-communications-protection', '2f3'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/system-information-integrity',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-information-integrity', '713'),
+                exact: true
+              },
+              {
+                path: '/bedrock-cmmc/nist-controls/system-services-acquisition',
+                component: ComponentCreator('/bedrock-cmmc/nist-controls/system-services-acquisition', '187'),
+                exact: true
               },
               {
                 path: '/bedrock-cmmc/user-guide/assessments',

@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/system-communications-protection",
+  "title": "System and Communications Protection (SC)",
+  "description": "NIST SP 800-171 Rev 3 System and Communications Protection requirements - 20 controls for boundary protection.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/system-communications-protection.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/system-communications-protection",
+  "permalink": "/bedrock-cmmc/nist-controls/system-communications-protection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/system-communications-protection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14,
+    "title": "System and Communications Protection (SC)",
+    "description": "NIST SP 800-171 Rev 3 System and Communications Protection requirements - 20 controls for boundary protection."
+  }
+}

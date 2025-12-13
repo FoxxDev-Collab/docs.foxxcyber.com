@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/risk-assessment",
+  "title": "Risk Assessment (RA)",
+  "description": "NIST SP 800-171 Rev 3 Risk Assessment requirements - 3 controls for assessing organizational risk.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/risk-assessment.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/risk-assessment",
+  "permalink": "/bedrock-cmmc/nist-controls/risk-assessment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/risk-assessment.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Risk Assessment (RA)",
+    "description": "NIST SP 800-171 Rev 3 Risk Assessment requirements - 3 controls for assessing organizational risk."
+  }
+}

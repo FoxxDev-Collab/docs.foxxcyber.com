@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Welcome to Bedrock CMMC C3PAO",
+  "description": "Welcome to the Bedrock CMMC C3PAO Assessor Guide. This documentation provides comprehensive guidance for C3PAO assessors using the Bedrock CMMC platform to conduct CMMC assessments.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/bedrock-cmmc-c3pao/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "next": {
+    "title": "User Guide",
+    "permalink": "/bedrock-cmmc-c3pao/category/user-guide"
+  }
+}

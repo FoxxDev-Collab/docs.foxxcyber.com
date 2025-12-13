@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/media-protection",
+  "title": "Media Protection (MP)",
+  "description": "NIST SP 800-171 Rev 3 Media Protection requirements - 7 controls for protecting digital and non-digital media.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/media-protection.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/media-protection",
+  "permalink": "/bedrock-cmmc/nist-controls/media-protection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/media-protection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Media Protection (MP)",
+    "description": "NIST SP 800-171 Rev 3 Media Protection requirements - 7 controls for protecting digital and non-digital media."
+  }
+}

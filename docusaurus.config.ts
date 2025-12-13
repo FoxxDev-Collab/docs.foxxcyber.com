@@ -94,6 +94,16 @@ const config: Config = {
         editUrl: 'https://github.com/foxxcyber/docs/tree/main/',
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'bedrock-cmmc-c3pao',
+        path: 'docs/bedrock-cmmc-c3pao',
+        routeBasePath: 'bedrock-cmmc-c3pao',
+        sidebarPath: './sidebars-bedrock-cmmc-c3pao.ts',
+        editUrl: 'https://github.com/foxxcyber/docs/tree/main/',
+      },
+    ],
   ],
 
   themeConfig: {
@@ -132,6 +142,12 @@ const config: Config = {
               label: 'Bedrock SP',
               docsPluginId: 'bedrock-sp',
             },
+            {
+              type: 'doc',
+              docId: 'intro',
+              label: 'Bedrock CMMC C3PAO',
+              docsPluginId: 'bedrock-cmmc-c3pao',
+            },
           ],
         },
         {to: '/blog', label: 'Release Notes', position: 'left'},
@@ -159,6 +175,10 @@ const config: Config = {
             {
               label: 'Bedrock SP',
               to: '/bedrock-sp/intro',
+            },
+            {
+              label: 'Bedrock CMMC C3PAO',
+              to: '/bedrock-cmmc-c3pao/intro',
             },
           ],
         },

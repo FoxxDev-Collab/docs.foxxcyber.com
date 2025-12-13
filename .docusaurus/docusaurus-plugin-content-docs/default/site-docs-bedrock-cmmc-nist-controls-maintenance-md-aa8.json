@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/maintenance",
+  "title": "Maintenance (MA)",
+  "description": "NIST SP 800-171 Rev 3 Maintenance requirements - 6 controls for system maintenance and repairs.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/maintenance.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/maintenance",
+  "permalink": "/bedrock-cmmc/nist-controls/maintenance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/maintenance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Maintenance (MA)",
+    "description": "NIST SP 800-171 Rev 3 Maintenance requirements - 6 controls for system maintenance and repairs."
+  }
+}

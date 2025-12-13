@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/identification-authentication",
+  "title": "Identification and Authentication (IA)",
+  "description": "NIST SP 800-171 Rev 3 Identification and Authentication requirements - 11 controls for identity verification.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/identification-authentication.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/identification-authentication",
+  "permalink": "/bedrock-cmmc/nist-controls/identification-authentication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/identification-authentication.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Identification and Authentication (IA)",
+    "description": "NIST SP 800-171 Rev 3 Identification and Authentication requirements - 11 controls for identity verification."
+  }
+}

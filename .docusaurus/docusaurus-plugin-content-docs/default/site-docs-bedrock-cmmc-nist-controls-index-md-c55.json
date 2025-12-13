@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/index",
+  "title": "Control Families Overview",
+  "description": "Navigate NIST SP 800-171 Rev 3 security requirements by control family for CMMC Level 2 compliance.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/index.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/",
+  "permalink": "/bedrock-cmmc/nist-controls/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Control Families Overview",
+    "description": "Navigate NIST SP 800-171 Rev 3 security requirements by control family for CMMC Level 2 compliance."
+  }
+}

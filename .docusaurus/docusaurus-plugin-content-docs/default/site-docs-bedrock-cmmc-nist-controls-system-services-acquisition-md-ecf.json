@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/system-services-acquisition",
+  "title": "System and Services Acquisition (SA)",
+  "description": "NIST SP 800-171 Rev 3 System and Services Acquisition requirements - 5 controls for system development and acquisition.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/system-services-acquisition.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/system-services-acquisition",
+  "permalink": "/bedrock-cmmc/nist-controls/system-services-acquisition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/system-services-acquisition.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13,
+    "title": "System and Services Acquisition (SA)",
+    "description": "NIST SP 800-171 Rev 3 System and Services Acquisition requirements - 5 controls for system development and acquisition."
+  }
+}

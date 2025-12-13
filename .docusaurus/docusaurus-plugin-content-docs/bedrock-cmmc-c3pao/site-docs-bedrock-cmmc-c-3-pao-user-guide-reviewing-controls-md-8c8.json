@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/reviewing-controls",
+  "title": "Reviewing Controls",
+  "description": "Detailed guidance on assessing CMMC practices and controls.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-controls.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/reviewing-controls",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-controls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Conducting Assessments",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/conducting-assessments"
+  },
+  "next": {
+    "title": "Reviewing Documents",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-documents"
+  }
+}

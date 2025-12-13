@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/physical-protection",
+  "title": "Physical Protection (PE)",
+  "description": "NIST SP 800-171 Rev 3 Physical Protection requirements - 6 controls for limiting physical access to systems.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/physical-protection.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/physical-protection",
+  "permalink": "/bedrock-cmmc/nist-controls/physical-protection",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/physical-protection.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "title": "Physical Protection (PE)",
+    "description": "NIST SP 800-171 Rev 3 Physical Protection requirements - 6 controls for limiting physical access to systems."
+  }
+}

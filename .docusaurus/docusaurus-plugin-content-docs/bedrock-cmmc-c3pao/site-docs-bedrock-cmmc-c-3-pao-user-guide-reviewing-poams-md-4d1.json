@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/reviewing-poams",
+  "title": "Reviewing POA&Ms",
+  "description": "Guidance on evaluating Plans of Action and Milestones.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-poams.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/reviewing-poams",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-poams.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Reviewing Evidence",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence"
+  },
+  "next": {
+    "title": "Assessor Notes",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/assessor-notes"
+  }
+}

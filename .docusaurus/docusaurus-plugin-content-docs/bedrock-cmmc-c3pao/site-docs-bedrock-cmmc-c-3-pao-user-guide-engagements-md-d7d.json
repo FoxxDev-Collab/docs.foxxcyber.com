@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/engagements",
+  "title": "Managing Engagements",
+  "description": "Learn how to manage your C3PAO assessment engagements in Bedrock CMMC.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/engagements.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/engagements",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/engagements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/engagements.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "User Guide",
+    "permalink": "/bedrock-cmmc-c3pao/category/user-guide"
+  },
+  "next": {
+    "title": "Accepting Assessment Requests",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/accepting-requests"
+  }
+}

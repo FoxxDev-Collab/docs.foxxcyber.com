@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/assessor-notes",
+  "title": "Assessor Notes",
+  "description": "Using internal notes to document observations during assessment.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/assessor-notes.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/assessor-notes",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/assessor-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/assessor-notes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Reviewing POA&Ms",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams"
+  },
+  "next": {
+    "title": "Recording Results",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/recording-results"
+  }
+}

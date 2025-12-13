@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/personnel-security",
+  "title": "Personnel Security (PS)",
+  "description": "NIST SP 800-171 Rev 3 Personnel Security requirements - 2 controls for personnel screening and management.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/personnel-security.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/personnel-security",
+  "permalink": "/bedrock-cmmc/nist-controls/personnel-security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/personnel-security.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Personnel Security (PS)",
+    "description": "NIST SP 800-171 Rev 3 Personnel Security requirements - 2 controls for personnel screening and management."
+  }
+}

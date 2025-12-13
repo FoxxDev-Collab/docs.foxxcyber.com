@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/access-control",
+  "title": "Access Control (AC)",
+  "description": "NIST SP 800-171 Rev 3 Access Control requirements - 22 controls for limiting system access to authorized users.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/access-control.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/access-control",
+  "permalink": "/bedrock-cmmc/nist-controls/access-control",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/access-control.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Access Control (AC)",
+    "description": "NIST SP 800-171 Rev 3 Access Control requirements - 22 controls for limiting system access to authorized users."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/reviewing-evidence",
+  "title": "Reviewing Evidence",
+  "description": "Best practices for evaluating assessment evidence.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-evidence.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/reviewing-evidence",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-evidence.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Reviewing Documents",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-documents"
+  },
+  "next": {
+    "title": "Reviewing POA&Ms",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "user-guide/marketplace-profile",
+  "title": "Marketplace Profile",
+  "description": "Optimizing your presence in the C3PAO Marketplace.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/marketplace-profile.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/marketplace-profile",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/marketplace-profile",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/marketplace-profile.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Organization Profile",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/organization-profile"
+  },
+  "next": {
+    "title": "Assessor Credentials",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/credentials"
+  }
+}

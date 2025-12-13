@@ -26,6 +26,70 @@
               "sidebar": "bedrockCmmcSidebar"
             },
             {
+              "id": "nist-controls/access-control",
+              "path": "/bedrock-cmmc/nist-controls/access-control"
+            },
+            {
+              "id": "nist-controls/audit-accountability",
+              "path": "/bedrock-cmmc/nist-controls/audit-accountability"
+            },
+            {
+              "id": "nist-controls/awareness-training",
+              "path": "/bedrock-cmmc/nist-controls/awareness-training"
+            },
+            {
+              "id": "nist-controls/complete-list",
+              "path": "/bedrock-cmmc/nist-controls/complete-list"
+            },
+            {
+              "id": "nist-controls/configuration-management",
+              "path": "/bedrock-cmmc/nist-controls/configuration-management"
+            },
+            {
+              "id": "nist-controls/identification-authentication",
+              "path": "/bedrock-cmmc/nist-controls/identification-authentication"
+            },
+            {
+              "id": "nist-controls/incident-response",
+              "path": "/bedrock-cmmc/nist-controls/incident-response"
+            },
+            {
+              "id": "nist-controls/index",
+              "path": "/bedrock-cmmc/nist-controls/"
+            },
+            {
+              "id": "nist-controls/maintenance",
+              "path": "/bedrock-cmmc/nist-controls/maintenance"
+            },
+            {
+              "id": "nist-controls/media-protection",
+              "path": "/bedrock-cmmc/nist-controls/media-protection"
+            },
+            {
+              "id": "nist-controls/personnel-security",
+              "path": "/bedrock-cmmc/nist-controls/personnel-security"
+            },
+            {
+              "id": "nist-controls/physical-protection",
+              "path": "/bedrock-cmmc/nist-controls/physical-protection"
+            },
+            {
+              "id": "nist-controls/risk-assessment",
+              "path": "/bedrock-cmmc/nist-controls/risk-assessment"
+            },
+            {
+              "id": "nist-controls/system-communications-protection",
+              "path": "/bedrock-cmmc/nist-controls/system-communications-protection"
+            },
+            {
+              "id": "nist-controls/system-information-integrity",
+              "path": "/bedrock-cmmc/nist-controls/system-information-integrity"
+            },
+            {
+              "id": "nist-controls/system-services-acquisition",
+              "path": "/bedrock-cmmc/nist-controls/system-services-acquisition"
+            },
+            {
               "id": "user-guide/assessments",
               "path": "/bedrock-cmmc/user-guide/assessments",
               "sidebar": "bedrockCmmcSidebar"
@@ -175,6 +239,115 @@
               "link": {
                 "path": "/bedrock-sp/intro",
                 "label": "👋 Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "bedrock-cmmc-c3pao": {
+      "path": "/bedrock-cmmc-c3pao",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/bedrock-cmmc-c3pao",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "best-practices",
+              "path": "/bedrock-cmmc-c3pao/best-practices",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "faq",
+              "path": "/bedrock-cmmc-c3pao/faq",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/bedrock-cmmc-c3pao/intro",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/accepting-requests",
+              "path": "/bedrock-cmmc-c3pao/user-guide/accepting-requests",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/assessor-notes",
+              "path": "/bedrock-cmmc-c3pao/user-guide/assessor-notes",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/conducting-assessments",
+              "path": "/bedrock-cmmc-c3pao/user-guide/conducting-assessments",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/credentials",
+              "path": "/bedrock-cmmc-c3pao/user-guide/credentials",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/engagements",
+              "path": "/bedrock-cmmc-c3pao/user-guide/engagements",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/marketplace-profile",
+              "path": "/bedrock-cmmc-c3pao/user-guide/marketplace-profile",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/organization-profile",
+              "path": "/bedrock-cmmc-c3pao/user-guide/organization-profile",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/recording-results",
+              "path": "/bedrock-cmmc-c3pao/user-guide/recording-results",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/reviewing-controls",
+              "path": "/bedrock-cmmc-c3pao/user-guide/reviewing-controls",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/reviewing-documents",
+              "path": "/bedrock-cmmc-c3pao/user-guide/reviewing-documents",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/reviewing-evidence",
+              "path": "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/reviewing-poams",
+              "path": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/team-management",
+              "path": "/bedrock-cmmc-c3pao/user-guide/team-management",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "/category/user-guide",
+              "path": "/bedrock-cmmc-c3pao/category/user-guide",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "bedrockCmmcC3paoSidebar": {
+              "link": {
+                "path": "/bedrock-cmmc-c3pao/intro",
+                "label": "Welcome"
               }
             }
           }

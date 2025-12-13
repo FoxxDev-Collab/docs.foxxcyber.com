@@ -1,0 +1,20 @@
+{
+  "id": "nist-controls/incident-response",
+  "title": "Incident Response (IR)",
+  "description": "NIST SP 800-171 Rev 3 Incident Response requirements - 6 controls for incident handling capabilities.",
+  "source": "@site/docs/bedrock-cmmc/nist-controls/incident-response.md",
+  "sourceDirName": "nist-controls",
+  "slug": "/nist-controls/incident-response",
+  "permalink": "/bedrock-cmmc/nist-controls/incident-response",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/nist-controls/incident-response.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Incident Response (IR)",
+    "description": "NIST SP 800-171 Rev 3 Incident Response requirements - 6 controls for incident handling capabilities."
+  }
+}
