@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/reporting",
+  "title": "Reporting",
+  "description": "Bedrock CMMC provides comprehensive reporting capabilities to communicate compliance status to stakeholders, auditors, and leadership.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/reporting.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/reporting",
+  "permalink": "/bedrock-cmmc/user-guide/reporting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/reporting.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Remediation",
+    "permalink": "/bedrock-cmmc/user-guide/remediation"
+  },
+  "next": {
+    "title": "Scheduled Assessments",
+    "permalink": "/bedrock-cmmc/user-guide/scheduled-assessments"
+  }
+}

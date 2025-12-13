@@ -1,0 +1,201 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/bedrock-cmmc",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/bedrock-cmmc",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "getting-started/initial-configuration",
+              "path": "/bedrock-cmmc/getting-started/initial-configuration",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/bedrock-cmmc/getting-started/quick-start",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "installation/installation",
+              "path": "/bedrock-cmmc/installation/",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "installation/integrations",
+              "path": "/bedrock-cmmc/installation/integrations",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/bedrock-cmmc/intro",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/assessments",
+              "path": "/bedrock-cmmc/user-guide/assessments",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/dashboard-overview",
+              "path": "/bedrock-cmmc/user-guide/dashboard-overview",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/notifications",
+              "path": "/bedrock-cmmc/user-guide/notifications",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/remediation",
+              "path": "/bedrock-cmmc/user-guide/remediation",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/reporting",
+              "path": "/bedrock-cmmc/user-guide/reporting",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/scheduled-assessments",
+              "path": "/bedrock-cmmc/user-guide/scheduled-assessments",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "user-guide/user-management",
+              "path": "/bedrock-cmmc/user-guide/user-management",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "/category/-getting-started",
+              "path": "/bedrock-cmmc/category/-getting-started",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "/category/️-installation",
+              "path": "/bedrock-cmmc/category/️-installation",
+              "sidebar": "bedrockCmmcSidebar"
+            },
+            {
+              "id": "/category/-user-guide",
+              "path": "/bedrock-cmmc/category/-user-guide",
+              "sidebar": "bedrockCmmcSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "bedrockCmmcSidebar": {
+              "link": {
+                "path": "/bedrock-cmmc/intro",
+                "label": "👋 Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "bedrock-ag": {
+      "path": "/bedrock-ag",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/bedrock-ag",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "getting-started/configuration",
+              "path": "/bedrock-ag/getting-started/configuration",
+              "sidebar": "bedrockAgSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/bedrock-ag/getting-started/installation",
+              "sidebar": "bedrockAgSidebar"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/bedrock-ag/getting-started/quick-start",
+              "sidebar": "bedrockAgSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/bedrock-ag/intro",
+              "sidebar": "bedrockAgSidebar"
+            },
+            {
+              "id": "/category/-getting-started",
+              "path": "/bedrock-ag/category/-getting-started",
+              "sidebar": "bedrockAgSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "bedrockAgSidebar": {
+              "link": {
+                "path": "/bedrock-ag/intro",
+                "label": "👋 Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "bedrock-sp": {
+      "path": "/bedrock-sp",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/bedrock-sp",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "getting-started/configuration",
+              "path": "/bedrock-sp/getting-started/configuration",
+              "sidebar": "bedrockSpSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/bedrock-sp/getting-started/installation",
+              "sidebar": "bedrockSpSidebar"
+            },
+            {
+              "id": "getting-started/quick-start",
+              "path": "/bedrock-sp/getting-started/quick-start",
+              "sidebar": "bedrockSpSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/bedrock-sp/intro",
+              "sidebar": "bedrockSpSidebar"
+            },
+            {
+              "id": "/category/-getting-started",
+              "path": "/bedrock-sp/category/-getting-started",
+              "sidebar": "bedrockSpSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "bedrockSpSidebar": {
+              "link": {
+                "path": "/bedrock-sp/intro",
+                "label": "👋 Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "user-guide/user-management",
+  "title": "User Management",
+  "description": "Manage users, roles, and permissions within Bedrock CMMC to ensure appropriate access control.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/user-management.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/user-management",
+  "permalink": "/bedrock-cmmc/user-guide/user-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/user-management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Scheduled Assessments",
+    "permalink": "/bedrock-cmmc/user-guide/scheduled-assessments"
+  }
+}

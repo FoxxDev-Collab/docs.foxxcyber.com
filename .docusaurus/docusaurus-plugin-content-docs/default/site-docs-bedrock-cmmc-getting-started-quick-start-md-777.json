@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/quick-start",
+  "title": "Quick Start Guide",
+  "description": "Get started with Bedrock CMMC in just a few minutes. This guide will walk you through the essential steps to begin your CMMC compliance journey.",
+  "source": "@site/docs/bedrock-cmmc/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/bedrock-cmmc/getting-started/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/getting-started/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "🚀 Getting Started",
+    "permalink": "/bedrock-cmmc/category/-getting-started"
+  },
+  "next": {
+    "title": "Initial Configuration",
+    "permalink": "/bedrock-cmmc/getting-started/initial-configuration"
+  }
+}

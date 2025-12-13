@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Welcome to Bedrock AG",
+  "description": "Bedrock AG (Autonomous Governance) is an advanced AI-powered cybersecurity governance platform that automates compliance monitoring, risk management, and policy enforcement across your enterprise.",
+  "source": "@site/docs/bedrock-ag/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/bedrock-ag/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-ag/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/intro"
+  },
+  "sidebar": "bedrockAgSidebar",
+  "next": {
+    "title": "🚀 Getting Started",
+    "permalink": "/bedrock-ag/category/-getting-started"
+  }
+}

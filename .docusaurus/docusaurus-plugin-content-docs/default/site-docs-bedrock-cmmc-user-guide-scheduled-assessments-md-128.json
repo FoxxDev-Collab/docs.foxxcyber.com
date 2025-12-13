@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/scheduled-assessments",
+  "title": "Scheduled Assessments",
+  "description": "Automate your compliance monitoring with scheduled assessments that run at regular intervals.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/scheduled-assessments.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/scheduled-assessments",
+  "permalink": "/bedrock-cmmc/user-guide/scheduled-assessments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/scheduled-assessments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Reporting",
+    "permalink": "/bedrock-cmmc/user-guide/reporting"
+  },
+  "next": {
+    "title": "User Management",
+    "permalink": "/bedrock-cmmc/user-guide/user-management"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "getting-started/installation",
+  "title": "Installation",
+  "description": "Bedrock SP documentation is currently under development. Check back soon for comprehensive installation guides.",
+  "source": "@site/docs/bedrock-sp/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation",
+  "permalink": "/bedrock-sp/getting-started/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-sp/getting-started/installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockSpSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/bedrock-sp/getting-started/configuration"
+  },
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/bedrock-sp/getting-started/quick-start"
+  }
+}

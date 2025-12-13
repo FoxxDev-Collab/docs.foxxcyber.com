@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Welcome to Bedrock CMMC",
+  "description": "Bedrock CMMC is a comprehensive cybersecurity maturity model certification (CMMC) compliance platform designed to help organizations achieve and maintain CMMC compliance efficiently and effectively.",
+  "source": "@site/docs/bedrock-cmmc/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/bedrock-cmmc/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/intro"
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "next": {
+    "title": "🚀 Getting Started",
+    "permalink": "/bedrock-cmmc/category/-getting-started"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "getting-started/installation",
+  "title": "Installation",
+  "description": "Bedrock AG documentation is currently under development. Check back soon for comprehensive installation guides.",
+  "source": "@site/docs/bedrock-ag/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation",
+  "permalink": "/bedrock-ag/getting-started/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-ag/getting-started/installation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockAgSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/bedrock-ag/getting-started/configuration"
+  },
+  "next": {
+    "title": "Quick Start",
+    "permalink": "/bedrock-ag/getting-started/quick-start"
+  }
+}

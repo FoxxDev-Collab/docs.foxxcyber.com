@@ -1,0 +1,27 @@
+{
+  "id": "getting-started/initial-configuration",
+  "title": "Initial Configuration",
+  "description": "After completing the Quick Start, configure Bedrock CMMC to match your organization's specific requirements and compliance goals.",
+  "source": "@site/docs/bedrock-cmmc/getting-started/initial-configuration.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/initial-configuration",
+  "permalink": "/bedrock-cmmc/getting-started/initial-configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/getting-started/initial-configuration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Quick Start Guide",
+    "permalink": "/bedrock-cmmc/getting-started/quick-start"
+  },
+  "next": {
+    "title": "⚙️ Installation",
+    "permalink": "/bedrock-cmmc/category/️-installation"
+  }
+}

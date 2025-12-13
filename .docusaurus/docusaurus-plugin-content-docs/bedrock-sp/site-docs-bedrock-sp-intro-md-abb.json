@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "title": "Welcome to Bedrock SP",
+  "description": "Bedrock SP (Security Platform) is a comprehensive, enterprise-grade security operations platform that unifies threat detection, incident response, and security orchestration in a single integrated solution.",
+  "source": "@site/docs/bedrock-sp/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/bedrock-sp/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-sp/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/intro"
+  },
+  "sidebar": "bedrockSpSidebar",
+  "next": {
+    "title": "🚀 Getting Started",
+    "permalink": "/bedrock-sp/category/-getting-started"
+  }
+}

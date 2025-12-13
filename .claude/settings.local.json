@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(npm run build:*)",
-      "Bash(npm run clear:*)"
+      "Bash(npm run clear:*)",
+      "Bash(dir:*)"
     ]
   }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "getting-started/quick-start",
+  "title": "Quick Start",
+  "description": "Bedrock AG documentation is currently under development. Check back soon for quick start guides.",
+  "source": "@site/docs/bedrock-ag/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/bedrock-ag/getting-started/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-ag/getting-started/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockAgSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/bedrock-ag/getting-started/installation"
+  }
+}

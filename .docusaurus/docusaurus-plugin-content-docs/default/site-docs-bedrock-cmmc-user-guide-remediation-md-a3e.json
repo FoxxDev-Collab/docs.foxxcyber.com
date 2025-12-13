@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/remediation",
+  "title": "Remediation",
+  "description": "The Remediation module helps you address compliance gaps identified during assessments and track progress toward full CMMC compliance.",
+  "source": "@site/docs/bedrock-cmmc/user-guide/remediation.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/remediation",
+  "permalink": "/bedrock-cmmc/user-guide/remediation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc/user-guide/remediation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcSidebar",
+  "previous": {
+    "title": "Notifications",
+    "permalink": "/bedrock-cmmc/user-guide/notifications"
+  },
+  "next": {
+    "title": "Reporting",
+    "permalink": "/bedrock-cmmc/user-guide/reporting"
+  }
+}
