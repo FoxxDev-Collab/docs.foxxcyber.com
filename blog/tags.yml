@@ -1,19 +1,29 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+release:
+  label: Release
+  permalink: /release
+  description: Product releases and version updates
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+bedrock-cmmc:
+  label: Bedrock CMMC
+  permalink: /bedrock-cmmc
+  description: Bedrock CMMC product updates
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+bedrock-ag:
+  label: Bedrock AG
+  permalink: /bedrock-ag
+  description: Bedrock AG product updates
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+bedrock-sp:
+  label: Bedrock SP
+  permalink: /bedrock-sp
+  description: Bedrock SP product updates
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Company and product announcements
+
+beta:
+  label: Beta
+  permalink: /beta
+  description: Beta program updates
