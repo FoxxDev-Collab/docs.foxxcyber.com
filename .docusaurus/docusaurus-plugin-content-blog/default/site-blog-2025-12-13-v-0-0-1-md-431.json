@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/v0.0.1",
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/blog/2025-12-13-v0.0.1.md",
+  "source": "@site/blog/2025-12-13-v0.0.1.md",
+  "title": "Bedrock CMMC v0.0.1 - Initial Release",
+  "description": "We're excited to announce the initial release of Bedrock CMMC, our comprehensive compliance management platform designed to help organizations achieve and maintain CMMC certification.",
+  "date": "2025-12-13T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Release",
+      "permalink": "/blog/tags/release",
+      "description": "Product releases and version updates"
+    },
+    {
+      "inline": false,
+      "label": "Bedrock CMMC",
+      "permalink": "/blog/tags/bedrock-cmmc",
+      "description": "Bedrock CMMC product updates"
+    }
+  ],
+  "readingTime": 0.91,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Foxx Cyber Team",
+      "title": "Product Team",
+      "url": "https://foxxcyber.com",
+      "imageURL": "/img/foxx-cyber-logo.png",
+      "key": "foxxcyber",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "v0.0.1",
+    "title": "Bedrock CMMC v0.0.1 - Initial Release",
+    "authors": [
+      "foxxcyber"
+    ],
+    "tags": [
+      "release",
+      "bedrock-cmmc"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Bedrock CMMC Public Beta Coming January 2026",
+    "permalink": "/blog/beta-announcement"
+  }
+}

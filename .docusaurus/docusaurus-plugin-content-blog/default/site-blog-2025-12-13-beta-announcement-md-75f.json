@@ -1,0 +1,57 @@
+{
+  "permalink": "/blog/beta-announcement",
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/blog/2025-12-13-beta-announcement.md",
+  "source": "@site/blog/2025-12-13-beta-announcement.md",
+  "title": "Bedrock CMMC Public Beta Coming January 2026",
+  "description": "Mark your calendars - Bedrock CMMC is entering public beta in January 2026.",
+  "date": "2025-12-13T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Announcement",
+      "permalink": "/blog/tags/announcement",
+      "description": "Company and product announcements"
+    },
+    {
+      "inline": false,
+      "label": "Beta",
+      "permalink": "/blog/tags/beta",
+      "description": "Beta program updates"
+    },
+    {
+      "inline": false,
+      "label": "Bedrock CMMC",
+      "permalink": "/blog/tags/bedrock-cmmc",
+      "description": "Bedrock CMMC product updates"
+    }
+  ],
+  "readingTime": 0.8,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Foxx Cyber Team",
+      "title": "Product Team",
+      "url": "https://foxxcyber.com",
+      "imageURL": "/img/foxx-cyber-logo.png",
+      "key": "foxxcyber",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "beta-announcement",
+    "title": "Bedrock CMMC Public Beta Coming January 2026",
+    "authors": [
+      "foxxcyber"
+    ],
+    "tags": [
+      "announcement",
+      "beta",
+      "bedrock-cmmc"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Bedrock CMMC v0.0.1 - Initial Release",
+    "permalink": "/blog/v0.0.1"
+  }
+}

@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '81c'),
+    component: ComponentCreator('/blog', '350'),
     exact: true
   },
   {
@@ -19,7 +19,7 @@ export default [
   },
   {
     path: '/blog/beta-announcement',
-    component: ComponentCreator('/blog/beta-announcement', 'f16'),
+    component: ComponentCreator('/blog/beta-announcement', '5a7'),
     exact: true
   },
   {
@@ -29,27 +29,27 @@ export default [
   },
   {
     path: '/blog/tags/announcement',
-    component: ComponentCreator('/blog/tags/announcement', '348'),
+    component: ComponentCreator('/blog/tags/announcement', '812'),
     exact: true
   },
   {
     path: '/blog/tags/bedrock-cmmc',
-    component: ComponentCreator('/blog/tags/bedrock-cmmc', '309'),
+    component: ComponentCreator('/blog/tags/bedrock-cmmc', '718'),
     exact: true
   },
   {
     path: '/blog/tags/beta',
-    component: ComponentCreator('/blog/tags/beta', 'ace'),
+    component: ComponentCreator('/blog/tags/beta', '1af'),
     exact: true
   },
   {
     path: '/blog/tags/release',
-    component: ComponentCreator('/blog/tags/release', '15b'),
+    component: ComponentCreator('/blog/tags/release', '615'),
     exact: true
   },
   {
     path: '/blog/v0.0.1',
-    component: ComponentCreator('/blog/v0.0.1', 'c25'),
+    component: ComponentCreator('/blog/v0.0.1', '2f6'),
     exact: true
   },
   {

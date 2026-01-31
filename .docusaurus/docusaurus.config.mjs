@@ -229,7 +229,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Foxx Cyber LLC. All rights reserved."
+      "copyright": "Copyright © 2026 Foxx Cyber LLC. All rights reserved."
     },
     "prism": {
       "theme": {
