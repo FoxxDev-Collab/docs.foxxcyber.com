@@ -120,21 +120,10 @@ Once accepted, the customer is notified and the engagement status changes to **A
 
 ---
 
-## Engagement Access Levels
-
-Your access to customer data changes based on engagement status:
-
-| Access Level | Statuses | What You Can Do |
-|-------------|----------|-----------------|
-| **No Access** | Introduced, Acknowledged, Cancelled | View basic engagement info only |
-| **Read Only** | Requested, Pending, Accepted | View customer data (controls, evidence, SSP) |
-| **Full Assess** | In Progress, Completed | Full assessment capabilities — record findings, generate reports |
-
----
-
 ## Assigning a Lead Assessor
 
 After accepting an engagement, assign a lead assessor from your team.
+- Click on the "Team" tab under in next to the other "POA&Ms" tab and "Details" tab.
 
 {/* <!-- SCREENSHOT: c3pao-assign-lead — The team assignment dialog/dropdown for selecting a lead assessor on an engagement --> */}
 <ThemedImage
