@@ -157,15 +157,6 @@ When multiple assessors are working on the same engagement, the platform provide
 - **Version Control** — Findings are version-tracked to prevent overwrites
 - **Conflict Alerts** — If someone else saved changes to a finding you're editing, you'll be notified before your save
 
-{/* <!-- SCREENSHOT: c3pao-editing-indicator — The editing indicator showing another assessor's name and "Currently editing" on a control --> */}
-<ThemedImage
-  alt="Editing Indicator"
-  sources={{
-    light: '/img/screenshots/c3pao/editing-indicator-light.png',
-    dark: '/img/screenshots/c3pao/editing-indicator-dark.png',
-  }}
-/>
-
 ---
 
 ## Recording the Final Result
