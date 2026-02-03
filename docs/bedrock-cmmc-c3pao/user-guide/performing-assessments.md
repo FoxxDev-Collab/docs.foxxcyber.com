@@ -24,15 +24,7 @@ When you start an assessment:
 - Assessment start date is recorded
 - Your access level upgrades to **Full Assess** (you can now record findings)
 - An assessment mode indicator appears on the engagement
-
-{/* <!-- SCREENSHOT: c3pao-assessment-mode-indicator — The assessment mode indicator banner showing "Assessment In Progress" with start date --> */}
-<ThemedImage
-  alt="Assessment Mode Indicator"
-  sources={{
-    light: '/img/screenshots/c3pao/assessment-mode-indicator-light.png',
-    dark: '/img/screenshots/c3pao/assessment-mode-indicator-dark.png',
-  }}
-/>
+- Only a Lead Assessor can "Submit for Approval" to complete the assessment
 
 ---
 
@@ -63,14 +55,6 @@ The top of the engagement detail displays key metrics at a glance:
 | **Evidence Files** | Total uploaded compliance documents |
 | **POA&Ms** | Active remediation items |
 
-{/* <!-- SCREENSHOT: c3pao-engagement-stats — Close-up of the overview statistics bar/cards at the top of the engagement detail --> */}
-<ThemedImage
-  alt="Engagement Statistics"
-  sources={{
-    light: '/img/screenshots/c3pao/engagement-stats-light.png',
-    dark: '/img/screenshots/c3pao/engagement-stats-dark.png',
-  }}
-/>
 
 ### Assessment Tabs
 

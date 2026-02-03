@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Subtle border for documentation images */
+article img {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+[data-theme='dark'] article img {
+  border-color: rgba(255, 255, 255, 0.15);
+}
