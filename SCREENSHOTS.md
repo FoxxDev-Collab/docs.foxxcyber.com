@@ -3,6 +3,10 @@
 All screenshots should be saved to `/img/screenshots/c3pao/` as PNG files.
 Recommended dimensions: 1200px wide, retina (2x) preferred.
 
+**Important: Each screenshot needs BOTH a light and dark mode version.**
+Use the naming convention: `{name}-light.png` and `{name}-dark.png`
+Example: `login-light.png` and `login-dark.png`
+
 ---
 
 ## Getting Started (7 screenshots)
@@ -10,7 +14,7 @@ Recommended dimensions: 1200px wide, retina (2x) preferred.
 | # | Filename | Page/Location | What to Capture |
 |---|----------|---------------|-----------------|
 | 1 | `login.png` | `/c3pao/login` | Full login page with email/password fields and sign-in button |
-| 2 | `nav-sidebar.png` | Any authenticated page | Full sidebar navigation showing all menu items: Dashboard, Engagements, Team, Workload, Profile |
+| 2 | `nav-bar.png` | Any authenticated page | Top navigation bar showing all menu items: Dashboard, Engagements, Team, Workload, Profile |
 | 3 | `dashboard.png` | `/c3pao` (dashboard) | Full dashboard view — metric cards, alert banner, recent engagements list |
 | 4 | `dashboard-metrics.png` | `/c3pao` (dashboard) | Close-up of the four metric cards (New Requests, In Progress, Total Active, Completed) |
 | 5 | `new-request-alert.png` | `/c3pao` (dashboard) | The alert banner showing new assessment requests with action button |

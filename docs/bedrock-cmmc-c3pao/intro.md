@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import ThemedImage from '@theme/ThemedImage';
+
 # Welcome to Bedrock CMMC C3PAO
 
 Welcome to the Bedrock CMMC C3PAO Assessor Guide. This documentation provides comprehensive guidance for C3PAO assessors using the Bedrock CMMC platform to conduct CMMC assessments.
@@ -37,7 +39,13 @@ The C3PAO dashboard provides quick access to:
 - Recent activity and notifications
 - Quick navigation to key features
 
-![Screenshot: C3PAO Dashboard](/img/screenshots/c3pao/dashboard.png)
+<ThemedImage
+  alt="C3PAO Dashboard"
+  sources={{
+    light: '/img/screenshots/c3pao/c3pao-dashboard-light.png',
+    dark: '/img/screenshots/c3pao/c3pao-dashboard-dark.png',
+  }}
+/>
 
 ## Key Features
 

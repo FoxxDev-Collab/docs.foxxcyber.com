@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Reviewing Evidence
 
 The Evidence tab displays all compliance documentation the customer has uploaded to support their control implementations. Thorough evidence review is critical to a sound assessment.
@@ -7,7 +9,13 @@ The Evidence tab displays all compliance documentation the customer has uploaded
 ## Evidence Tab Overview
 
 {/* <!-- SCREENSHOT: c3pao-evidence-tab — The Evidence tab showing the evidence list/table with file names, types, sizes, dates, and linked controls --> */}
-![Evidence Tab](/img/screenshots/c3pao/evidence-tab.png)
+<ThemedImage
+  alt="Evidence Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/evidence-tab-light.png',
+    dark: '/img/screenshots/c3pao/evidence-tab-dark.png',
+  }}
+/>
 
 ---
 
@@ -25,7 +33,13 @@ Each evidence item in the list displays:
 | **Linked Controls** | NIST SP 800-171 requirements this evidence supports |
 
 {/* <!-- SCREENSHOT: c3pao-evidence-list-detail — Close-up of the evidence list showing multiple entries with their metadata and linked control badges --> */}
-![Evidence List Detail](/img/screenshots/c3pao/evidence-list-detail.png)
+<ThemedImage
+  alt="Evidence List Detail"
+  sources={{
+    light: '/img/screenshots/c3pao/evidence-list-detail-light.png',
+    dark: '/img/screenshots/c3pao/evidence-list-detail-dark.png',
+  }}
+/>
 
 ---
 
@@ -37,7 +51,13 @@ Click on any evidence file to open it:
 - **Download** — Save the file to your local system for detailed review
 
 {/* <!-- SCREENSHOT: c3pao-evidence-preview — The evidence preview modal/panel showing an inline document preview with download button --> */}
-![Evidence Preview](/img/screenshots/c3pao/evidence-preview.png)
+<ThemedImage
+  alt="Evidence Preview"
+  sources={{
+    light: '/img/screenshots/c3pao/evidence-preview-light.png',
+    dark: '/img/screenshots/c3pao/evidence-preview-dark.png',
+  }}
+/>
 
 ---
 
@@ -46,7 +66,13 @@ Click on any evidence file to open it:
 Evidence files are linked to specific NIST SP 800-171 controls. This mapping helps you verify that each control has adequate supporting documentation.
 
 {/* <!-- SCREENSHOT: c3pao-evidence-control-links — Evidence item showing its linked control badges/tags (e.g., "3.1.1", "3.1.2") --> */}
-![Evidence Control Links](/img/screenshots/c3pao/evidence-control-links.png)
+<ThemedImage
+  alt="Evidence Control Links"
+  sources={{
+    light: '/img/screenshots/c3pao/evidence-control-links-light.png',
+    dark: '/img/screenshots/c3pao/evidence-control-links-dark.png',
+  }}
+/>
 
 :::tip
 When assessing a control in the [Controls tab](./reviewing-controls), you can see which evidence files are linked to that specific requirement — making it easy to cross-reference during your review.

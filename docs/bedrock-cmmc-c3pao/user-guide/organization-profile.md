@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Organization Profile
 
 Manage your C3PAO organization's profile, marketplace listing, and accreditation credentials. Your profile is visible to customers browsing the C3PAO marketplace.
@@ -6,10 +8,16 @@ Manage your C3PAO organization's profile, marketplace listing, and accreditation
 
 ## Accessing Profile Settings
 
-Navigate to **Profile** from the sidebar to manage your organization's information.
+Navigate to **Profile** from the top navigation bar to manage your organization's information.
 
 {/* <!-- SCREENSHOT: c3pao-profile-page — The full organization profile page showing the profile statistics at top and the tabbed interface (Profile, Marketplace, Credentials) --> */}
-![Organization Profile](/img/screenshots/c3pao/profile-page.png)
+<ThemedImage
+  alt="Organization Profile"
+  sources={{
+    light: '/img/screenshots/c3pao/profile-page-light.png',
+    dark: '/img/screenshots/c3pao/profile-page-dark.png',
+  }}
+/>
 
 ### Profile Statistics
 
@@ -21,7 +29,13 @@ Navigate to **Profile** from the sidebar to manage your organization's informati
 | **Marketplace** | Listing visibility (visible/hidden) |
 
 {/* <!-- SCREENSHOT: c3pao-profile-stats — Close-up of the profile statistics cards --> */}
-![Profile Statistics](/img/screenshots/c3pao/profile-stats.png)
+<ThemedImage
+  alt="Profile Statistics"
+  sources={{
+    light: '/img/screenshots/c3pao/profile-stats-light.png',
+    dark: '/img/screenshots/c3pao/profile-stats-dark.png',
+  }}
+/>
 
 ---
 
@@ -30,7 +44,13 @@ Navigate to **Profile** from the sidebar to manage your organization's informati
 Manage your organization's basic contact information and branding.
 
 {/* <!-- SCREENSHOT: c3pao-profile-tab — The Profile tab showing logo upload, phone, website, address, and description fields --> */}
-![Profile Tab](/img/screenshots/c3pao/profile-tab.png)
+<ThemedImage
+  alt="Profile Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/profile-tab-light.png',
+    dark: '/img/screenshots/c3pao/profile-tab-dark.png',
+  }}
+/>
 
 | Field | Description |
 |-------|-------------|
@@ -50,7 +70,13 @@ Click the camera icon on your logo area to upload a new image.
 - Recommended: Square image, at least 200x200px
 
 {/* <!-- SCREENSHOT: c3pao-logo-upload — The logo upload area showing the camera icon overlay and current logo --> */}
-![Logo Upload](/img/screenshots/c3pao/logo-upload.png)
+<ThemedImage
+  alt="Logo Upload"
+  sources={{
+    light: '/img/screenshots/c3pao/logo-upload-light.png',
+    dark: '/img/screenshots/c3pao/logo-upload-dark.png',
+  }}
+/>
 
 ---
 
@@ -59,7 +85,13 @@ Click the camera icon on your logo area to upload a new image.
 Configure how your organization appears to customers browsing the C3PAO marketplace.
 
 {/* <!-- SCREENSHOT: c3pao-marketplace-tab — The Marketplace tab showing description, services, pricing, timeline, and specialties fields --> */}
-![Marketplace Tab](/img/screenshots/c3pao/marketplace-tab.png)
+<ThemedImage
+  alt="Marketplace Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/marketplace-tab-light.png',
+    dark: '/img/screenshots/c3pao/marketplace-tab-dark.png',
+  }}
+/>
 
 ### Marketplace Fields
 
@@ -87,7 +119,13 @@ Select all industries where your organization has expertise:
 | Cloud | Cloud-native and hybrid environments |
 
 {/* <!-- SCREENSHOT: c3pao-specialties-selector — The specialties multi-select showing available industry options with checkboxes --> */}
-![Specialties Selection](/img/screenshots/c3pao/specialties-selector.png)
+<ThemedImage
+  alt="Specialties Selection"
+  sources={{
+    light: '/img/screenshots/c3pao/specialties-selector-light.png',
+    dark: '/img/screenshots/c3pao/specialties-selector-dark.png',
+  }}
+/>
 
 ---
 
@@ -96,7 +134,13 @@ Select all industries where your organization has expertise:
 View and manage your organization's accreditation information.
 
 {/* <!-- SCREENSHOT: c3pao-credentials-tab — The Credentials tab showing Cyber-AB Accreditation ID, CAGE Code, and authorized CMMC levels --> */}
-![Credentials Tab](/img/screenshots/c3pao/credentials-tab.png)
+<ThemedImage
+  alt="Credentials Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/credentials-tab-light.png',
+    dark: '/img/screenshots/c3pao/credentials-tab-dark.png',
+  }}
+/>
 
 ### Accreditation Information
 
@@ -117,7 +161,13 @@ Select the CMMC levels your organization is authorized to assess:
 | **Level 3** | Expert (additional NIST SP 800-172 requirements) |
 
 {/* <!-- SCREENSHOT: c3pao-authorized-levels — The authorized CMMC levels checkboxes showing Level 1, 2, and 3 options --> */}
-![Authorized Levels](/img/screenshots/c3pao/authorized-levels.png)
+<ThemedImage
+  alt="Authorized Levels"
+  sources={{
+    light: '/img/screenshots/c3pao/authorized-levels-light.png',
+    dark: '/img/screenshots/c3pao/authorized-levels-dark.png',
+  }}
+/>
 
 :::warning
 Accreditation ID and CAGE Code are verified by platform administrators. Contact support at support@bedrockcmmc.com to update these credentials.

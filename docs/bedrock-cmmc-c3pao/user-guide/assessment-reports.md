@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Assessment Reports
 
 The Report tab provides a built-in report editor for creating your formal assessment report. Reports are structured with standard sections and can be auto-populated from your control findings.
@@ -9,7 +11,13 @@ The Report tab provides a built-in report editor for creating your formal assess
 Navigate to the **Report** tab on an active engagement to open the assessment report editor.
 
 {/* <!-- SCREENSHOT: c3pao-report-editor-overview — The full report editor page showing the section navigation on the left and the active section editor on the right --> */}
-![Report Editor](/img/screenshots/c3pao/report-editor.png)
+<ThemedImage
+  alt="Report Editor"
+  sources={{
+    light: '/img/screenshots/c3pao/report-editor-light.png',
+    dark: '/img/screenshots/c3pao/report-editor-dark.png',
+  }}
+/>
 
 ---
 
@@ -25,7 +33,13 @@ Reports progress through a defined lifecycle:
 | **Delivered** | Report has been delivered to the customer | Lead assessor |
 
 {/* <!-- SCREENSHOT: c3pao-report-status-bar — The report status indicator showing current status with progression steps (Draft → In Review → Approved → Delivered) --> */}
-![Report Status](/img/screenshots/c3pao/report-status.png)
+<ThemedImage
+  alt="Report Status"
+  sources={{
+    light: '/img/screenshots/c3pao/report-status-light.png',
+    dark: '/img/screenshots/c3pao/report-status-dark.png',
+  }}
+/>
 
 ---
 
@@ -38,7 +52,13 @@ The report editor organizes content into standard assessment report sections:
 High-level overview of the assessment, key findings, and the overall determination.
 
 {/* <!-- SCREENSHOT: c3pao-report-executive-summary — The executive summary section of the report editor with the rich text editor --> */}
-![Executive Summary](/img/screenshots/c3pao/report-executive-summary.png)
+<ThemedImage
+  alt="Executive Summary"
+  sources={{
+    light: '/img/screenshots/c3pao/report-executive-summary-light.png',
+    dark: '/img/screenshots/c3pao/report-executive-summary-dark.png',
+  }}
+/>
 
 ### Scope
 
@@ -49,7 +69,13 @@ Description of the assessment scope including:
 - Methodologies applied
 
 {/* <!-- SCREENSHOT: c3pao-report-scope — The scope section editor --> */}
-![Report Scope](/img/screenshots/c3pao/report-scope.png)
+<ThemedImage
+  alt="Report Scope"
+  sources={{
+    light: '/img/screenshots/c3pao/report-scope-light.png',
+    dark: '/img/screenshots/c3pao/report-scope-dark.png',
+  }}
+/>
 
 ### Methodology
 
@@ -64,7 +90,13 @@ Documentation of assessment methods used:
 Auto-generated summary of findings organized by control family. This section pulls data from your individual control assessments.
 
 {/* <!-- SCREENSHOT: c3pao-report-findings — The findings summary section showing a table/breakdown of results by control family (e.g., AC: 20 Met, 2 Not Met) --> */}
-![Findings Summary](/img/screenshots/c3pao/report-findings.png)
+<ThemedImage
+  alt="Findings Summary"
+  sources={{
+    light: '/img/screenshots/c3pao/report-findings-light.png',
+    dark: '/img/screenshots/c3pao/report-findings-dark.png',
+  }}
+/>
 
 The findings summary includes:
 - Total controls assessed
@@ -87,7 +119,13 @@ Final assessment conclusion and certification recommendation.
 Click **Generate Report Data** to automatically populate the findings summary and statistics from your recorded control assessments.
 
 {/* <!-- SCREENSHOT: c3pao-report-generate — The "Generate Report Data" button and the resulting auto-populated statistics --> */}
-![Generate Report Data](/img/screenshots/c3pao/report-generate.png)
+<ThemedImage
+  alt="Generate Report Data"
+  sources={{
+    light: '/img/screenshots/c3pao/report-generate-light.png',
+    dark: '/img/screenshots/c3pao/report-generate-dark.png',
+  }}
+/>
 
 :::tip
 Generate the report data after you've completed all control assessments. You can regenerate at any time if findings change.
@@ -103,7 +141,13 @@ Generate the report data after you've completed all control assessments. You can
 - **Mark Delivered** — Record that the report has been delivered to the customer
 
 {/* <!-- SCREENSHOT: c3pao-report-actions — The report action buttons (Save Draft, Submit for Review, Approve, Mark Delivered) --> */}
-![Report Actions](/img/screenshots/c3pao/report-actions.png)
+<ThemedImage
+  alt="Report Actions"
+  sources={{
+    light: '/img/screenshots/c3pao/report-actions-light.png',
+    dark: '/img/screenshots/c3pao/report-actions-dark.png',
+  }}
+/>
 
 ---
 

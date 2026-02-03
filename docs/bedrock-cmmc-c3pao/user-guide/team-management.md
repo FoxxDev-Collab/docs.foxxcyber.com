@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Team Management
 
 Manage your C3PAO organization's assessors, track credentials, assign team members to engagements, and monitor workload distribution.
@@ -6,10 +8,16 @@ Manage your C3PAO organization's assessors, track credentials, assign team membe
 
 ## Team Page
 
-Navigate to **Team** from the sidebar to view and manage your organization's assessors.
+Navigate to **Team** from the top navigation bar to view and manage your organization's assessors.
 
 {/* <!-- SCREENSHOT: c3pao-team-page — The full team management page showing team statistics at the top and the team member table below --> */}
-![Team Page](/img/screenshots/c3pao/team-page.png)
+<ThemedImage
+  alt="Team Page"
+  sources={{
+    light: '/img/screenshots/c3pao/team-page-light.png',
+    dark: '/img/screenshots/c3pao/team-page-dark.png',
+  }}
+/>
 
 ### Team Statistics
 
@@ -21,7 +29,13 @@ Navigate to **Team** from the sidebar to view and manage your organization's ass
 | **Total Engagements** | Combined engagement assignments across the team |
 
 {/* <!-- SCREENSHOT: c3pao-team-stats — Close-up of the team statistics cards at the top of the page --> */}
-![Team Statistics](/img/screenshots/c3pao/team-stats.png)
+<ThemedImage
+  alt="Team Statistics"
+  sources={{
+    light: '/img/screenshots/c3pao/team-stats-light.png',
+    dark: '/img/screenshots/c3pao/team-stats-dark.png',
+  }}
+/>
 
 ---
 
@@ -40,7 +54,13 @@ The table displays all team members with key information:
 | **Last Active** | Most recent platform login |
 
 {/* <!-- SCREENSHOT: c3pao-team-table — The team member table showing several members with all columns visible --> */}
-![Team Table](/img/screenshots/c3pao/team-table.png)
+<ThemedImage
+  alt="Team Table"
+  sources={{
+    light: '/img/screenshots/c3pao/team-table-light.png',
+    dark: '/img/screenshots/c3pao/team-table-dark.png',
+  }}
+/>
 
 ---
 
@@ -49,7 +69,13 @@ The table displays all team members with key information:
 Click **Add Team Member** to invite a new assessor to your organization.
 
 {/* <!-- SCREENSHOT: c3pao-add-member-dialog — The Add Team Member dialog with all fields: name, email, job title, CCA/CCP numbers, lead assessor toggle --> */}
-![Add Team Member](/img/screenshots/c3pao/add-member-dialog.png)
+<ThemedImage
+  alt="Add Team Member"
+  sources={{
+    light: '/img/screenshots/c3pao/add-member-dialog-light.png',
+    dark: '/img/screenshots/c3pao/add-member-dialog-dark.png',
+  }}
+/>
 
 ### Required Information
 
@@ -78,7 +104,13 @@ Only **Lead Assessors** can add or edit team members.
 Click the **Edit** icon on any team member row to modify their details.
 
 {/* <!-- SCREENSHOT: c3pao-edit-member-dialog — The Edit Team Member dialog showing pre-filled fields with save/cancel buttons --> */}
-![Edit Team Member](/img/screenshots/c3pao/edit-member-dialog.png)
+<ThemedImage
+  alt="Edit Team Member"
+  sources={{
+    light: '/img/screenshots/c3pao/edit-member-dialog-light.png',
+    dark: '/img/screenshots/c3pao/edit-member-dialog-dark.png',
+  }}
+/>
 
 You can update:
 - Name and contact information
@@ -91,10 +123,16 @@ You can update:
 
 ## Workload Dashboard
 
-Navigate to **Workload** from the sidebar to view assessment distribution across your team.
+Navigate to **Workload** from the top navigation bar to view assessment distribution across your team.
 
 {/* <!-- SCREENSHOT: c3pao-workload-dashboard — The full workload dashboard showing team member workload visualization, engagement distribution, and concurrent assessment counts --> */}
-![Workload Dashboard](/img/screenshots/c3pao/workload-dashboard.png)
+<ThemedImage
+  alt="Workload Dashboard"
+  sources={{
+    light: '/img/screenshots/c3pao/workload-dashboard-light.png',
+    dark: '/img/screenshots/c3pao/workload-dashboard-dark.png',
+  }}
+/>
 
 The workload dashboard helps you:
 
@@ -104,7 +142,13 @@ The workload dashboard helps you:
 - **Balance workload** — Ensure no single assessor is overloaded
 
 {/* <!-- SCREENSHOT: c3pao-workload-chart — The workload visualization chart/graph showing assessment distribution per team member --> */}
-![Workload Chart](/img/screenshots/c3pao/workload-chart.png)
+<ThemedImage
+  alt="Workload Chart"
+  sources={{
+    light: '/img/screenshots/c3pao/workload-chart-light.png',
+    dark: '/img/screenshots/c3pao/workload-chart-dark.png',
+  }}
+/>
 
 ### Workload Metrics
 
@@ -121,7 +165,13 @@ The workload dashboard helps you:
 Assign team members to specific engagements from either the engagement detail page or the team management page.
 
 {/* <!-- SCREENSHOT: c3pao-team-assignment-dialog — The team assignment dialog showing the list of team members with checkboxes and the lead assessor selector --> */}
-![Team Assignment](/img/screenshots/c3pao/team-assignment-dialog.png)
+<ThemedImage
+  alt="Team Assignment"
+  sources={{
+    light: '/img/screenshots/c3pao/team-assignment-dialog-light.png',
+    dark: '/img/screenshots/c3pao/team-assignment-dialog-dark.png',
+  }}
+/>
 
 ### Assigning a Lead Assessor
 

@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Reviewing Documents
 
 The Documents tab provides access to the customer's System Security Plan (SSP), asset inventory, and external service provider (ESP) information. These documents are read-only during the assessment — they represent the customer's compliance posture as submitted.
@@ -7,7 +9,13 @@ The Documents tab provides access to the customer's System Security Plan (SSP), 
 ## Documents Tab Overview
 
 {/* <!-- SCREENSHOT: c3pao-documents-tab — The Documents tab showing the main document categories (SSP, Assets, ESPs) with summary info --> */}
-![Documents Tab](/img/screenshots/c3pao/documents-tab.png)
+<ThemedImage
+  alt="Documents Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/documents-tab-light.png',
+    dark: '/img/screenshots/c3pao/documents-tab-dark.png',
+  }}
+/>
 
 ---
 
@@ -16,7 +24,13 @@ The Documents tab provides access to the customer's System Security Plan (SSP), 
 The SSP is the cornerstone document of the customer's compliance package. It describes the system boundary, architecture, and how each control is implemented.
 
 {/* <!-- SCREENSHOT: c3pao-ssp-overview — The SSP review page showing the main sections/tabs of the SSP --> */}
-![SSP Overview](/img/screenshots/c3pao/ssp-overview.png)
+<ThemedImage
+  alt="SSP Overview"
+  sources={{
+    light: '/img/screenshots/c3pao/ssp-overview-light.png',
+    dark: '/img/screenshots/c3pao/ssp-overview-dark.png',
+  }}
+/>
 
 ### SSP Sections
 
@@ -33,10 +47,22 @@ The SSP is organized into the following sections:
 | **Contact Information** | Key personnel contact details |
 
 {/* <!-- SCREENSHOT: c3pao-ssp-system-info — The System Identification section of the SSP showing system name, description, and boundary details --> */}
-![SSP System Information](/img/screenshots/c3pao/ssp-system-info.png)
+<ThemedImage
+  alt="SSP System Information"
+  sources={{
+    light: '/img/screenshots/c3pao/ssp-system-info-light.png',
+    dark: '/img/screenshots/c3pao/ssp-system-info-dark.png',
+  }}
+/>
 
 {/* <!-- SCREENSHOT: c3pao-ssp-network — The Network & Interconnections section showing network diagram or connection details --> */}
-![SSP Network Information](/img/screenshots/c3pao/ssp-network.png)
+<ThemedImage
+  alt="SSP Network Information"
+  sources={{
+    light: '/img/screenshots/c3pao/ssp-network-light.png',
+    dark: '/img/screenshots/c3pao/ssp-network-dark.png',
+  }}
+/>
 
 ### SSP Review Tips
 
@@ -52,7 +78,13 @@ The SSP is organized into the following sections:
 View the customer's in-scope assets to understand what systems and components are part of the assessment boundary.
 
 {/* <!-- SCREENSHOT: c3pao-asset-inventory — The asset inventory view showing a table of hardware, software, and cloud assets --> */}
-![Asset Inventory](/img/screenshots/c3pao/asset-inventory.png)
+<ThemedImage
+  alt="Asset Inventory"
+  sources={{
+    light: '/img/screenshots/c3pao/asset-inventory-light.png',
+    dark: '/img/screenshots/c3pao/asset-inventory-dark.png',
+  }}
+/>
 
 Asset categories include:
 - Hardware devices
@@ -69,7 +101,13 @@ Review third-party services the customer relies on and their compliance posture.
 ### ESP List
 
 {/* <!-- SCREENSHOT: c3pao-esp-list — The ESP list showing all external service providers with their type, CMMC status, and FedRAMP status --> */}
-![ESP List](/img/screenshots/c3pao/esp-list.png)
+<ThemedImage
+  alt="ESP List"
+  sources={{
+    light: '/img/screenshots/c3pao/esp-list-light.png',
+    dark: '/img/screenshots/c3pao/esp-list-dark.png',
+  }}
+/>
 
 Each ESP entry includes:
 
@@ -86,7 +124,13 @@ Each ESP entry includes:
 Click on any ESP to view its full details, including linked documentation.
 
 {/* <!-- SCREENSHOT: c3pao-esp-detail — The ESP detail page showing provider information, CUI handling, compliance status, and linked documents (SRM, CRM, Provider SSP) --> */}
-![ESP Detail](/img/screenshots/c3pao/esp-detail.png)
+<ThemedImage
+  alt="ESP Detail"
+  sources={{
+    light: '/img/screenshots/c3pao/esp-detail-light.png',
+    dark: '/img/screenshots/c3pao/esp-detail-dark.png',
+  }}
+/>
 
 ESP detail includes:
 - Provider description and contact information

@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Performing Assessments
 
 This guide covers the complete assessment workflow — from starting an assessment through recording the final result. This is the core of the C3PAO experience on the platform.
@@ -9,7 +11,13 @@ This guide covers the complete assessment workflow — from starting an assessme
 From an **Accepted** engagement, click **Start Assessment** to begin the formal review process.
 
 {/* <!-- SCREENSHOT: c3pao-start-assessment-btn — The "Start Assessment" button on an accepted engagement, with the assessment mode indicator --> */}
-![Start Assessment](/img/screenshots/c3pao/start-assessment.png)
+<ThemedImage
+  alt="Start Assessment"
+  sources={{
+    light: '/img/screenshots/c3pao/start-assessment-light.png',
+    dark: '/img/screenshots/c3pao/start-assessment-dark.png',
+  }}
+/>
 
 When you start an assessment:
 - The engagement status changes to **In Progress**
@@ -18,7 +26,13 @@ When you start an assessment:
 - An assessment mode indicator appears on the engagement
 
 {/* <!-- SCREENSHOT: c3pao-assessment-mode-indicator — The assessment mode indicator banner showing "Assessment In Progress" with start date --> */}
-![Assessment Mode Indicator](/img/screenshots/c3pao/assessment-mode-indicator.png)
+<ThemedImage
+  alt="Assessment Mode Indicator"
+  sources={{
+    light: '/img/screenshots/c3pao/assessment-mode-indicator-light.png',
+    dark: '/img/screenshots/c3pao/assessment-mode-indicator-dark.png',
+  }}
+/>
 
 ---
 
@@ -27,7 +41,13 @@ When you start an assessment:
 The engagement detail page is your main workspace during an assessment. It provides tabbed access to all customer compliance data.
 
 {/* <!-- SCREENSHOT: c3pao-engagement-detail-full — Full engagement detail page showing the tab navigation (Controls, Documents, Evidence, STIGs, POA&Ms, Report, Notes) and the overview statistics at the top --> */}
-![Engagement Detail View](/img/screenshots/c3pao/engagement-detail.png)
+<ThemedImage
+  alt="Engagement Detail View"
+  sources={{
+    light: '/img/screenshots/c3pao/engagement-detail-light.png',
+    dark: '/img/screenshots/c3pao/engagement-detail-dark.png',
+  }}
+/>
 
 ### Overview Statistics
 
@@ -44,7 +64,13 @@ The top of the engagement detail displays key metrics at a glance:
 | **POA&Ms** | Active remediation items |
 
 {/* <!-- SCREENSHOT: c3pao-engagement-stats — Close-up of the overview statistics bar/cards at the top of the engagement detail --> */}
-![Engagement Statistics](/img/screenshots/c3pao/engagement-stats.png)
+<ThemedImage
+  alt="Engagement Statistics"
+  sources={{
+    light: '/img/screenshots/c3pao/engagement-stats-light.png',
+    dark: '/img/screenshots/c3pao/engagement-stats-dark.png',
+  }}
+/>
 
 ### Assessment Tabs
 
@@ -115,7 +141,13 @@ Submit your pass/fail determination and finalize the engagement.
 The **Notes** tab allows your team to maintain internal assessment observations throughout the review process.
 
 {/* <!-- SCREENSHOT: c3pao-assessor-notes — The Notes tab showing the text editor area with example notes and the Save button --> */}
-![Assessor Notes](/img/screenshots/c3pao/assessor-notes.png)
+<ThemedImage
+  alt="Assessor Notes"
+  sources={{
+    light: '/img/screenshots/c3pao/assessor-notes-light.png',
+    dark: '/img/screenshots/c3pao/assessor-notes-dark.png',
+  }}
+/>
 
 :::important
 Notes are **only visible to your C3PAO team** and are never shared with the customer.
@@ -142,7 +174,13 @@ When multiple assessors are working on the same engagement, the platform provide
 - **Conflict Alerts** — If someone else saved changes to a finding you're editing, you'll be notified before your save
 
 {/* <!-- SCREENSHOT: c3pao-editing-indicator — The editing indicator showing another assessor's name and "Currently editing" on a control --> */}
-![Editing Indicator](/img/screenshots/c3pao/editing-indicator.png)
+<ThemedImage
+  alt="Editing Indicator"
+  sources={{
+    light: '/img/screenshots/c3pao/editing-indicator-light.png',
+    dark: '/img/screenshots/c3pao/editing-indicator-dark.png',
+  }}
+/>
 
 ---
 
@@ -153,7 +191,13 @@ When your review is complete and your report is finalized, record the assessment
 ### Step 1: Click Record Result
 
 {/* <!-- SCREENSHOT: c3pao-record-result-btn — The "Record Result" button on the engagement detail page --> */}
-![Record Result Button](/img/screenshots/c3pao/record-result-btn.png)
+<ThemedImage
+  alt="Record Result Button"
+  sources={{
+    light: '/img/screenshots/c3pao/record-result-btn-light.png',
+    dark: '/img/screenshots/c3pao/record-result-btn-dark.png',
+  }}
+/>
 
 ### Step 2: Select the Outcome
 
@@ -165,7 +209,13 @@ Choose the assessment determination:
 | **Failed — Remediation Required** | Significant gaps prevent certification |
 
 {/* <!-- SCREENSHOT: c3pao-result-dialog — The result selection dialog showing Passed/Failed options with findings text area --> */}
-![Result Selection Dialog](/img/screenshots/c3pao/result-dialog.png)
+<ThemedImage
+  alt="Result Selection Dialog"
+  sources={{
+    light: '/img/screenshots/c3pao/result-dialog-light.png',
+    dark: '/img/screenshots/c3pao/result-dialog-dark.png',
+  }}
+/>
 
 ### Step 3: Document Findings
 
@@ -176,7 +226,13 @@ Enter any final findings, conditions, or notes about the determination.
 Click **Record Result** to finalize. The engagement status changes to **Completed** and the customer is notified.
 
 {/* <!-- SCREENSHOT: c3pao-completed-banner — The completed assessment banner showing the result (Passed or Failed) with date --> */}
-![Completed Assessment](/img/screenshots/c3pao/completed-banner.png)
+<ThemedImage
+  alt="Completed Assessment"
+  sources={{
+    light: '/img/screenshots/c3pao/completed-banner-light.png',
+    dark: '/img/screenshots/c3pao/completed-banner-dark.png',
+  }}
+/>
 
 :::warning
 Recording a result is a final action. Ensure your review is thorough and your report is complete before submitting.

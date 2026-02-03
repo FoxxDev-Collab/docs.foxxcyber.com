@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Managing Engagements
 
 Engagements represent assessment relationships between your C3PAO organization and customers seeking CMMC certification. This guide covers how to view, filter, and manage all your engagements.
@@ -6,10 +8,16 @@ Engagements represent assessment relationships between your C3PAO organization a
 
 ## Viewing All Engagements
 
-Navigate to **Engagements** from the sidebar to see all customer assessment requests in one place.
+Navigate to **Engagements** from the top navigation bar to see all customer assessment requests in one place.
 
 {/* <!-- SCREENSHOT: c3pao-engagements-list — Full engagements list page showing the table with org names, package names, status badges, CMMC levels, and dates --> */}
-![Engagements List](/img/screenshots/c3pao/engagements-list.png)
+<ThemedImage
+  alt="Engagements List"
+  sources={{
+    light: '/img/screenshots/c3pao/engagements-list-light.png',
+    dark: '/img/screenshots/c3pao/engagements-list-dark.png',
+  }}
+/>
 
 Each engagement row displays:
 
@@ -29,7 +37,13 @@ Each engagement row displays:
 Use the filter controls at the top of the engagements list to find specific engagements.
 
 {/* <!-- SCREENSHOT: c3pao-engagement-filters — The filter bar showing search input, status dropdown, and any other filter options --> */}
-![Engagement Filters](/img/screenshots/c3pao/engagement-filters.png)
+<ThemedImage
+  alt="Engagement Filters"
+  sources={{
+    light: '/img/screenshots/c3pao/engagement-filters-light.png',
+    dark: '/img/screenshots/c3pao/engagement-filters-dark.png',
+  }}
+/>
 
 - **Search** — Filter by organization name or package name
 - **Status Filter** — Show only engagements with a specific status
@@ -60,7 +74,13 @@ Engagements progress through the following statuses:
 Click on a **Requested** engagement to open the detail view. Before you have full access, you'll see a limited view with key information about the request.
 
 {/* <!-- SCREENSHOT: c3pao-limited-engagement — The limited/pre-access engagement view showing org info, package details, and readiness indicators --> */}
-![Limited Engagement View](/img/screenshots/c3pao/limited-engagement.png)
+<ThemedImage
+  alt="Limited Engagement View"
+  sources={{
+    light: '/img/screenshots/c3pao/limited-engagement-light.png',
+    dark: '/img/screenshots/c3pao/limited-engagement-dark.png',
+  }}
+/>
 
 Review the following before accepting:
 
@@ -86,7 +106,13 @@ Assess the customer's preparation level:
 Click **Accept Request** to proceed, or decline if the engagement isn't a good fit.
 
 {/* <!-- SCREENSHOT: c3pao-accept-decline — The accept/decline buttons on the engagement request view --> */}
-![Accept or Decline](/img/screenshots/c3pao/accept-decline.png)
+<ThemedImage
+  alt="Accept or Decline"
+  sources={{
+    light: '/img/screenshots/c3pao/accept-decline-light.png',
+    dark: '/img/screenshots/c3pao/accept-decline-dark.png',
+  }}
+/>
 
 :::note
 Once accepted, the customer is notified and the engagement status changes to **Accepted**. You can then assign a lead assessor and start the assessment when ready.
@@ -111,7 +137,13 @@ Your access to customer data changes based on engagement status:
 After accepting an engagement, assign a lead assessor from your team.
 
 {/* <!-- SCREENSHOT: c3pao-assign-lead — The team assignment dialog/dropdown for selecting a lead assessor on an engagement --> */}
-![Assign Lead Assessor](/img/screenshots/c3pao/assign-lead.png)
+<ThemedImage
+  alt="Assign Lead Assessor"
+  sources={{
+    light: '/img/screenshots/c3pao/assign-lead-light.png',
+    dark: '/img/screenshots/c3pao/assign-lead-dark.png',
+  }}
+/>
 
 The lead assessor is responsible for:
 - Overseeing the assessment process
@@ -125,7 +157,13 @@ The lead assessor is responsible for:
 You can assign additional team members to support the assessment.
 
 {/* <!-- SCREENSHOT: c3pao-engagement-team-card — The engagement team card showing assigned lead and team members --> */}
-![Engagement Team](/img/screenshots/c3pao/engagement-team-card.png)
+<ThemedImage
+  alt="Engagement Team"
+  sources={{
+    light: '/img/screenshots/c3pao/engagement-team-card-light.png',
+    dark: '/img/screenshots/c3pao/engagement-team-card-dark.png',
+  }}
+/>
 
 ---
 

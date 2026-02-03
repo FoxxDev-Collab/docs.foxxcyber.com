@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Reviewing Controls
 
 The Controls tab is where you assess each of the 110 NIST SP 800-171 requirements. This is the core assessment activity — recording determinations, assessment methods, findings, and recommendations for every requirement.
@@ -9,7 +11,13 @@ The Controls tab is where you assess each of the 110 NIST SP 800-171 requirement
 Navigate to the **Controls** tab on any active engagement to see all requirements.
 
 {/* <!-- SCREENSHOT: c3pao-controls-tab-overview — The Controls tab showing the full controls table with columns for ID, title, family, customer status, and assessor determination --> */}
-![Controls Tab](/img/screenshots/c3pao/controls-tab.png)
+<ThemedImage
+  alt="Controls Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/controls-tab-light.png',
+    dark: '/img/screenshots/c3pao/controls-tab-dark.png',
+  }}
+/>
 
 ### Controls Table
 
@@ -31,7 +39,13 @@ Each row in the controls table displays:
 Use the filter controls to focus your review on specific subsets of requirements.
 
 {/* <!-- SCREENSHOT: c3pao-control-filters — The control filter bar showing status filter dropdown, family filter dropdown, and search input --> */}
-![Control Filters](/img/screenshots/c3pao/control-filters.png)
+<ThemedImage
+  alt="Control Filters"
+  sources={{
+    light: '/img/screenshots/c3pao/control-filters-light.png',
+    dark: '/img/screenshots/c3pao/control-filters-dark.png',
+  }}
+/>
 
 | Filter | Options |
 |--------|---------|
@@ -71,7 +85,13 @@ Start your review by filtering to **Not Assessed** to see which controls still n
 Click on any control row to open the full control detail view.
 
 {/* <!-- SCREENSHOT: c3pao-control-detail-page — The full control detail page showing the requirement text, customer implementation, assessment form, and linked evidence --> */}
-![Control Detail Page](/img/screenshots/c3pao/control-detail-page.png)
+<ThemedImage
+  alt="Control Detail Page"
+  sources={{
+    light: '/img/screenshots/c3pao/control-detail-page-light.png',
+    dark: '/img/screenshots/c3pao/control-detail-page-dark.png',
+  }}
+/>
 
 ### Control Information
 
@@ -91,7 +111,13 @@ At the top of the detail view, you'll see the complete requirement information:
 The assessment form allows you to record your findings for each control:
 
 {/* <!-- SCREENSHOT: c3pao-assessment-form — The assessment form showing determination dropdown, assessment methods checkboxes, and findings text areas --> */}
-![Assessment Form](/img/screenshots/c3pao/assessment-form.png)
+<ThemedImage
+  alt="Assessment Form"
+  sources={{
+    light: '/img/screenshots/c3pao/assessment-form-light.png',
+    dark: '/img/screenshots/c3pao/assessment-form-dark.png',
+  }}
+/>
 
 #### Determination
 
@@ -125,14 +151,26 @@ Select all methods used to evaluate this control:
 | **Risk Level** | Severity of any finding: Critical, High, Moderate, Low |
 
 {/* <!-- SCREENSHOT: c3pao-findings-fields — Close-up of the findings text areas (narrative, evidence, deficiencies, recommendations) and risk level selector --> */}
-![Findings Fields](/img/screenshots/c3pao/findings-fields.png)
+<ThemedImage
+  alt="Findings Fields"
+  sources={{
+    light: '/img/screenshots/c3pao/findings-fields-light.png',
+    dark: '/img/screenshots/c3pao/findings-fields-dark.png',
+  }}
+/>
 
 ### Saving Findings
 
 Click **Save Finding** to persist your assessment. The platform uses version control to prevent conflicts when multiple assessors are working simultaneously.
 
 {/* <!-- SCREENSHOT: c3pao-save-finding — The Save Finding button and any success/conflict notification --> */}
-![Save Finding](/img/screenshots/c3pao/save-finding.png)
+<ThemedImage
+  alt="Save Finding"
+  sources={{
+    light: '/img/screenshots/c3pao/save-finding-light.png',
+    dark: '/img/screenshots/c3pao/save-finding-dark.png',
+  }}
+/>
 
 ---
 
@@ -141,7 +179,13 @@ Click **Save Finding** to persist your assessment. The platform uses version con
 Use the navigation controls on the control detail page to move between requirements without returning to the controls list:
 
 {/* <!-- SCREENSHOT: c3pao-control-navigation — The previous/next navigation arrows on the control detail page --> */}
-![Control Navigation](/img/screenshots/c3pao/control-navigation.png)
+<ThemedImage
+  alt="Control Navigation"
+  sources={{
+    light: '/img/screenshots/c3pao/control-navigation-light.png',
+    dark: '/img/screenshots/c3pao/control-navigation-dark.png',
+  }}
+/>
 
 - **Previous/Next arrows** — Move sequentially through controls
 - **Back to Controls** — Return to the filtered controls list
@@ -154,7 +198,13 @@ Use the navigation controls on the control detail page to move between requireme
 In the assessment view, controls are displayed as cards with visual indicators for their assessment status.
 
 {/* <!-- SCREENSHOT: c3pao-control-cards — The assessor control card view showing color-coded cards with status indicators, family badges, and progress --> */}
-![Control Cards](/img/screenshots/c3pao/control-cards.png)
+<ThemedImage
+  alt="Control Cards"
+  sources={{
+    light: '/img/screenshots/c3pao/control-cards-light.png',
+    dark: '/img/screenshots/c3pao/control-cards-dark.png',
+  }}
+/>
 
 Each card shows:
 - Requirement ID and title

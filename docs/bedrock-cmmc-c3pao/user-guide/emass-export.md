@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # eMASS Export
 
 The eMASS Export wizard generates a CMMC-formatted Excel workbook (.xlsx) from your assessment data. This is a 5-step guided process that allows you to review, edit, and validate all data before exporting.
@@ -9,7 +11,13 @@ The eMASS Export wizard generates a CMMC-formatted Excel workbook (.xlsx) from y
 Navigate to the **eMASS Export** option from the engagement detail page.
 
 {/* <!-- SCREENSHOT: c3pao-emass-entry — The eMASS Export link/button on the engagement detail page --> */}
-![eMASS Export Entry](/img/screenshots/c3pao/emass-entry.png)
+<ThemedImage
+  alt="eMASS Export Entry"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-entry-light.png',
+    dark: '/img/screenshots/c3pao/emass-entry-dark.png',
+  }}
+/>
 
 ---
 
@@ -18,7 +26,13 @@ Navigate to the **eMASS Export** option from the engagement detail page.
 The wizard walks you through five sheets that make up the eMASS export package. A progress indicator at the top shows your current step.
 
 {/* <!-- SCREENSHOT: c3pao-emass-wizard-progress — The 5-step progress indicator at the top of the wizard (Assessment, Requirements, Objectives, SSP, Review & Export) --> */}
-![Wizard Progress](/img/screenshots/c3pao/emass-wizard-progress.png)
+<ThemedImage
+  alt="Wizard Progress"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-wizard-progress-light.png',
+    dark: '/img/screenshots/c3pao/emass-wizard-progress-dark.png',
+  }}
+/>
 
 ---
 
@@ -27,7 +41,13 @@ The wizard walks you through five sheets that make up the eMASS export package. 
 Fill in the assessment metadata that goes on the cover sheet of the export.
 
 {/* <!-- SCREENSHOT: c3pao-emass-step1 — The Assessment Sheet form showing all fields: OSC Name, dates, Lead Assessor CPN, Executive Summary, etc. --> */}
-![Assessment Sheet](/img/screenshots/c3pao/emass-step1.png)
+<ThemedImage
+  alt="Assessment Sheet"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-step1-light.png',
+    dark: '/img/screenshots/c3pao/emass-step1-dark.png',
+  }}
+/>
 
 ### Required Fields
 
@@ -61,7 +81,13 @@ Fields marked with an asterisk (*) are required. The wizard will show validation
 Review all 110 NIST SP 800-171 requirements and their assessment determinations.
 
 {/* <!-- SCREENSHOT: c3pao-emass-step2 — The Requirements Sheet showing the table of all 110 requirements with CMMC IDs, descriptions, determinations, and POA&M status --> */}
-![Requirements Sheet](/img/screenshots/c3pao/emass-step2.png)
+<ThemedImage
+  alt="Requirements Sheet"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-step2-light.png',
+    dark: '/img/screenshots/c3pao/emass-step2-dark.png',
+  }}
+/>
 
 ### Summary Statistics
 
@@ -87,7 +113,13 @@ Each row shows:
 | **Current POA&M Status** | Active POA&M status if applicable |
 
 {/* <!-- SCREENSHOT: c3pao-emass-requirements-detail — Close-up of several requirement rows showing the CMMC ID format, determination badges, and POA&M indicators --> */}
-![Requirements Detail](/img/screenshots/c3pao/emass-requirements-detail.png)
+<ThemedImage
+  alt="Requirements Detail"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-requirements-detail-light.png',
+    dark: '/img/screenshots/c3pao/emass-requirements-detail-dark.png',
+  }}
+/>
 
 ---
 
@@ -96,7 +128,13 @@ Each row shows:
 Review all 320 assessment objectives derived from the 110 requirements.
 
 {/* <!-- SCREENSHOT: c3pao-emass-step3 — The Objectives Sheet showing the assessment objectives table with evidence completeness indicators --> */}
-![Objectives Sheet](/img/screenshots/c3pao/emass-step3.png)
+<ThemedImage
+  alt="Objectives Sheet"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-step3-light.png',
+    dark: '/img/screenshots/c3pao/emass-step3-dark.png',
+  }}
+/>
 
 ### Objectives Summary
 
@@ -121,7 +159,13 @@ For each objective, the wizard tracks whether you have:
 Missing evidence types are flagged to help ensure completeness before export.
 
 {/* <!-- SCREENSHOT: c3pao-emass-objectives-evidence — The evidence completeness indicators showing checkmarks and warnings for missing artifacts/notes --> */}
-![Objectives Evidence](/img/screenshots/c3pao/emass-objectives-evidence.png)
+<ThemedImage
+  alt="Objectives Evidence"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-objectives-evidence-light.png',
+    dark: '/img/screenshots/c3pao/emass-objectives-evidence-dark.png',
+  }}
+/>
 
 ---
 
@@ -130,7 +174,13 @@ Missing evidence types are flagged to help ensure completeness before export.
 Review and edit the System Security Plan information included in the export.
 
 {/* <!-- SCREENSHOT: c3pao-emass-step4 — The SSP Sheet form showing SSP Name, Version, and Date fields --> */}
-![SSP Sheet](/img/screenshots/c3pao/emass-step4.png)
+<ThemedImage
+  alt="SSP Sheet"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-step4-light.png',
+    dark: '/img/screenshots/c3pao/emass-step4-dark.png',
+  }}
+/>
 
 | Field | Description |
 |-------|-------------|
@@ -147,7 +197,13 @@ These fields are pre-populated from the customer's SSP data but can be edited be
 The final step provides a comprehensive summary and validation check before downloading.
 
 {/* <!-- SCREENSHOT: c3pao-emass-step5 — The Review & Export page showing the export summary, sheets included checklist, warnings list, and Download button --> */}
-![Review & Export](/img/screenshots/c3pao/emass-step5.png)
+<ThemedImage
+  alt="Review & Export"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-step5-light.png',
+    dark: '/img/screenshots/c3pao/emass-step5-dark.png',
+  }}
+/>
 
 ### Export Summary
 
@@ -166,7 +222,13 @@ The wizard provides informational warnings for:
 - Incomplete assessment methods
 
 {/* <!-- SCREENSHOT: c3pao-emass-warnings — The warnings section showing informational alerts about missing data --> */}
-![Export Warnings](/img/screenshots/c3pao/emass-warnings.png)
+<ThemedImage
+  alt="Export Warnings"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-warnings-light.png',
+    dark: '/img/screenshots/c3pao/emass-warnings-dark.png',
+  }}
+/>
 
 :::tip
 Warnings are informational — you can still export with warnings present. However, addressing all warnings ensures the most complete eMASS package.
@@ -177,7 +239,13 @@ Warnings are informational — you can still export with warnings present. Howev
 Click **Download Export** to generate and download the Excel workbook (.xlsx).
 
 {/* <!-- SCREENSHOT: c3pao-emass-download — The Download Export button (highlighted) --> */}
-![Download Export](/img/screenshots/c3pao/emass-download.png)
+<ThemedImage
+  alt="Download Export"
+  sources={{
+    light: '/img/screenshots/c3pao/emass-download-light.png',
+    dark: '/img/screenshots/c3pao/emass-download-dark.png',
+  }}
+/>
 
 The export file contains:
 - **Assessment Sheet** — Cover page with metadata

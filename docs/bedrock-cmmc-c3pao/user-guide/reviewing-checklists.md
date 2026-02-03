@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # STIG Checklists
 
 The STIGs tab provides access to the customer's Security Technical Implementation Guide (STIG) scan results. STIG checklists show automated and manual compliance checks against DoD security baselines for specific technologies.
@@ -9,7 +11,13 @@ The STIGs tab provides access to the customer's Security Technical Implementatio
 Navigate to the **STIGs** tab on an engagement to view all imported STIG checklist data.
 
 {/* <!-- SCREENSHOT: c3pao-stigs-tab — The STIGs tab overview showing the list of scanned targets with their STIG benchmark name, scan date, and compliance summary --> */}
-![STIGs Tab](/img/screenshots/c3pao/stigs-tab.png)
+<ThemedImage
+  alt="STIGs Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/stigs-tab-light.png',
+    dark: '/img/screenshots/c3pao/stigs-tab-dark.png',
+  }}
+/>
 
 ### Dashboard Statistics
 
@@ -24,7 +32,13 @@ The top of the STIGs tab displays aggregate statistics:
 | **Not Applicable** | Checks that don't apply to the target |
 
 {/* <!-- SCREENSHOT: c3pao-stigs-dashboard — The STIG dashboard statistics showing totals for targets, checks, open findings, not a finding, and not applicable --> */}
-![STIGs Dashboard](/img/screenshots/c3pao/stigs-dashboard.png)
+<ThemedImage
+  alt="STIGs Dashboard"
+  sources={{
+    light: '/img/screenshots/c3pao/stigs-dashboard-light.png',
+    dark: '/img/screenshots/c3pao/stigs-dashboard-dark.png',
+  }}
+/>
 
 ---
 
@@ -33,7 +47,13 @@ The top of the STIGs tab displays aggregate statistics:
 Each row in the targets list represents a system or application that was scanned. Customers import these from CKLB (STIG Viewer checklist) files.
 
 {/* <!-- SCREENSHOT: c3pao-stigs-target-list — The scanned targets list showing target name, STIG benchmark, version, compliance percentage, and import date --> */}
-![Scanned Targets](/img/screenshots/c3pao/stigs-target-list.png)
+<ThemedImage
+  alt="Scanned Targets"
+  sources={{
+    light: '/img/screenshots/c3pao/stigs-target-list-light.png',
+    dark: '/img/screenshots/c3pao/stigs-target-list-dark.png',
+  }}
+/>
 
 | Column | Description |
 |--------|-------------|
@@ -50,7 +70,13 @@ Each row in the targets list represents a system or application that was scanned
 Click on any target to view its individual STIG checklist results.
 
 {/* <!-- SCREENSHOT: c3pao-stig-target-detail — The individual target detail page showing the full checklist with vulnerability IDs, rule titles, severity, and status --> */}
-![Target Detail](/img/screenshots/c3pao/stig-target-detail.png)
+<ThemedImage
+  alt="Target Detail"
+  sources={{
+    light: '/img/screenshots/c3pao/stig-target-detail-light.png',
+    dark: '/img/screenshots/c3pao/stig-target-detail-dark.png',
+  }}
+/>
 
 Each checklist entry shows:
 
@@ -70,7 +96,13 @@ Each checklist entry shows:
 View when STIG data was imported and any updates made by the customer.
 
 {/* <!-- SCREENSHOT: c3pao-stig-import-history — The import history section showing CKLB file imports with timestamps --> */}
-![Import History](/img/screenshots/c3pao/stig-import-history.png)
+<ThemedImage
+  alt="Import History"
+  sources={{
+    light: '/img/screenshots/c3pao/stig-import-history-light.png',
+    dark: '/img/screenshots/c3pao/stig-import-history-dark.png',
+  }}
+/>
 
 ---
 

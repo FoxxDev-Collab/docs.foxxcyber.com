@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 # Reviewing POA&Ms
 
 The POA&Ms (Plan of Action & Milestones) tab shows the customer's remediation plans for identified compliance gaps. Reviewing POA&Ms helps you understand which controls have known deficiencies and how the customer plans to address them.
@@ -7,7 +9,13 @@ The POA&Ms (Plan of Action & Milestones) tab shows the customer's remediation pl
 ## POA&Ms Tab Overview
 
 {/* <!-- SCREENSHOT: c3pao-poams-tab — The POA&Ms tab showing the list of all POA&M items with status badges, risk levels, and linked controls --> */}
-![POA&Ms Tab](/img/screenshots/c3pao/poams-tab.png)
+<ThemedImage
+  alt="POA&Ms Tab"
+  sources={{
+    light: '/img/screenshots/c3pao/poams-tab-light.png',
+    dark: '/img/screenshots/c3pao/poams-tab-dark.png',
+  }}
+/>
 
 ---
 
@@ -26,7 +34,13 @@ Each POA&M entry includes:
 | **Responsible Party** | Who is assigned to address this item |
 
 {/* <!-- SCREENSHOT: c3pao-poam-detail — A single POA&M item expanded showing all fields including milestones, linked controls, and responsible party --> */}
-![POA&M Detail](/img/screenshots/c3pao/poam-detail.png)
+<ThemedImage
+  alt="POA&M Detail"
+  sources={{
+    light: '/img/screenshots/c3pao/poam-detail-light.png',
+    dark: '/img/screenshots/c3pao/poam-detail-dark.png',
+  }}
+/>
 
 ---
 
@@ -47,7 +61,13 @@ Each POA&M entry includes:
 Expand any POA&M to view its milestones — incremental steps toward full remediation.
 
 {/* <!-- SCREENSHOT: c3pao-poam-milestones — Expanded milestone view showing multiple milestones with their individual target dates, descriptions, and completion status --> */}
-![POA&M Milestones](/img/screenshots/c3pao/poam-milestones.png)
+<ThemedImage
+  alt="POA&M Milestones"
+  sources={{
+    light: '/img/screenshots/c3pao/poam-milestones-light.png',
+    dark: '/img/screenshots/c3pao/poam-milestones-dark.png',
+  }}
+/>
 
 Each milestone includes:
 - Milestone description
