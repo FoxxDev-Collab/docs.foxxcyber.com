@@ -26,13 +26,13 @@ const config: Config = {
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Markdown configuration - warn on broken images until screenshots are added
   markdown: {
     preprocessor: ({filePath, fileContent}) => fileContent,
     hooks: {
       onBrokenMarkdownImages: 'warn',
+      onBrokenMarkdownLinks: 'warn',
     },
   },
 
@@ -77,26 +77,6 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'bedrock-ag',
-        path: 'docs/bedrock-ag',
-        routeBasePath: 'bedrock-ag',
-        sidebarPath: './sidebars-bedrock-ag.ts',
-        editUrl: 'https://github.com/foxxcyber/docs/tree/main/',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'bedrock-sp',
-        path: 'docs/bedrock-sp',
-        routeBasePath: 'bedrock-sp',
-        sidebarPath: './sidebars-bedrock-sp.ts',
-        editUrl: 'https://github.com/foxxcyber/docs/tree/main/',
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
         id: 'bedrock-cmmc-c3pao',
         path: 'docs/bedrock-cmmc-c3pao',
         routeBasePath: 'bedrock-cmmc-c3pao',
@@ -107,8 +87,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/foxx-cyber-logo.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -120,35 +99,18 @@ const config: Config = {
       },
       items: [
         {
-          type: 'dropdown',
-          label: 'Products',
+          type: 'doc',
+          docId: 'intro',
+          label: 'Bedrock CMMC',
+          docsPluginId: 'default',
           position: 'left',
-          items: [
-            {
-              type: 'doc',
-              docId: 'intro',
-              label: 'Bedrock CMMC',
-              docsPluginId: 'default',
-            },
-            {
-              type: 'doc',
-              docId: 'intro',
-              label: 'Bedrock AG',
-              docsPluginId: 'bedrock-ag',
-            },
-            {
-              type: 'doc',
-              docId: 'intro',
-              label: 'Bedrock SP',
-              docsPluginId: 'bedrock-sp',
-            },
-            {
-              type: 'doc',
-              docId: 'intro',
-              label: 'Bedrock CMMC C3PAO',
-              docsPluginId: 'bedrock-cmmc-c3pao',
-            },
-          ],
+        },
+        {
+          type: 'doc',
+          docId: 'intro',
+          label: 'Bedrock CMMC C3PAO',
+          docsPluginId: 'bedrock-cmmc-c3pao',
+          position: 'left',
         },
         {to: '/blog', label: 'Release Notes', position: 'left'},
         {
@@ -167,14 +129,6 @@ const config: Config = {
             {
               label: 'Bedrock CMMC',
               to: '/bedrock-cmmc/intro',
-            },
-            {
-              label: 'Bedrock AG',
-              to: '/bedrock-ag/intro',
-            },
-            {
-              label: 'Bedrock SP',
-              to: '/bedrock-sp/intro',
             },
             {
               label: 'Bedrock CMMC C3PAO',

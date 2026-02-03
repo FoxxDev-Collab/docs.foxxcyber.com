@@ -53,59 +53,6 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/bedrock-ag',
-    component: ComponentCreator('/bedrock-ag', '664'),
-    routes: [
-      {
-        path: '/bedrock-ag',
-        component: ComponentCreator('/bedrock-ag', '885'),
-        routes: [
-          {
-            path: '/bedrock-ag',
-            component: ComponentCreator('/bedrock-ag', 'bab'),
-            routes: [
-              {
-                path: '/bedrock-ag/category/-getting-started',
-                component: ComponentCreator('/bedrock-ag/category/-getting-started', '295'),
-                exact: true,
-                sidebar: "bedrockAgSidebar"
-              },
-              {
-                path: '/bedrock-ag/getting-started/configuration',
-                component: ComponentCreator('/bedrock-ag/getting-started/configuration', '26c'),
-                exact: true,
-                sidebar: "bedrockAgSidebar"
-              },
-              {
-                path: '/bedrock-ag/getting-started/installation',
-                component: ComponentCreator('/bedrock-ag/getting-started/installation', '09c'),
-                exact: true,
-                sidebar: "bedrockAgSidebar"
-              },
-              {
-                path: '/bedrock-ag/getting-started/quick-start',
-                component: ComponentCreator('/bedrock-ag/getting-started/quick-start', '224'),
-                exact: true,
-                sidebar: "bedrockAgSidebar"
-              },
-              {
-                path: '/bedrock-ag/intro',
-                component: ComponentCreator('/bedrock-ag/intro', '8e5'),
-                exact: true,
-                sidebar: "bedrockAgSidebar"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     path: '/bedrock-cmmc-c3pao',
     component: ComponentCreator('/bedrock-cmmc-c3pao', 'd0f'),
     routes: [
@@ -404,54 +351,6 @@ export default [
                 component: ComponentCreator('/bedrock-cmmc/user-guide/ssp', 'c77'),
                 exact: true,
                 sidebar: "bedrockCmmcSidebar"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    path: '/bedrock-sp',
-    component: ComponentCreator('/bedrock-sp', '80b'),
-    routes: [
-      {
-        path: '/bedrock-sp',
-        component: ComponentCreator('/bedrock-sp', '5fc'),
-        routes: [
-          {
-            path: '/bedrock-sp',
-            component: ComponentCreator('/bedrock-sp', 'd86'),
-            routes: [
-              {
-                path: '/bedrock-sp/category/-getting-started',
-                component: ComponentCreator('/bedrock-sp/category/-getting-started', '1f8'),
-                exact: true,
-                sidebar: "bedrockSpSidebar"
-              },
-              {
-                path: '/bedrock-sp/getting-started/configuration',
-                component: ComponentCreator('/bedrock-sp/getting-started/configuration', '7f2'),
-                exact: true,
-                sidebar: "bedrockSpSidebar"
-              },
-              {
-                path: '/bedrock-sp/getting-started/installation',
-                component: ComponentCreator('/bedrock-sp/getting-started/installation', '71a'),
-                exact: true,
-                sidebar: "bedrockSpSidebar"
-              },
-              {
-                path: '/bedrock-sp/getting-started/quick-start',
-                component: ComponentCreator('/bedrock-sp/getting-started/quick-start', 'ae3'),
-                exact: true,
-                sidebar: "bedrockSpSidebar"
-              },
-              {
-                path: '/bedrock-sp/intro',
-                component: ComponentCreator('/bedrock-sp/intro', 'b01'),
-                exact: true,
-                sidebar: "bedrockSpSidebar"
               }
             ]
           }

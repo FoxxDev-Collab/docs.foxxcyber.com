@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Bedrock-CMMC | Foxx Cyber"
+      description="Comprehensive guides and documentation for Bedrock-CMMC, the CMMC compliance platform by Foxx Cyber LLC.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

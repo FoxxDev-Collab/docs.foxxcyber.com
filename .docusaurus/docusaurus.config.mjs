@@ -92,26 +92,6 @@ export default {
     [
       "@docusaurus/plugin-content-docs",
       {
-        "id": "bedrock-ag",
-        "path": "docs/bedrock-ag",
-        "routeBasePath": "bedrock-ag",
-        "sidebarPath": "./sidebars-bedrock-ag.ts",
-        "editUrl": "https://github.com/foxxcyber/docs/tree/main/"
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        "id": "bedrock-sp",
-        "path": "docs/bedrock-sp",
-        "routeBasePath": "bedrock-sp",
-        "sidebarPath": "./sidebars-bedrock-sp.ts",
-        "editUrl": "https://github.com/foxxcyber/docs/tree/main/"
-      }
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
         "id": "bedrock-cmmc-c3pao",
         "path": "docs/bedrock-cmmc-c3pao",
         "routeBasePath": "bedrock-cmmc-c3pao",
@@ -121,7 +101,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/foxx-cyber-logo.png",
     "colorMode": {
       "respectPrefersColorScheme": true,
       "defaultMode": "light",
@@ -135,35 +115,18 @@ export default {
       },
       "items": [
         {
-          "type": "dropdown",
-          "label": "Products",
-          "position": "left",
-          "items": [
-            {
-              "type": "doc",
-              "docId": "intro",
-              "label": "Bedrock CMMC",
-              "docsPluginId": "default"
-            },
-            {
-              "type": "doc",
-              "docId": "intro",
-              "label": "Bedrock AG",
-              "docsPluginId": "bedrock-ag"
-            },
-            {
-              "type": "doc",
-              "docId": "intro",
-              "label": "Bedrock SP",
-              "docsPluginId": "bedrock-sp"
-            },
-            {
-              "type": "doc",
-              "docId": "intro",
-              "label": "Bedrock CMMC C3PAO",
-              "docsPluginId": "bedrock-cmmc-c3pao"
-            }
-          ]
+          "type": "doc",
+          "docId": "intro",
+          "label": "Bedrock CMMC",
+          "docsPluginId": "default",
+          "position": "left"
+        },
+        {
+          "type": "doc",
+          "docId": "intro",
+          "label": "Bedrock CMMC C3PAO",
+          "docsPluginId": "bedrock-cmmc-c3pao",
+          "position": "left"
         },
         {
           "to": "/blog",
@@ -187,14 +150,6 @@ export default {
             {
               "label": "Bedrock CMMC",
               "to": "/bedrock-cmmc/intro"
-            },
-            {
-              "label": "Bedrock AG",
-              "to": "/bedrock-ag/intro"
-            },
-            {
-              "label": "Bedrock SP",
-              "to": "/bedrock-sp/intro"
             },
             {
               "label": "Bedrock CMMC C3PAO",
