@@ -43,24 +43,6 @@ Each evidence item in the list displays:
 
 ---
 
-## Viewing Evidence
-
-Click on any evidence file to open it:
-
-- **Preview** — View the document inline (supported for PDFs, images, and common document formats)
-- **Download** — Save the file to your local system for detailed review
-
-{/* <!-- SCREENSHOT: c3pao-evidence-preview — The evidence preview modal/panel showing an inline document preview with download button --> */}
-<ThemedImage
-  alt="Evidence Preview"
-  sources={{
-    light: '/img/screenshots/c3pao/evidence-preview-light.png',
-    dark: '/img/screenshots/c3pao/evidence-preview-dark.png',
-  }}
-/>
-
----
-
 ## Evidence-to-Control Mapping
 
 Evidence files are linked to specific NIST SP 800-171 controls. This mapping helps you verify that each control has adequate supporting documentation.

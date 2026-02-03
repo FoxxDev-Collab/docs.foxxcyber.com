@@ -46,15 +46,6 @@ The top of the STIGs tab displays aggregate statistics:
 
 Each row in the targets list represents a system or application that was scanned. Customers import these from CKLB (STIG Viewer checklist) files.
 
-{/* <!-- SCREENSHOT: c3pao-stigs-target-list — The scanned targets list showing target name, STIG benchmark, version, compliance percentage, and import date --> */}
-<ThemedImage
-  alt="Scanned Targets"
-  sources={{
-    light: '/img/screenshots/c3pao/stigs-target-list-light.png',
-    dark: '/img/screenshots/c3pao/stigs-target-list-dark.png',
-  }}
-/>
-
 | Column | Description |
 |--------|-------------|
 | **Target Name** | System or application name |
@@ -91,16 +82,16 @@ Each checklist entry shows:
 
 ---
 
-## Import History
+## STIG Details/All Rules
 
-View when STIG data was imported and any updates made by the customer.
+Assessors can view details about each STIG, filter, sort, and search.
 
-{/* <!-- SCREENSHOT: c3pao-stig-import-history — The import history section showing CKLB file imports with timestamps --> */}
+{/* <!-- SCREENSHOT: c3pao-stig-rule-detail — The individual target detail page showing the full checklist with vulnerability IDs, rule titles, severity, and status --> */}
 <ThemedImage
-  alt="Import History"
+  alt="STIG Rule Detail"
   sources={{
-    light: '/img/screenshots/c3pao/stig-import-history-light.png',
-    dark: '/img/screenshots/c3pao/stig-import-history-dark.png',
+    light: '/img/screenshots/c3pao/stig-rule-detail-light.png',
+    dark: '/img/screenshots/c3pao/stig-rule-detail-dark.png',
   }}
 />
 

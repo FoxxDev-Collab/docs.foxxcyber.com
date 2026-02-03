@@ -100,15 +100,6 @@ Now you will see the view for all Assessors should dream of. Click on the object
 
 The assessment form allows you to record your findings for each control:
 
-{/* <!-- SCREENSHOT: c3pao-assessment-form — The assessment form showing determination dropdown, assessment methods checkboxes, and findings text areas --> */}
-<ThemedImage
-  alt="Assessment Form"
-  sources={{
-    light: '/img/screenshots/c3pao/assessment-form-light.png',
-    dark: '/img/screenshots/c3pao/assessment-form-dark.png',
-  }}
-/>
-
 #### Determination
 
 Select your assessment result:
@@ -151,7 +142,7 @@ Select all methods used to evaluate this control:
 
 ### Saving Findings
 
-Click **Save Finding** to persist your assessment. The platform uses version control to prevent conflicts when multiple assessors are working simultaneously.
+Click **Save** to persist your assessment. The platform uses version control to prevent conflicts when multiple assessors are working simultaneously.
 
 ---
 
