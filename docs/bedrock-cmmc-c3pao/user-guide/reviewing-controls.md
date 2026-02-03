@@ -8,7 +8,7 @@ The Controls tab is where you assess each of the 110 NIST SP 800-171 requirement
 
 ## Controls Overview
 
-Navigate to the **Controls** tab on any active engagement to see all requirements.
+Navigate to the **Controls** tab on any active engagement to see all requirements. This is the place for Assessors to view the status of their assessment in real time as they mark the status of controls.
 
 {/* <!-- SCREENSHOT: c3pao-controls-tab-overview — The Controls tab showing the full controls table with columns for ID, title, family, customer status, and assessor determination --> */}
 <ThemedImage
@@ -37,15 +37,6 @@ Each row in the controls table displays:
 ## Filtering Controls
 
 Use the filter controls to focus your review on specific subsets of requirements.
-
-{/* <!-- SCREENSHOT: c3pao-control-filters — The control filter bar showing status filter dropdown, family filter dropdown, and search input --> */}
-<ThemedImage
-  alt="Control Filters"
-  sources={{
-    light: '/img/screenshots/c3pao/control-filters-light.png',
-    dark: '/img/screenshots/c3pao/control-filters-dark.png',
-  }}
-/>
 
 | Filter | Options |
 |--------|---------|
@@ -82,7 +73,18 @@ Start your review by filtering to **Not Assessed** to see which controls still n
 
 ## Assessing a Control
 
-Click on any control row to open the full control detail view.
+To view the entire control, click the "Assess" button on the row to open the full control detail view. This will open up the details with all objectives for that control.
+
+{/* <!-- SCREENSHOT: c3pao-assess-button — The full control detail page showing the requirement text, customer implementation, assessment form, and linked evidence --> */}
+<ThemedImage
+  alt="Control Assess Button"
+  sources={{
+    light: '/img/screenshots/c3pao/assess-button-light.png',
+    dark: '/img/screenshots/c3pao/assess-button-dark.png',
+  }}
+/>
+
+Now you will see the view for all Assessors should dream of. Click on the objective/drop down-tab to view the details.
 
 {/* <!-- SCREENSHOT: c3pao-control-detail-page — The full control detail page showing the requirement text, customer implementation, assessment form, and linked evidence --> */}
 <ThemedImage
@@ -93,18 +95,6 @@ Click on any control row to open the full control detail view.
   }}
 />
 
-### Control Information
-
-At the top of the detail view, you'll see the complete requirement information:
-
-| Section | Description |
-|---------|-------------|
-| **Basic Requirement** | The core NIST SP 800-171 requirement text |
-| **Derived Requirements** | Additional detailed requirements |
-| **Assessment Objectives** | Specific objectives that must be met |
-| **Discussion** | NIST guidance on the requirement's intent |
-| **Customer Implementation** | How the customer claims to implement this control |
-| **Linked Evidence** | Documents the customer has linked to this control |
 
 ### Recording Your Determination
 
@@ -163,29 +153,11 @@ Select all methods used to evaluate this control:
 
 Click **Save Finding** to persist your assessment. The platform uses version control to prevent conflicts when multiple assessors are working simultaneously.
 
-{/* <!-- SCREENSHOT: c3pao-save-finding — The Save Finding button and any success/conflict notification --> */}
-<ThemedImage
-  alt="Save Finding"
-  sources={{
-    light: '/img/screenshots/c3pao/save-finding-light.png',
-    dark: '/img/screenshots/c3pao/save-finding-dark.png',
-  }}
-/>
-
 ---
 
 ## Navigating Between Controls
 
 Use the navigation controls on the control detail page to move between requirements without returning to the controls list:
-
-{/* <!-- SCREENSHOT: c3pao-control-navigation — The previous/next navigation arrows on the control detail page --> */}
-<ThemedImage
-  alt="Control Navigation"
-  sources={{
-    light: '/img/screenshots/c3pao/control-navigation-light.png',
-    dark: '/img/screenshots/c3pao/control-navigation-dark.png',
-  }}
-/>
 
 - **Previous/Next arrows** — Move sequentially through controls
 - **Back to Controls** — Return to the filtered controls list
@@ -196,15 +168,6 @@ Use the navigation controls on the control detail page to move between requireme
 ## Assessor Control Cards
 
 In the assessment view, controls are displayed as cards with visual indicators for their assessment status.
-
-{/* <!-- SCREENSHOT: c3pao-control-cards — The assessor control card view showing color-coded cards with status indicators, family badges, and progress --> */}
-<ThemedImage
-  alt="Control Cards"
-  sources={{
-    light: '/img/screenshots/c3pao/control-cards-light.png',
-    dark: '/img/screenshots/c3pao/control-cards-dark.png',
-  }}
-/>
 
 Each card shows:
 - Requirement ID and title

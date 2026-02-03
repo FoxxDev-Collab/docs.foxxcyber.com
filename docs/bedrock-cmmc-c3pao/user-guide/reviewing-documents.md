@@ -46,24 +46,6 @@ The SSP is organized into the following sections:
 | **Policies & Procedures** | Organizational security policies |
 | **Contact Information** | Key personnel contact details |
 
-{/* <!-- SCREENSHOT: c3pao-ssp-system-info — The System Identification section of the SSP showing system name, description, and boundary details --> */}
-<ThemedImage
-  alt="SSP System Information"
-  sources={{
-    light: '/img/screenshots/c3pao/ssp-system-info-light.png',
-    dark: '/img/screenshots/c3pao/ssp-system-info-dark.png',
-  }}
-/>
-
-{/* <!-- SCREENSHOT: c3pao-ssp-network — The Network & Interconnections section showing network diagram or connection details --> */}
-<ThemedImage
-  alt="SSP Network Information"
-  sources={{
-    light: '/img/screenshots/c3pao/ssp-network-light.png',
-    dark: '/img/screenshots/c3pao/ssp-network-dark.png',
-  }}
-/>
-
 ### SSP Review Tips
 
 - Cross-reference SSP statements with actual evidence in the Evidence tab
