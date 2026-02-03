@@ -34,6 +34,8 @@ The top navigation bar provides access to all platform sections.
   }}
 />
 
+---
+
 | Nav Item | Description |
 |----------|-------------|
 | **Dashboard** | Home page with key metrics and recent activity |
