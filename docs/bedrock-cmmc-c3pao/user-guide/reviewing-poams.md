@@ -1,129 +1,92 @@
----
-sidebar_position: 7
----
-
 # Reviewing POA&Ms
 
-Guidance on evaluating Plans of Action and Milestones.
+The POA&Ms (Plan of Action & Milestones) tab shows the customer's remediation plans for identified compliance gaps. Reviewing POA&Ms helps you understand which controls have known deficiencies and how the customer plans to address them.
 
-## Understanding POA&Ms
+---
 
-POA&Ms document known security gaps and remediation plans. During assessment, you'll review:
+## POA&Ms Tab Overview
 
-- Existing POA&Ms from prior assessments
-- New POA&Ms created for identified findings
-- Remediation progress and timelines
+{/* <!-- SCREENSHOT: c3pao-poams-tab — The POA&Ms tab showing the list of all POA&M items with status badges, risk levels, and linked controls --> */}
+![POA&Ms Tab](/img/screenshots/c3pao/poams-tab.png)
 
-## Accessing POA&Ms
+---
 
-Navigate to the **POA&M** section within an engagement to view all remediation items.
+## POA&M Information
 
-![Screenshot: POA&M list](/img/screenshots/c3pao/poam-list.png)
-
-## POA&M Structure
-
-Each POA&M contains:
+Each POA&M entry includes:
 
 | Field | Description |
 |-------|-------------|
-| Finding | Description of the security gap |
-| Control | CMMC practice affected |
-| Risk Level | Severity of the finding |
-| Remediation Plan | Steps to address the gap |
-| Milestones | Key dates and checkpoints |
-| Status | Current remediation progress |
-| Owner | Person responsible for remediation |
+| **Title** | Description of the identified weakness |
+| **Status** | Current remediation status |
+| **Risk Level** | Severity: Critical, High, Moderate, Low |
+| **Linked Requirements** | Associated NIST SP 800-171 controls |
+| **Target Completion Date** | Planned remediation deadline |
+| **Milestones** | Incremental remediation steps with target dates |
+| **Responsible Party** | Who is assigned to address this item |
 
-## Evaluation Criteria
+{/* <!-- SCREENSHOT: c3pao-poam-detail — A single POA&M item expanded showing all fields including milestones, linked controls, and responsible party --> */}
+![POA&M Detail](/img/screenshots/c3pao/poam-detail.png)
 
-When reviewing POA&Ms, assess:
+---
 
-### Finding Accuracy
+## POA&M Statuses
 
-- Is the gap clearly described?
-- Is the affected control correctly identified?
-- Is the risk level appropriate?
+| Status | Badge | Meaning |
+|--------|-------|---------|
+| **Open** | 🔴 | Identified but not yet started |
+| **In Progress** | 🟡 | Actively being remediated |
+| **Completed** | 🟢 | Remediation work is finished |
+| **Closed** | ⚪ | Verified and officially closed |
+| **Overdue** | 🔴 | Past the target completion date |
 
-### Remediation Plan Quality
+---
 
-- Is the plan realistic and achievable?
-- Are steps specific and actionable?
-- Will completion actually close the gap?
+## Milestone Tracking
 
-### Timeline Reasonableness
+Expand any POA&M to view its milestones — incremental steps toward full remediation.
 
-- Are milestones realistic?
-- Is the completion date achievable?
-- Are interim checkpoints defined?
+{/* <!-- SCREENSHOT: c3pao-poam-milestones — Expanded milestone view showing multiple milestones with their individual target dates, descriptions, and completion status --> */}
+![POA&M Milestones](/img/screenshots/c3pao/poam-milestones.png)
 
-### Progress Evidence
+Each milestone includes:
+- Milestone description
+- Target completion date
+- Current status
+- Completion evidence (if applicable)
 
-- Is progress being made?
-- Are milestones being met?
-- Is evidence of remediation available?
+---
 
-## POA&M Status Review
+## POA&M Review Checklist
 
-Review the status of each POA&M:
+When evaluating POA&Ms:
 
-| Status | Assessor Action |
-|--------|-----------------|
-| **Open** | Evaluate plan and timeline |
-| **In Progress** | Verify progress, review evidence |
-| **Completed** | Validate remediation, review close-out evidence |
-| **Delayed** | Assess revised timeline, understand blockers |
+- [ ] **Realistic timelines** — Are target dates achievable given the scope of work?
+- [ ] **Adequate milestones** — Are there enough intermediate steps to track progress?
+- [ ] **Risk alignment** — Does the risk level accurately reflect the severity of the gap?
+- [ ] **Coverage** — Do POA&Ms exist for all identified gaps (Not Met controls)?
+- [ ] **Responsible parties** — Are specific individuals assigned to each item?
+- [ ] **Overdue items** — Flag any POA&Ms past their target date for discussion
+- [ ] **Completeness** — Completed POA&Ms should have supporting evidence of remediation
 
-## Assessment Considerations
+---
 
-### For Existing POA&Ms
+## Impact on Assessment
 
-- Has progress been made since creation?
-- Are timelines being met?
-- Is the organization actively working remediation?
+POA&Ms directly affect your assessment:
 
-### For New Findings
+- Controls with **active POA&Ms** indicate the customer acknowledges a gap and has a remediation plan
+- The eMASS export tracks POA&M status alongside requirement determinations
+- **CMMC allows some controls to be in POA&M status** at the time of assessment — review current CMMC policy for allowable POA&M thresholds
 
-- Ensure POA&Ms are created for all findings
-- Verify remediation plans are adequate
-- Confirm reasonable timelines
+:::important
+The existence of a POA&M does not automatically mean the control is "Not Met." Evaluate whether the POA&M is sufficient and timely as part of your determination.
+:::
 
-### Risk-Based Approach
-
-Consider the overall risk posture:
-
-- Number of open POA&Ms
-- Severity distribution
-- Time items have been open
-- Remediation velocity
-
-## POA&M Acceptability
-
-For conditional certification, POA&Ms must:
-
-- Address non-critical findings only
-- Have reasonable remediation timelines
-- Include specific, achievable milestones
-- Demonstrate organizational commitment
-
-## Recording POA&M Assessment
-
-Document your evaluation:
-
-1. Review each POA&M for adequacy
-2. Note any concerns about plans or timelines
-3. Flag POA&Ms that may impact certification
-4. Include POA&M status in final assessment
-
-![Screenshot: POA&M assessment notes](/img/screenshots/c3pao/poam-assessment.png)
-
-## Best Practices
-
-- **Be realistic** - Understand that not all gaps can be immediately closed
-- **Focus on risk** - Prioritize review of high-severity items
-- **Check evidence** - Verify claimed progress with artifacts
-- **Consider context** - Understand organizational constraints
+---
 
 ## Next Steps
 
-- [Assessor Notes](./assessor-notes) - Document your observations
-- [Recording Results](./recording-results) - Finalize your assessment
+- [Reviewing Controls](./reviewing-controls) — POA&Ms inform your control-level determinations
+- [Assessment Reports](./assessment-reports) — Summarize POA&M findings in your report
+- [eMASS Export](./emass-export) — POA&M data is included in the export

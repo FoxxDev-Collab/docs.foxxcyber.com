@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/managing-engagements",
+  "title": "Managing Engagements",
+  "description": "Engagements represent assessment relationships between your C3PAO organization and customers seeking CMMC certification. This guide covers how to view, filter, and manage all your engagements.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/managing-engagements.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/managing-engagements",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/managing-engagements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/managing-engagements.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/getting-started"
+  },
+  "next": {
+    "title": "Performing Assessments",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/performing-assessments"
+  }
+}

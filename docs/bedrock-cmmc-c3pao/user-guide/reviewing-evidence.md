@@ -1,146 +1,89 @@
----
-sidebar_position: 6
----
-
 # Reviewing Evidence
 
-Best practices for evaluating assessment evidence.
+The Evidence tab displays all compliance documentation the customer has uploaded to support their control implementations. Thorough evidence review is critical to a sound assessment.
 
-## Evidence Types
+---
 
-Organizations provide various forms of evidence:
+## Evidence Tab Overview
 
-### Documents
+{/* <!-- SCREENSHOT: c3pao-evidence-tab — The Evidence tab showing the evidence list/table with file names, types, sizes, dates, and linked controls --> */}
+![Evidence Tab](/img/screenshots/c3pao/evidence-tab.png)
 
-- Policies and procedures
-- Training materials
-- Audit reports
-- Certifications
+---
 
-### Screenshots
+## Evidence List
 
-- System configurations
-- Security settings
-- Access control implementations
-- Monitoring dashboards
+Each evidence item in the list displays:
 
-### Logs and Reports
+| Field | Description |
+|-------|-------------|
+| **File Name** | Document name |
+| **Type** | File format (PDF, DOCX, XLSX, PNG, etc.) |
+| **Size** | File size |
+| **Description** | Customer-provided context about what the evidence shows |
+| **Upload Date** | When the document was uploaded |
+| **Linked Controls** | NIST SP 800-171 requirements this evidence supports |
 
-- Audit logs
-- Vulnerability scans
-- Penetration test reports
-- Compliance reports
+{/* <!-- SCREENSHOT: c3pao-evidence-list-detail — Close-up of the evidence list showing multiple entries with their metadata and linked control badges --> */}
+![Evidence List Detail](/img/screenshots/c3pao/evidence-list-detail.png)
 
-### Records
+---
 
-- Training records
-- Access review documentation
-- Incident response records
-- Change management tickets
+## Viewing Evidence
 
-## Accessing Evidence
+Click on any evidence file to open it:
 
-Evidence is linked to controls and accessible from:
+- **Preview** — View the document inline (supported for PDFs, images, and common document formats)
+- **Download** — Save the file to your local system for detailed review
 
-- **Control Review** - Evidence tab shows linked artifacts
-- **Evidence Library** - All evidence in one place
-- **Package Overview** - Summary of evidence status
+{/* <!-- SCREENSHOT: c3pao-evidence-preview — The evidence preview modal/panel showing an inline document preview with download button --> */}
+![Evidence Preview](/img/screenshots/c3pao/evidence-preview.png)
 
-![Screenshot: Evidence viewer](/img/screenshots/c3pao/evidence-viewer.png)
+---
 
-## Evidence Evaluation Criteria
+## Evidence-to-Control Mapping
 
-When reviewing evidence, assess:
+Evidence files are linked to specific NIST SP 800-171 controls. This mapping helps you verify that each control has adequate supporting documentation.
 
-### Relevance
+{/* <!-- SCREENSHOT: c3pao-evidence-control-links — Evidence item showing its linked control badges/tags (e.g., "3.1.1", "3.1.2") --> */}
+![Evidence Control Links](/img/screenshots/c3pao/evidence-control-links.png)
 
-- Does the evidence directly support the control?
-- Is it specific to the systems in scope?
-- Does it address the actual requirement?
+:::tip
+When assessing a control in the [Controls tab](./reviewing-controls), you can see which evidence files are linked to that specific requirement — making it easy to cross-reference during your review.
+:::
 
-### Currency
+---
 
-- Is the evidence current (typically within 12 months)?
-- Are dated documents still valid?
-- Do screenshots reflect current configurations?
+## Evidence Verification Checklist
 
-### Completeness
+When reviewing evidence, verify the following:
 
-- Does evidence cover all aspects of the control?
-- Are there gaps in coverage?
-- Is supporting context provided?
+- [ ] **Dates are current** — Evidence should be recent and relevant to the assessment period
+- [ ] **Supports linked controls** — The document actually demonstrates compliance with the associated requirements
+- [ ] **Signatures and approvals** — Required authorizations are present where applicable
+- [ ] **Screenshots show current state** — System screenshots reflect the current configuration, not historical state
+- [ ] **Policy effective dates** — Policies are in effect and not expired
+- [ ] **Completeness** — Evidence covers all aspects of the control, not just partial implementation
+- [ ] **Consistency** — Evidence aligns with SSP statements and other documentation
 
-### Authenticity
+---
 
-- Does the evidence appear genuine?
-- Are screenshots unmodified?
-- Can the evidence be verified?
+## Common Evidence Types
 
-## Evidence Review Workflow
+| Evidence Type | What to Look For |
+|--------------|-----------------|
+| **Policies** | Current effective date, executive signature, annual review |
+| **Configuration Screenshots** | Date/time stamps, system identification, relevant settings |
+| **Scan Results** | Recent scan date, scope of scan, findings addressed |
+| **Training Records** | Completion dates, participant lists, course content |
+| **Audit Logs** | Log configuration, retention periods, review evidence |
+| **Network Diagrams** | System boundary, data flows, external connections |
+| **Incident Response Plans** | Current version, contact information, procedures |
 
-### 1. Access the Evidence
-
-Click on evidence items to view in the secure viewer.
-
-### 2. Review Content
-
-Examine the evidence against control requirements.
-
-### 3. Make Determination
-
-Assess if evidence adequately supports implementation.
-
-### 4. Document Findings
-
-Record observations in your control assessment.
-
-## Evidence Sufficiency Guidelines
-
-| Control Type | Expected Evidence |
-|--------------|-------------------|
-| Policy-based | Approved policy document, distribution records |
-| Technical | Screenshots, configuration exports, scan results |
-| Process-based | Procedures, execution records, audit trails |
-| Training | Completion records, materials, sign-off sheets |
-
-## Requesting Additional Evidence
-
-If evidence is insufficient:
-
-1. Click **Request Evidence** on the control
-2. Specify what evidence is needed
-3. Explain why current evidence is inadequate
-4. Set a response deadline
-
-![Screenshot: Evidence request](/img/screenshots/c3pao/evidence-request.png)
-
-## Evidence Red Flags
-
-Watch for potential issues:
-
-- **Dated evidence** - Artifacts more than 12 months old
-- **Generic screenshots** - Stock images or templates
-- **Mismatched dates** - Timestamps that don't align
-- **Incomplete coverage** - Evidence missing key systems
-- **Unverifiable claims** - Statements without supporting artifacts
-
-## Secure Handling
-
-Evidence often contains sensitive information:
-
-- Review in secure environment
-- Don't download unnecessarily
-- Don't share outside assessment team
-- Follow your organization's evidence handling procedures
-
-## Best Practices
-
-- **Review systematically** - Follow a consistent process for each evidence type
-- **Cross-reference** - Compare evidence across related controls
-- **Document thoroughly** - Note key observations for each piece
-- **Ask questions** - Request clarification when needed
+---
 
 ## Next Steps
 
-- [Reviewing POA&Ms](./reviewing-poams) - Evaluate remediation plans
-- [Assessor Notes](./assessor-notes) - Document your observations
+- [Reviewing Controls](./reviewing-controls) — Link your evidence review to control assessments
+- [STIG Checklists](./reviewing-checklists) — Technical scan results as additional evidence
+- [Reviewing POA&Ms](./reviewing-poams) — Review remediation plans for any evidence gaps

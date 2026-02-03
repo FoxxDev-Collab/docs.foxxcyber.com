@@ -1,132 +1,137 @@
----
-sidebar_position: 11
----
-
 # Organization Profile
 
-Managing your C3PAO organization information.
+Manage your C3PAO organization's profile, marketplace listing, and accreditation credentials. Your profile is visible to customers browsing the C3PAO marketplace.
 
-## Profile Overview
+---
 
-Your organization profile contains information displayed to potential customers and used for platform administration.
+## Accessing Profile Settings
 
-Navigate to **Settings > Organization Profile** to view and edit.
+Navigate to **Profile** from the sidebar to manage your organization's information.
 
-![Screenshot: Organization profile](/img/screenshots/c3pao/org-profile.png)
+{/* <!-- SCREENSHOT: c3pao-profile-page — The full organization profile page showing the profile statistics at top and the tabbed interface (Profile, Marketplace, Credentials) --> */}
+![Organization Profile](/img/screenshots/c3pao/profile-page.png)
 
-## Profile Information
+### Profile Statistics
 
-### Basic Information
+| Metric | Description |
+|--------|-------------|
+| **Rating** | Average customer review score |
+| **Engagements** | Total completed assessments |
+| **Status** | Organization active/inactive status |
+| **Marketplace** | Listing visibility (visible/hidden) |
+
+{/* <!-- SCREENSHOT: c3pao-profile-stats — Close-up of the profile statistics cards --> */}
+![Profile Statistics](/img/screenshots/c3pao/profile-stats.png)
+
+---
+
+## Profile Tab
+
+Manage your organization's basic contact information and branding.
+
+{/* <!-- SCREENSHOT: c3pao-profile-tab — The Profile tab showing logo upload, phone, website, address, and description fields --> */}
+![Profile Tab](/img/screenshots/c3pao/profile-tab.png)
 
 | Field | Description |
 |-------|-------------|
-| Organization Name | Your C3PAO legal name |
-| DBA Name | Doing business as (if different) |
-| CMMC-AB ID | Your CMMC Accreditation Body identifier |
-| Address | Primary business address |
-| Phone | Main contact number |
-| Email | Primary contact email |
-| Website | Organization website URL |
+| **Organization Name** | Your C3PAO organization name |
+| **Logo** | Organization logo (click camera icon to upload) |
+| **Phone** | Contact phone number |
+| **Website** | Company website URL |
+| **Description** | Brief organization description |
+| **Address** | Full mailing address (street, city, state, zip) |
 
-### Accreditation Details
+### Uploading a Logo
 
-| Field | Description |
-|-------|-------------|
-| Accreditation Date | When C3PAO status was granted |
-| Expiration Date | Accreditation expiration |
-| Accreditation Level | Assessment levels authorized |
-| Status | Current accreditation status |
+Click the camera icon on your logo area to upload a new image.
 
-## Updating Profile
-
-### Editing Information
-
-1. Navigate to **Settings > Organization Profile**
-2. Click **Edit**
-3. Update required fields
-4. Click **Save**
-
-### Logo and Branding
-
-Upload your organization logo:
-- Recommended size: 400x400 pixels
-- Formats: PNG, JPG, SVG
+- Supported formats: PNG, JPG, GIF
 - Maximum size: 2MB
+- Recommended: Square image, at least 200x200px
 
-Your logo appears on:
-- Marketplace listing
-- Assessment communications
-- Generated reports
+{/* <!-- SCREENSHOT: c3pao-logo-upload — The logo upload area showing the camera icon overlay and current logo --> */}
+![Logo Upload](/img/screenshots/c3pao/logo-upload.png)
 
-## Verification Status
+---
 
-Your profile displays verification status:
+## Marketplace Tab
 
-| Status | Meaning |
-|--------|---------|
-| **Verified** | CMMC-AB accreditation confirmed |
-| **Pending** | Verification in progress |
-| **Expired** | Accreditation needs renewal |
+Configure how your organization appears to customers browsing the C3PAO marketplace.
 
-## Contact Management
+{/* <!-- SCREENSHOT: c3pao-marketplace-tab — The Marketplace tab showing description, services, pricing, timeline, and specialties fields --> */}
+![Marketplace Tab](/img/screenshots/c3pao/marketplace-tab.png)
 
-### Primary Contact
+### Marketplace Fields
 
-Designate your primary platform contact:
-- Receives system notifications
-- Listed for urgent communications
-- First point of contact for support
+| Field | Description |
+|-------|-------------|
+| **Description** | Detailed overview of your assessment services |
+| **Services Offered** | List of assessment and consulting services |
+| **Pricing Information** | General pricing guidance for customers |
+| **Typical Timeline** | Average assessment duration |
+| **Specialties** | Industry expertise areas (select multiple) |
 
-### Additional Contacts
+### Specialties
 
-Add contacts for specific purposes:
-- Billing contact
-- Technical contact
-- Compliance contact
+Select all industries where your organization has expertise:
 
-## Locations
+| Specialty | Description |
+|-----------|-------------|
+| Manufacturing | Industrial and manufacturing environments |
+| Healthcare | Healthcare and medical device organizations |
+| Financial Services | Banking, finance, and insurance |
+| Government Contractors | Federal contractors and subcontractors |
+| Technology | Software and IT services companies |
+| Aerospace & Defense | Aerospace and defense industry |
+| Small Business | Small business CMMC support |
+| Cloud | Cloud-native and hybrid environments |
 
-If your C3PAO operates from multiple locations:
+{/* <!-- SCREENSHOT: c3pao-specialties-selector — The specialties multi-select showing available industry options with checkboxes --> */}
+![Specialties Selection](/img/screenshots/c3pao/specialties-selector.png)
 
-1. Click **Add Location**
-2. Enter address details
-3. Designate location type (HQ, Branch, etc.)
-4. Save
+---
 
-## Certificates and Documents
+## Credentials Tab
 
-Upload important documents:
-- CMMC-AB accreditation certificate
-- Insurance certificates
-- Quality certifications
-- Other relevant credentials
+View and manage your organization's accreditation information.
 
-## Profile Visibility
+{/* <!-- SCREENSHOT: c3pao-credentials-tab — The Credentials tab showing Cyber-AB Accreditation ID, CAGE Code, and authorized CMMC levels --> */}
+![Credentials Tab](/img/screenshots/c3pao/credentials-tab.png)
 
-Control what information is visible:
+### Accreditation Information
 
-| Setting | Options |
-|---------|---------|
-| Marketplace Listing | Public / Unlisted |
-| Contact Info | Show All / Limited / Hidden |
-| Team Size | Show / Hide |
-| Service Areas | Show / Hide |
+| Field | Description | Editable |
+|-------|-------------|----------|
+| **Cyber-AB Accreditation ID** | Official accreditation number | Admin only |
+| **CAGE Code** | Government contractor code | Admin only |
+| **Authorized CMMC Levels** | Levels you're authorized to assess | Yes |
 
-## Audit Log
+### Authorized CMMC Levels
 
-View changes to your organization profile:
-- What was changed
-- When it was changed
-- Who made the change
+Select the CMMC levels your organization is authorized to assess:
 
-## Best Practices
+| Level | Description |
+|-------|-------------|
+| **Level 1** | Basic Cyber Hygiene (17 practices) |
+| **Level 2** | Advanced (110 NIST SP 800-171 requirements) |
+| **Level 3** | Expert (additional NIST SP 800-172 requirements) |
 
-- **Keep current** - Update profile when information changes
-- **Complete profile** - Full profiles build customer confidence
-- **Verify accuracy** - Ensure accreditation details match CMMC-AB records
-- **Professional presentation** - Use quality logos and descriptions
+{/* <!-- SCREENSHOT: c3pao-authorized-levels — The authorized CMMC levels checkboxes showing Level 1, 2, and 3 options --> */}
+![Authorized Levels](/img/screenshots/c3pao/authorized-levels.png)
+
+:::warning
+Accreditation ID and CAGE Code are verified by platform administrators. Contact support at support@bedrockcmmc.com to update these credentials.
+:::
+
+---
+
+## Saving Changes
+
+Click **Save** on any tab to persist your changes. Changes to your marketplace profile are reflected immediately in the customer-facing marketplace.
+
+---
 
 ## Next Steps
 
-- [Marketplace Profile](./marketplace-profile) - Enhance your marketplace presence
-- [Credentials](./credentials) - Manage assessor credentials
+- [Team Management](./team-management) — Manage your team members and credentials
+- [Getting Started](./getting-started) — Return to the dashboard overview

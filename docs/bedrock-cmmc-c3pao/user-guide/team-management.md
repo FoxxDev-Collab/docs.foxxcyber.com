@@ -1,147 +1,147 @@
----
-sidebar_position: 10
----
-
 # Team Management
 
-Managing your C3PAO assessment team in Bedrock CMMC.
+Manage your C3PAO organization's assessors, track credentials, assign team members to engagements, and monitor workload distribution.
 
-## Team Structure
+---
 
-C3PAO organizations typically have:
+## Team Page
 
-- **Organization Administrators** - Manage the C3PAO account
-- **Lead Assessors** - Manage and lead assessments
-- **Assessors** - Conduct control reviews
-- **Quality Reviewers** - Review assessment quality
+Navigate to **Team** from the sidebar to view and manage your organization's assessors.
 
-## Team Dashboard
+{/* <!-- SCREENSHOT: c3pao-team-page — The full team management page showing team statistics at the top and the team member table below --> */}
+![Team Page](/img/screenshots/c3pao/team-page.png)
 
-Navigate to **Team** to manage your organization's assessors.
+### Team Statistics
 
-![Screenshot: Team dashboard](/img/screenshots/c3pao/team-dashboard.png)
+| Metric | Description |
+|--------|-------------|
+| **Team Size** | Total team members |
+| **Lead Assessors** | Members with lead assessor designation |
+| **Active Members** | Members with active status |
+| **Total Engagements** | Combined engagement assignments across the team |
 
-## Managing Team Members
+{/* <!-- SCREENSHOT: c3pao-team-stats — Close-up of the team statistics cards at the top of the page --> */}
+![Team Statistics](/img/screenshots/c3pao/team-stats.png)
 
-### Adding Team Members
+---
 
-1. Click **Add Member**
-2. Enter email address
-3. Select role
-4. Send invitation
+## Team Member Table
 
-The new member receives an email invitation to join.
+The table displays all team members with key information:
 
-### Editing Roles
+| Column | Description |
+|--------|-------------|
+| **Name** | Team member's full name |
+| **Email** | Contact email / login address |
+| **Role** | Job title or position |
+| **Credentials** | CCA and/or CCP certification numbers |
+| **Engagements** | Number of assigned assessments |
+| **Status** | Active, Inactive, or Pending |
+| **Last Active** | Most recent platform login |
 
-1. Select the team member
-2. Click **Edit**
-3. Update role or permissions
-4. Save changes
+{/* <!-- SCREENSHOT: c3pao-team-table — The team member table showing several members with all columns visible --> */}
+![Team Table](/img/screenshots/c3pao/team-table.png)
 
-### Removing Members
+---
 
-1. Select the team member
-2. Click **Remove**
-3. Confirm removal
-4. Access is immediately revoked
+## Adding Team Members
 
-## Role Permissions
+Click **Add Team Member** to invite a new assessor to your organization.
 
-| Permission | Admin | Lead Assessor | Assessor | Quality |
-|------------|-------|---------------|----------|---------|
-| Manage team | ✓ | - | - | - |
-| Accept engagements | ✓ | ✓ | - | - |
-| Assign assessors | ✓ | ✓ | - | - |
-| Review controls | ✓ | ✓ | ✓ | ✓ |
-| Record findings | ✓ | ✓ | ✓ | - |
-| Submit results | ✓ | ✓ | - | - |
-| Quality review | ✓ | ✓ | - | ✓ |
-| Manage profile | ✓ | - | - | - |
+{/* <!-- SCREENSHOT: c3pao-add-member-dialog — The Add Team Member dialog with all fields: name, email, job title, CCA/CCP numbers, lead assessor toggle --> */}
+![Add Team Member](/img/screenshots/c3pao/add-member-dialog.png)
 
-## Assignment Management
+### Required Information
 
-### Assigning to Engagements
+| Field | Description |
+|-------|-------------|
+| **Name** | Full name |
+| **Email** | Login email address |
+| **Job Title** | Position or role |
 
-1. Open the engagement
-2. Go to **Team** tab
-3. Click **Add Assessor**
-4. Select team members
-5. Optionally assign specific domains
+### Credential Fields
 
-### Workload Visibility
+| Field | Description |
+|-------|-------------|
+| **CCA Number** | Certified CMMC Assessor number |
+| **CCP Number** | Certified CMMC Professional number |
+| **Lead Assessor** | Toggle to designate as a lead assessor |
 
-View team member assignments:
-- Active engagements
-- Controls assigned
-- Review progress
-- Capacity availability
+:::note
+Only **Lead Assessors** can add or edit team members.
+:::
 
-![Screenshot: Team workload](/img/screenshots/c3pao/team-workload.png)
+---
 
-## Assessment Assignments
+## Editing Team Members
 
-### Assigning by Domain
+Click the **Edit** icon on any team member row to modify their details.
 
-Divide work by CMMC domain:
-- Access Control (AC)
-- Awareness and Training (AT)
-- And so on...
+{/* <!-- SCREENSHOT: c3pao-edit-member-dialog — The Edit Team Member dialog showing pre-filled fields with save/cancel buttons --> */}
+![Edit Team Member](/img/screenshots/c3pao/edit-member-dialog.png)
 
-### Assigning by Control
+You can update:
+- Name and contact information
+- Job title and role
+- CCA/CCP credential numbers
+- Lead assessor designation
+- Member status (Active, Inactive)
 
-For more granular control:
-- Assign specific controls
-- Split domains between assessors
-- Balance workload
+---
 
-### Tracking Progress
+## Workload Dashboard
 
-Monitor team progress:
-- Controls reviewed per assessor
-- Time spent per domain
-- Findings identified
+Navigate to **Workload** from the sidebar to view assessment distribution across your team.
 
-## Quality Assurance
+{/* <!-- SCREENSHOT: c3pao-workload-dashboard — The full workload dashboard showing team member workload visualization, engagement distribution, and concurrent assessment counts --> */}
+![Workload Dashboard](/img/screenshots/c3pao/workload-dashboard.png)
 
-### Review Workflow
+The workload dashboard helps you:
 
-1. Assessor completes control reviews
-2. Lead assessor reviews determinations
-3. Quality reviewer validates findings
-4. Results are approved for submission
+- **Monitor distribution** — See how assessments are spread across team members
+- **Track concurrent assessments** — View how many active assessments each member has
+- **Plan assignments** — Identify team members with capacity for new engagements
+- **Balance workload** — Ensure no single assessor is overloaded
 
-### Quality Metrics
+{/* <!-- SCREENSHOT: c3pao-workload-chart — The workload visualization chart/graph showing assessment distribution per team member --> */}
+![Workload Chart](/img/screenshots/c3pao/workload-chart.png)
 
-Track quality indicators:
-- Finding accuracy
-- Documentation completeness
-- Review consistency
+### Workload Metrics
 
-## Team Communication
+| Metric | Description |
+|--------|-------------|
+| **Active Assessments** | Number of in-progress engagements per member |
+| **Total Assigned** | All engagements (active + completed) per member |
+| **Availability** | Whether the member has capacity for new work |
 
-### Internal Notes
+---
 
-Use assessor notes for team communication:
-- Flag items for discussion
-- Share observations
-- Coordinate reviews
+## Engagement Assignment
 
-### Notifications
+Assign team members to specific engagements from either the engagement detail page or the team management page.
 
-Team members receive notifications for:
-- New assignments
-- Mentions in notes
-- Engagement updates
+{/* <!-- SCREENSHOT: c3pao-team-assignment-dialog — The team assignment dialog showing the list of team members with checkboxes and the lead assessor selector --> */}
+![Team Assignment](/img/screenshots/c3pao/team-assignment-dialog.png)
 
-## Best Practices
+### Assigning a Lead Assessor
 
-- **Clear assignments** - Ensure each control has an owner
-- **Regular check-ins** - Coordinate through team meetings
-- **Quality focus** - Review findings before submission
-- **Capacity planning** - Balance workload across team
+Each engagement requires a designated lead assessor who is responsible for:
+- Overseeing the assessment process
+- Recording the final pass/fail determination
+- Approving and delivering the assessment report
+- Signing off on findings
+
+### Assigning Supporting Assessors
+
+Additional team members can be assigned to assist with the assessment. All assigned members can:
+- View engagement details and customer data
+- Record control-level findings
+- Add assessor notes
+- Review evidence and documents
+
+---
 
 ## Next Steps
 
-- [Organization Profile](./organization-profile) - Manage your C3PAO profile
-- [Credentials](./credentials) - Track assessor credentials
+- [Managing Engagements](./managing-engagements) — Assign team members when accepting engagements
+- [Organization Profile](./organization-profile) — Manage organization-level settings and credentials

@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/reviewing-checklists",
+  "title": "STIG Checklists",
+  "description": "The STIGs tab provides access to the customer's Security Technical Implementation Guide (STIG) scan results. STIG checklists show automated and manual compliance checks against DoD security baselines for specific technologies.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-checklists.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/reviewing-checklists",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-checklists",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-checklists.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Reviewing Evidence",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence"
+  },
+  "next": {
+    "title": "Reviewing POA&Ms",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams"
+  }
+}

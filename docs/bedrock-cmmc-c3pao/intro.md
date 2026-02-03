@@ -62,6 +62,6 @@ Review sensitive customer documentation in a secure, controlled environment.
 
 ## Next Steps
 
-- [Managing Engagements](./user-guide/engagements) - Learn how to handle assessment requests
-- [Conducting Assessments](./user-guide/conducting-assessments) - Step-by-step assessment workflow
-- [Recording Results](./user-guide/recording-results) - Document your findings
+- [Managing Engagements](./user-guide/managing-engagements) - Learn how to handle assessment requests
+- [Performing Assessments](./user-guide/performing-assessments) - Step-by-step assessment workflow
+- [Assessment Reports](./user-guide/assessment-reports) - Document your findings

@@ -118,26 +118,22 @@
     "sidebar": "814f3328",
     "content": "4311f6e9"
   },
-  "/bedrock-cmmc-c3pao-d0f": {
+  "/bedrock-cmmc-c3pao-619": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "e44bdd1a"
     }
   },
-  "/bedrock-cmmc-c3pao-280": {
+  "/bedrock-cmmc-c3pao-e41": {
     "__comp": "a7bd4aaa",
     "__props": "27946d62"
   },
-  "/bedrock-cmmc-c3pao-eb3": {
+  "/bedrock-cmmc-c3pao-446": {
     "__comp": "a94703ab"
   },
   "/bedrock-cmmc-c3pao/best-practices-0b1": {
     "__comp": "17896441",
     "content": "194f0e85"
-  },
-  "/bedrock-cmmc-c3pao/category/user-guide-c26": {
-    "__comp": "14eb3368",
-    "__props": "a6e458be"
   },
   "/bedrock-cmmc-c3pao/faq-a73": {
     "__comp": "17896441",
@@ -147,37 +143,37 @@
     "__comp": "17896441",
     "content": "3aceb3e0"
   },
-  "/bedrock-cmmc-c3pao/user-guide/accepting-requests-e10": {
+  "/bedrock-cmmc-c3pao/user-guide/-93f": {
     "__comp": "17896441",
-    "content": "e8c7bbdb"
+    "content": "b29ba63f"
   },
-  "/bedrock-cmmc-c3pao/user-guide/assessor-notes-2e2": {
+  "/bedrock-cmmc-c3pao/user-guide/assessment-reports-c03": {
     "__comp": "17896441",
-    "content": "57cf7e4a"
+    "content": "86ced89e"
   },
-  "/bedrock-cmmc-c3pao/user-guide/conducting-assessments-b3e": {
+  "/bedrock-cmmc-c3pao/user-guide/emass-export-4ae": {
     "__comp": "17896441",
-    "content": "223805fd"
+    "content": "e9fe299c"
   },
-  "/bedrock-cmmc-c3pao/user-guide/credentials-3e3": {
+  "/bedrock-cmmc-c3pao/user-guide/getting-started-ec0": {
     "__comp": "17896441",
-    "content": "16331ba1"
+    "content": "16f375b2"
   },
-  "/bedrock-cmmc-c3pao/user-guide/engagements-b32": {
+  "/bedrock-cmmc-c3pao/user-guide/managing-engagements-201": {
     "__comp": "17896441",
-    "content": "d7d5cd22"
-  },
-  "/bedrock-cmmc-c3pao/user-guide/marketplace-profile-2e9": {
-    "__comp": "17896441",
-    "content": "64f73a16"
+    "content": "b646ff03"
   },
   "/bedrock-cmmc-c3pao/user-guide/organization-profile-58d": {
     "__comp": "17896441",
     "content": "04451c86"
   },
-  "/bedrock-cmmc-c3pao/user-guide/recording-results-f28": {
+  "/bedrock-cmmc-c3pao/user-guide/performing-assessments-67b": {
     "__comp": "17896441",
-    "content": "c8fa73bf"
+    "content": "ad8095f6"
+  },
+  "/bedrock-cmmc-c3pao/user-guide/reviewing-checklists-3d8": {
+    "__comp": "17896441",
+    "content": "de4ec01b"
   },
   "/bedrock-cmmc-c3pao/user-guide/reviewing-controls-4a2": {
     "__comp": "17896441",

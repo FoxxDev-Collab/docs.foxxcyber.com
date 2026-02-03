@@ -1,7 +1,7 @@
 {
   "id": "user-guide/reviewing-controls",
   "title": "Reviewing Controls",
-  "description": "Detailed guidance on assessing CMMC practices and controls.",
+  "description": "The Controls tab is where you assess each of the 110 NIST SP 800-171 requirements. This is the core assessment activity — recording determinations, assessment methods, findings, and recommendations for every requirement.",
   "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-controls.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/reviewing-controls",
@@ -11,14 +11,11 @@
   "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-controls.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
-  "frontMatter": {
-    "sidebar_position": 4
-  },
+  "frontMatter": {},
   "sidebar": "bedrockCmmcC3paoSidebar",
   "previous": {
-    "title": "Conducting Assessments",
-    "permalink": "/bedrock-cmmc-c3pao/user-guide/conducting-assessments"
+    "title": "Performing Assessments",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/performing-assessments"
   },
   "next": {
     "title": "Reviewing Documents",

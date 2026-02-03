@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/assessment-reports",
+  "title": "Assessment Reports",
+  "description": "The Report tab provides a built-in report editor for creating your formal assessment report. Reports are structured with standard sections and can be auto-populated from your control findings.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/assessment-reports.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/assessment-reports",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/assessment-reports",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/assessment-reports.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Reviewing POA&Ms",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams"
+  },
+  "next": {
+    "title": "eMASS Export",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/emass-export"
+  }
+}

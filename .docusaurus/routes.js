@@ -54,25 +54,19 @@ export default [
   },
   {
     path: '/bedrock-cmmc-c3pao',
-    component: ComponentCreator('/bedrock-cmmc-c3pao', 'd0f'),
+    component: ComponentCreator('/bedrock-cmmc-c3pao', '619'),
     routes: [
       {
         path: '/bedrock-cmmc-c3pao',
-        component: ComponentCreator('/bedrock-cmmc-c3pao', '280'),
+        component: ComponentCreator('/bedrock-cmmc-c3pao', 'e41'),
         routes: [
           {
             path: '/bedrock-cmmc-c3pao',
-            component: ComponentCreator('/bedrock-cmmc-c3pao', 'eb3'),
+            component: ComponentCreator('/bedrock-cmmc-c3pao', '446'),
             routes: [
               {
                 path: '/bedrock-cmmc-c3pao/best-practices',
                 component: ComponentCreator('/bedrock-cmmc-c3pao/best-practices', '0b1'),
-                exact: true,
-                sidebar: "bedrockCmmcC3paoSidebar"
-              },
-              {
-                path: '/bedrock-cmmc-c3pao/category/user-guide',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/category/user-guide', 'c26'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
@@ -89,38 +83,32 @@ export default [
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
               {
-                path: '/bedrock-cmmc-c3pao/user-guide/accepting-requests',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/accepting-requests', 'e10'),
+                path: '/bedrock-cmmc-c3pao/user-guide/',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/', '93f'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
               {
-                path: '/bedrock-cmmc-c3pao/user-guide/assessor-notes',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/assessor-notes', '2e2'),
+                path: '/bedrock-cmmc-c3pao/user-guide/assessment-reports',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/assessment-reports', 'c03'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
               {
-                path: '/bedrock-cmmc-c3pao/user-guide/conducting-assessments',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/conducting-assessments', 'b3e'),
+                path: '/bedrock-cmmc-c3pao/user-guide/emass-export',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/emass-export', '4ae'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
               {
-                path: '/bedrock-cmmc-c3pao/user-guide/credentials',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/credentials', '3e3'),
+                path: '/bedrock-cmmc-c3pao/user-guide/getting-started',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/getting-started', 'ec0'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
               {
-                path: '/bedrock-cmmc-c3pao/user-guide/engagements',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/engagements', 'b32'),
-                exact: true,
-                sidebar: "bedrockCmmcC3paoSidebar"
-              },
-              {
-                path: '/bedrock-cmmc-c3pao/user-guide/marketplace-profile',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/marketplace-profile', '2e9'),
+                path: '/bedrock-cmmc-c3pao/user-guide/managing-engagements',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/managing-engagements', '201'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
@@ -131,8 +119,14 @@ export default [
                 sidebar: "bedrockCmmcC3paoSidebar"
               },
               {
-                path: '/bedrock-cmmc-c3pao/user-guide/recording-results',
-                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/recording-results', 'f28'),
+                path: '/bedrock-cmmc-c3pao/user-guide/performing-assessments',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/performing-assessments', '67b'),
+                exact: true,
+                sidebar: "bedrockCmmcC3paoSidebar"
+              },
+              {
+                path: '/bedrock-cmmc-c3pao/user-guide/reviewing-checklists',
+                component: ComponentCreator('/bedrock-cmmc-c3pao/user-guide/reviewing-checklists', '3d8'),
                 exact: true,
                 sidebar: "bedrockCmmcC3paoSidebar"
               },

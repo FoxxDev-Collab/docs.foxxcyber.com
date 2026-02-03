@@ -1,7 +1,7 @@
 {
   "id": "user-guide/reviewing-poams",
   "title": "Reviewing POA&Ms",
-  "description": "Guidance on evaluating Plans of Action and Milestones.",
+  "description": "The POA&Ms (Plan of Action & Milestones) tab shows the customer's remediation plans for identified compliance gaps. Reviewing POA&Ms helps you understand which controls have known deficiencies and how the customer plans to address them.",
   "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-poams.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/reviewing-poams",
@@ -11,17 +11,14 @@
   "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-poams.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
-  "frontMatter": {
-    "sidebar_position": 7
-  },
+  "frontMatter": {},
   "sidebar": "bedrockCmmcC3paoSidebar",
   "previous": {
-    "title": "Reviewing Evidence",
-    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-evidence"
+    "title": "STIG Checklists",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-checklists"
   },
   "next": {
-    "title": "Assessor Notes",
-    "permalink": "/bedrock-cmmc-c3pao/user-guide/assessor-notes"
+    "title": "Assessment Reports",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/assessment-reports"
   }
 }

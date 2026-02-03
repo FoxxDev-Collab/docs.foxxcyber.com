@@ -1,7 +1,7 @@
 {
   "id": "user-guide/reviewing-evidence",
   "title": "Reviewing Evidence",
-  "description": "Best practices for evaluating assessment evidence.",
+  "description": "The Evidence tab displays all compliance documentation the customer has uploaded to support their control implementations. Thorough evidence review is critical to a sound assessment.",
   "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-evidence.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/reviewing-evidence",
@@ -11,17 +11,14 @@
   "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-evidence.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
-  "frontMatter": {
-    "sidebar_position": 6
-  },
+  "frontMatter": {},
   "sidebar": "bedrockCmmcC3paoSidebar",
   "previous": {
     "title": "Reviewing Documents",
     "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-documents"
   },
   "next": {
-    "title": "Reviewing POA&Ms",
-    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-poams"
+    "title": "STIG Checklists",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/reviewing-checklists"
   }
 }

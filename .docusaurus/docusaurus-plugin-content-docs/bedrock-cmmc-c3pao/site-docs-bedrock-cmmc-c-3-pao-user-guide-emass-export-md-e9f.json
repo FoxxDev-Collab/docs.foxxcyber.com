@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/emass-export",
+  "title": "eMASS Export",
+  "description": "The eMASS Export wizard generates a CMMC-formatted Excel workbook (.xlsx) from your assessment data. This is a 5-step guided process that allows you to review, edit, and validate all data before exporting.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/emass-export.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/emass-export",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/emass-export",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/emass-export.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Assessment Reports",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/assessment-reports"
+  },
+  "next": {
+    "title": "Team Management",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/team-management"
+  }
+}

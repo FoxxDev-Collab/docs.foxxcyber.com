@@ -1,7 +1,7 @@
 {
   "id": "user-guide/organization-profile",
   "title": "Organization Profile",
-  "description": "Managing your C3PAO organization information.",
+  "description": "Manage your C3PAO organization's profile, marketplace listing, and accreditation credentials. Your profile is visible to customers browsing the C3PAO marketplace.",
   "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/organization-profile.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/organization-profile",
@@ -11,17 +11,14 @@
   "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/organization-profile.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 11,
-  "frontMatter": {
-    "sidebar_position": 11
-  },
+  "frontMatter": {},
   "sidebar": "bedrockCmmcC3paoSidebar",
   "previous": {
     "title": "Team Management",
     "permalink": "/bedrock-cmmc-c3pao/user-guide/team-management"
   },
   "next": {
-    "title": "Marketplace Profile",
-    "permalink": "/bedrock-cmmc-c3pao/user-guide/marketplace-profile"
+    "title": "Best Practices",
+    "permalink": "/bedrock-cmmc-c3pao/best-practices"
   }
 }

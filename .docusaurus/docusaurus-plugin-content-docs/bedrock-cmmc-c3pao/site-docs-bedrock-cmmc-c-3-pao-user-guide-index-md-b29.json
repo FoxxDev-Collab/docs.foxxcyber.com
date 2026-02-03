@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/index",
+  "title": "C3PAO Assessor Guide",
+  "description": "Welcome to the Bedrock CMMC Platform documentation for C3PAO assessors. This guide walks you through every feature of the platform — from managing your organization and team to conducting assessments and exporting results to eMASS.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/index.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/bedrock-cmmc-c3pao/intro"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/getting-started"
+  }
+}

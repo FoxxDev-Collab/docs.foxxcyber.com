@@ -1,121 +1,114 @@
----
-sidebar_position: 5
----
-
 # Reviewing Documents
 
-Guide to reviewing System Security Plans, policies, and procedures.
+The Documents tab provides access to the customer's System Security Plan (SSP), asset inventory, and external service provider (ESP) information. These documents are read-only during the assessment — they represent the customer's compliance posture as submitted.
 
-## Document Types
+---
 
-Organizations provide various documents for assessment:
+## Documents Tab Overview
 
-### System Security Plan (SSP)
+{/* <!-- SCREENSHOT: c3pao-documents-tab — The Documents tab showing the main document categories (SSP, Assets, ESPs) with summary info --> */}
+![Documents Tab](/img/screenshots/c3pao/documents-tab.png)
 
-The primary document describing:
-- System boundaries and scope
-- Security control implementations
-- Roles and responsibilities
-- System interconnections
+---
 
-### Policies
+## System Security Plan (SSP)
 
-High-level documents that establish:
-- Security requirements
-- Organizational expectations
-- Compliance mandates
+The SSP is the cornerstone document of the customer's compliance package. It describes the system boundary, architecture, and how each control is implemented.
 
-### Procedures
+{/* <!-- SCREENSHOT: c3pao-ssp-overview — The SSP review page showing the main sections/tabs of the SSP --> */}
+![SSP Overview](/img/screenshots/c3pao/ssp-overview.png)
 
-Detailed instructions for:
-- Implementing security controls
-- Responding to incidents
-- Conducting regular activities
+### SSP Sections
 
-### Configuration Standards
+The SSP is organized into the following sections:
 
-Technical documentation including:
-- Baseline configurations
-- Hardening guides
-- System settings
+| Section | What to Review |
+|---------|---------------|
+| **System Identification** | System name, description, and boundaries |
+| **System Description & Environment** | Architecture, data flows, and operating environment |
+| **Network & Interconnections** | Network diagrams, external connections, and data flows |
+| **Roles & Responsibilities** | Key personnel and their security responsibilities |
+| **SDLC Information** | Software development lifecycle processes |
+| **Policies & Procedures** | Organizational security policies |
+| **Contact Information** | Key personnel contact details |
 
-## Accessing Documents
+{/* <!-- SCREENSHOT: c3pao-ssp-system-info — The System Identification section of the SSP showing system name, description, and boundary details --> */}
+![SSP System Information](/img/screenshots/c3pao/ssp-system-info.png)
 
-Navigate to the **Documents** section within an engagement to view all customer-provided documentation.
+{/* <!-- SCREENSHOT: c3pao-ssp-network — The Network & Interconnections section showing network diagram or connection details --> */}
+![SSP Network Information](/img/screenshots/c3pao/ssp-network.png)
 
-![Screenshot: Document library](/img/screenshots/c3pao/document-library.png)
+### SSP Review Tips
 
-## SSP Review
+- Cross-reference SSP statements with actual evidence in the Evidence tab
+- Verify the system boundary description matches the asset inventory
+- Check that all external connections are documented
+- Ensure key personnel are identified and roles are clearly defined
 
-The SSP is central to your assessment. Review for:
+---
 
-### Completeness
+## Asset Inventory
 
-- All CMMC practices addressed
-- System boundaries clearly defined
-- All in-scope components documented
+View the customer's in-scope assets to understand what systems and components are part of the assessment boundary.
 
-### Accuracy
+{/* <!-- SCREENSHOT: c3pao-asset-inventory — The asset inventory view showing a table of hardware, software, and cloud assets --> */}
+![Asset Inventory](/img/screenshots/c3pao/asset-inventory.png)
 
-- Implementation descriptions match evidence
-- Responsible parties correctly identified
-- Technical details are current
+Asset categories include:
+- Hardware devices
+- Software applications
+- Cloud services
+- Network components
 
-### Consistency
+---
 
-- Information aligns across sections
-- No contradictory statements
-- References are accurate
+## External Service Providers (ESPs)
 
-## Document Review Checklist
+Review third-party services the customer relies on and their compliance posture.
 
-| Document Type | Key Review Points |
-|---------------|-------------------|
-| SSP | Scope definition, control implementations, system diagrams |
-| Policies | Approval status, review dates, comprehensive coverage |
-| Procedures | Step-by-step detail, assigned responsibilities, update frequency |
-| Config Standards | Baseline settings, deviation handling, update process |
+### ESP List
 
-## Marking Document Status
+{/* <!-- SCREENSHOT: c3pao-esp-list — The ESP list showing all external service providers with their type, CMMC status, and FedRAMP status --> */}
+![ESP List](/img/screenshots/c3pao/esp-list.png)
 
-For each reviewed document:
+Each ESP entry includes:
 
-1. Click on the document
-2. Select review status:
-   - **Accepted** - Document meets requirements
-   - **Needs Revision** - Changes required
-   - **Rejected** - Significant deficiencies
+| Field | Description |
+|-------|-------------|
+| **Provider Name** | Third-party company name |
+| **Service Type** | MSP, MSSP, CSP, ISP, Consultant, or Other |
+| **CUI Handling** | Whether the provider handles Controlled Unclassified Information |
+| **FedRAMP Status** | FedRAMP authorization status |
+| **CMMC Status** | Provider's CMMC certification status |
 
-3. Add review notes explaining your determination
+### ESP Detail View
 
-![Screenshot: Document review status](/img/screenshots/c3pao/document-status.png)
+Click on any ESP to view its full details, including linked documentation.
 
-## Requesting Updates
+{/* <!-- SCREENSHOT: c3pao-esp-detail — The ESP detail page showing provider information, CUI handling, compliance status, and linked documents (SRM, CRM, Provider SSP) --> */}
+![ESP Detail](/img/screenshots/c3pao/esp-detail.png)
 
-If a document needs revision:
+ESP detail includes:
+- Provider description and contact information
+- CUI handling details
+- Linked compliance documents:
+  - **Shared Responsibility Matrix (SRM)** — Division of security responsibilities
+  - **Customer Responsibility Matrix (CRM)** — Customer-specific responsibilities
+  - **Provider SSP** — The provider's own System Security Plan
+- OPA mapping information
 
-1. Mark the document as **Needs Revision**
-2. Provide specific feedback on required changes
-3. Set an expected revision date
-4. The organization receives notification
+### What to Check for ESPs
 
-## Document Version Tracking
+- [ ] Verify all third-party services handling CUI are listed
+- [ ] Check that FedRAMP status is current for cloud providers
+- [ ] Review shared responsibility matrices for completeness
+- [ ] Ensure CUI data flow to/from ESPs is documented
+- [ ] Confirm provider CMMC status aligns with requirements
 
-The platform tracks document versions:
-
-- View version history
-- Compare changes between versions
-- See when documents were last updated
-- Identify who made changes
-
-## Best Practices
-
-- **Review early** - Request document updates before on-site activities
-- **Be specific** - Provide clear feedback on required changes
-- **Check dates** - Ensure documents are current and approved
-- **Cross-reference** - Verify consistency between documents and evidence
+---
 
 ## Next Steps
 
-- [Reviewing Evidence](./reviewing-evidence) - Evidence assessment guidance
-- [Reviewing POA&Ms](./reviewing-poams) - Evaluate remediation plans
+- [Reviewing Evidence](./reviewing-evidence) — Verify evidence supports the SSP claims
+- [Reviewing Controls](./reviewing-controls) — Cross-reference document review with control assessments
+- [STIG Checklists](./reviewing-checklists) — Review technical scan results

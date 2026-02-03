@@ -1,0 +1,24 @@
+{
+  "id": "user-guide/getting-started",
+  "title": "Getting Started",
+  "description": "This guide covers logging in, navigating the platform, and understanding your C3PAO dashboard.",
+  "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/getting-started.md",
+  "sourceDirName": "user-guide",
+  "slug": "/user-guide/getting-started",
+  "permalink": "/bedrock-cmmc-c3pao/user-guide/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "bedrockCmmcC3paoSidebar",
+  "previous": {
+    "title": "C3PAO Assessor Guide",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/"
+  },
+  "next": {
+    "title": "Managing Engagements",
+    "permalink": "/bedrock-cmmc-c3pao/user-guide/managing-engagements"
+  }
+}

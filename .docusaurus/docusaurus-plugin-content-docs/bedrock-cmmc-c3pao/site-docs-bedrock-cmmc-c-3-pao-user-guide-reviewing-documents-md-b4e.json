@@ -1,7 +1,7 @@
 {
   "id": "user-guide/reviewing-documents",
   "title": "Reviewing Documents",
-  "description": "Guide to reviewing System Security Plans, policies, and procedures.",
+  "description": "The Documents tab provides access to the customer's System Security Plan (SSP), asset inventory, and external service provider (ESP) information. These documents are read-only during the assessment — they represent the customer's compliance posture as submitted.",
   "source": "@site/docs/bedrock-cmmc-c3pao/user-guide/reviewing-documents.md",
   "sourceDirName": "user-guide",
   "slug": "/user-guide/reviewing-documents",
@@ -11,10 +11,7 @@
   "editUrl": "https://github.com/foxxcyber/docs/tree/main/docs/bedrock-cmmc-c3pao/user-guide/reviewing-documents.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
-  "frontMatter": {
-    "sidebar_position": 5
-  },
+  "frontMatter": {},
   "sidebar": "bedrockCmmcC3paoSidebar",
   "previous": {
     "title": "Reviewing Controls",

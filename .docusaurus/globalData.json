@@ -190,33 +190,28 @@
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
-              "id": "user-guide/accepting-requests",
-              "path": "/bedrock-cmmc-c3pao/user-guide/accepting-requests",
+              "id": "user-guide/assessment-reports",
+              "path": "/bedrock-cmmc-c3pao/user-guide/assessment-reports",
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
-              "id": "user-guide/assessor-notes",
-              "path": "/bedrock-cmmc-c3pao/user-guide/assessor-notes",
+              "id": "user-guide/emass-export",
+              "path": "/bedrock-cmmc-c3pao/user-guide/emass-export",
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
-              "id": "user-guide/conducting-assessments",
-              "path": "/bedrock-cmmc-c3pao/user-guide/conducting-assessments",
+              "id": "user-guide/getting-started",
+              "path": "/bedrock-cmmc-c3pao/user-guide/getting-started",
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
-              "id": "user-guide/credentials",
-              "path": "/bedrock-cmmc-c3pao/user-guide/credentials",
+              "id": "user-guide/index",
+              "path": "/bedrock-cmmc-c3pao/user-guide/",
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
-              "id": "user-guide/engagements",
-              "path": "/bedrock-cmmc-c3pao/user-guide/engagements",
-              "sidebar": "bedrockCmmcC3paoSidebar"
-            },
-            {
-              "id": "user-guide/marketplace-profile",
-              "path": "/bedrock-cmmc-c3pao/user-guide/marketplace-profile",
+              "id": "user-guide/managing-engagements",
+              "path": "/bedrock-cmmc-c3pao/user-guide/managing-engagements",
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
@@ -225,8 +220,13 @@
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
-              "id": "user-guide/recording-results",
-              "path": "/bedrock-cmmc-c3pao/user-guide/recording-results",
+              "id": "user-guide/performing-assessments",
+              "path": "/bedrock-cmmc-c3pao/user-guide/performing-assessments",
+              "sidebar": "bedrockCmmcC3paoSidebar"
+            },
+            {
+              "id": "user-guide/reviewing-checklists",
+              "path": "/bedrock-cmmc-c3pao/user-guide/reviewing-checklists",
               "sidebar": "bedrockCmmcC3paoSidebar"
             },
             {
@@ -252,11 +252,6 @@
             {
               "id": "user-guide/team-management",
               "path": "/bedrock-cmmc-c3pao/user-guide/team-management",
-              "sidebar": "bedrockCmmcC3paoSidebar"
-            },
-            {
-              "id": "/category/user-guide",
-              "path": "/bedrock-cmmc-c3pao/category/user-guide",
               "sidebar": "bedrockCmmcC3paoSidebar"
             }
           ],
